@@ -20,3 +20,6 @@
 {"blockers": ["product_maturity:feature_expansion", "product_maturity:functional_completeness_final_review"], "event": "milestone_blocked", "milestone": "verification", "ts": "2026-07-27T10:26:12Z"}
 {"attempt": 1, "event": "milestone_attempt", "milestone": "patch", "ts": "2026-07-27T10:26:12Z"}
 {"event": "milestone_validated", "milestone": "patch", "ts": "2026-07-27T10:30:05Z"}
+{"event": "milestone_retry", "milestone": "verification", "ts": "2026-07-27T10:30:16Z"}
+{"attempt": 2, "event": "milestone_attempt", "milestone": "verification", "ts": "2026-07-27T10:30:17Z"}
+{"event": "milestone_validated", "milestone": "verification", "ts": "2026-07-27T10:34:49Z"}

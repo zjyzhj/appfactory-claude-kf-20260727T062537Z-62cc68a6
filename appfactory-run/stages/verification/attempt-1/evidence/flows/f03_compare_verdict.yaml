@@ -1,0 +1,25 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "12 Willow Lane, Apt 3", timeout: 15000}
+- tapOn: "Compare"
+- extendedWaitUntil: {visible: ".*Pick 2–5 viewings.*", timeout: 8000}
+- tapOn: {point: "50%, 23%"}
+- extendedWaitUntil: {visible: "Weighted ranking", timeout: 8000}
+- takeScreenshot: f03_02_weighted_ranking
+- tapOn: "Compare side by side"
+- extendedWaitUntil: {visible: "Side by side", timeout: 8000}
+- waitForAnimationToEnd: {timeout: 6000}
+- takeScreenshot: f03_03_compare_board
+- scrollUntilVisible: {element: "Make Verdict", direction: DOWN}
+- tapOn: "Make Verdict"
+- waitForAnimationToEnd: {timeout: 8000}
+- extendedWaitUntil: {visible: "Balance: 100 credits.*", timeout: 8000}
+- takeScreenshot: f03_04_verdict_preview
+- tapOn: "Save verdict card to Photos"
+- extendedWaitUntil: {visible: "Verdict card saved to Photos.", timeout: 12000}
+- takeScreenshot: f03_05_saved_balance99
+- assertVisible: "Balance: 99 credits.*"

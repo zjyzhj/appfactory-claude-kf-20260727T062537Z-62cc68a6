@@ -1,0 +1,30 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "12 Willow Lane, Apt 3", timeout: 15000}
+- tapOn: "Add viewing"
+- assertVisible: "New Viewing"
+- tapOn: "123 Main St, Apt 4B"
+- inputText: "5 Pine Court"
+- pressKey: enter
+- tapOn: "Save"
+- extendedWaitUntil: {visible: "Scoring: Kitchen", timeout: 15000}
+- tapOn: "4 of 5 for Natural Light"
+- tapOn: "Close"
+- waitForAnimationToEnd: {timeout: 5000}
+- stopApp: com.appfactory.tourwise.app
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "5 Pine Court", timeout: 15000}
+- takeScreenshot: f04_01_restart_persisted
+- tapOn: "5 Pine Court"
+- extendedWaitUntil: {visible: "Resume Walkthrough", timeout: 8000}
+- takeScreenshot: f04_02_resume_entry
+- tapOn: "Resume Walkthrough"
+- extendedWaitUntil: {visible: "Scoring: Living", timeout: 10000}
+- takeScreenshot: f04_03_resumed_living

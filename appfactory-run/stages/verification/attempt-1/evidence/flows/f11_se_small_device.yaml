@@ -1,0 +1,31 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "5 Pine Court", timeout: 15000}
+- takeScreenshot: se_01_viewings
+- tapOn: "5 Pine Court"
+- scrollUntilVisible: {element: "Redo Walkthrough", direction: DOWN}
+- tapOn: "Redo Walkthrough"
+- extendedWaitUntil: {visible: "Scoring: Kitchen", timeout: 10000}
+- takeScreenshot: se_02_room_capture
+- tapOn: "Close"
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: "Compare"
+- extendedWaitUntil: {visible: "Shortlist", timeout: 8000}
+- takeScreenshot: se_03_compare
+- extendedWaitUntil: {visible: "Weighted ranking", timeout: 8000}
+- tapOn: "Compare side by side"
+- extendedWaitUntil: {visible: "Side by side", timeout: 8000}
+- waitForAnimationToEnd: {timeout: 6000}
+- takeScreenshot: se_04_board
+- tapOn: {point: "8%, 7%"}
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: "Criteria"
+- extendedWaitUntil: {visible: "Scoring criteria", timeout: 8000}
+- takeScreenshot: se_05_criteria
+- tapOn: "Settings"
+- extendedWaitUntil: {visible: "Export Credits", timeout: 8000}
+- takeScreenshot: se_06_settings

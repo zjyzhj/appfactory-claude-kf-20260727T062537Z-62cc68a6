@@ -1,0 +1,28 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "12 Willow Lane, Apt 3", timeout: 15000}
+- tapOn: "Settings"
+- extendedWaitUntil: {visible: "Export Credits", timeout: 8000}
+- takeScreenshot: f07_01_settings
+- tapOn: "Buy Credits"
+- waitForAnimationToEnd: {timeout: 8000}
+- takeScreenshot: f07_02_paywall
+- tapOn: "Close"
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: "Privacy & data boundary"
+- extendedWaitUntil: {visible: "Data boundary", timeout: 8000}
+- takeScreenshot: f07_03_privacy
+- tapOn: {point: "8%, 9%"}
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: "Privacy Policy"
+- waitForAnimationToEnd: {timeout: 12000}
+- takeScreenshot: f07_04_legal_privacy
+- tapOn: {point: "8%, 9%"}
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: "User Agreement"
+- waitForAnimationToEnd: {timeout: 12000}
+- takeScreenshot: f07_05_legal_terms

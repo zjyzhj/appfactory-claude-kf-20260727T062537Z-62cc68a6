@@ -1,0 +1,27 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "88 Harbor View, Unit 12", timeout: 15000}
+- tapOn: "88 Harbor View, Unit 12"
+- extendedWaitUntil: {visible: "Evidence photos", timeout: 8000}
+- takeScreenshot: f06_01_detail
+- tapOn: "Viewing actions"
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: {point: "67%, 16%"}
+- waitForAnimationToEnd: {timeout: 5000}
+- takeScreenshot: f06_02_delete_confirm
+- tapOn: {point: "50%, 60%"}
+- waitForAnimationToEnd: {timeout: 5000}
+- assertVisible: "88 Harbor View, Unit 12"
+- takeScreenshot: f06_03_cancel_kept
+- tapOn: "Viewing actions"
+- waitForAnimationToEnd: {timeout: 4000}
+- tapOn: {point: "67%, 16%"}
+- waitForAnimationToEnd: {timeout: 5000}
+- tapOn: {point: "50%, 23%"}
+- waitForAnimationToEnd: {timeout: 6000}
+- extendedWaitUntil: {visible: "12 Willow Lane, Apt 3", timeout: 8000}
+- takeScreenshot: f06_04_deleted_list

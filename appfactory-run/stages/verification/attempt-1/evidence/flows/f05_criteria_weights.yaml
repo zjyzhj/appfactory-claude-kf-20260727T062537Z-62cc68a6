@@ -1,0 +1,31 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "5 Pine Court", timeout: 15000}
+- tapOn: "Criteria"
+- extendedWaitUntil: {visible: "Scoring criteria", timeout: 8000}
+- takeScreenshot: f05_01_criteria_home
+- tapOn: "Add criterion"
+- assertVisible: "New Criterion"
+- tapOn: "e.g. Water Pressure"
+- inputText: "Water Pressure"
+- pressKey: enter
+- tapOn: "Save"
+- extendedWaitUntil: {visible: ".*now appears in walkthroughs.*", timeout: 8000}
+- takeScreenshot: f05_02_custom_criterion_added
+- assertVisible: "Water Pressure"
+- tapOn: ".*Balanced weight profile.*"
+- extendedWaitUntil: {visible: "Total is 100%.*", timeout: 8000}
+- takeScreenshot: f05_03_weight_100
+- swipe: {start: "17%, 34%", end: "9%, 34%"}
+- extendedWaitUntil: {visible: "Total is 94%.*", timeout: 6000}
+- takeScreenshot: f05_04_banner_blocked
+- scrollUntilVisible: {element: "Save weight profile", direction: DOWN}
+- takeScreenshot: f05_05_save_disabled
+- scrollUntilVisible: {element: "Total is 94%.*", direction: UP}
+- swipe: {start: "12%, 34%", end: "18%, 34%"}
+- extendedWaitUntil: {visible: "Total is 100%.*", timeout: 6000}
+- takeScreenshot: f05_06_restored_100

@@ -1,0 +1,12 @@
+appId: com.appfactory.tourwise.app
+---
+- extendedWaitUntil: {visible: "Weights total 100 percent", timeout: 8000}
+- swipe: {start: "19%, 34%", end: "10%, 34%"}
+- extendedWaitUntil: {visible: "Weights total 9.*", timeout: 6000}
+- takeScreenshot: f05_04_banner_blocked
+- scrollUntilVisible: {element: "Save weight profile", direction: DOWN}
+- takeScreenshot: f05_05_save_disabled
+- scrollUntilVisible: {element: "Weights total 9.*", direction: UP}
+- swipe: {start: "12%, 34%", end: "19%, 34%"}
+- extendedWaitUntil: {visible: "Weights total 100 percent", timeout: 6000}
+- takeScreenshot: f05_06_restored_100

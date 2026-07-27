@@ -1,0 +1,47 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    clearState: true
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "No viewings yet", timeout: 15000}
+- takeScreenshot: f01_01_empty_state
+- tapOn: "Add your first viewing"
+- assertVisible: "New Viewing"
+- tapOn: "123 Main St, Apt 4B"
+- inputText: "12 Willow Lane, Apt 3"
+- pressKey: enter
+- takeScreenshot: f01_02_new_viewing
+- tapOn: "Save"
+- extendedWaitUntil: {visible: "Scoring: Kitchen", timeout: 15000}
+- takeScreenshot: f01_03_room_capture_empty
+- tapOn: "Take Photo"
+- extendedWaitUntil: {visible: "Kitchen evidence photo 1 of 1", timeout: 8000}
+- takeScreenshot: f01_04_photo_bound
+- tapOn: "4 of 5 for Natural Light"
+- tapOn: "5 of 5 for Kitchen"
+- scrollUntilVisible: {element: "3 of 5 for Noise", direction: DOWN}
+- tapOn: "3 of 5 for Noise"
+- scrollUntilVisible: {element: "Drafty window near sink…", direction: DOWN}
+- tapOn: "Drafty window near sink…"
+- inputText: "South window, bright"
+- pressKey: enter
+- scrollUntilVisible: {element: "Save and go to next room", direction: DOWN}
+- tapOn: "Save and go to next room"
+- extendedWaitUntil: {visible: "Scoring: Living", timeout: 8000}
+- tapOn: "5 of 5 for Natural Light"
+- scrollUntilVisible: {element: "4 of 5 for Space & Storage", direction: DOWN}
+- tapOn: "4 of 5 for Space & Storage"
+- scrollUntilVisible: {element: "Save and go to next room", direction: DOWN}
+- tapOn: "Save and go to next room"
+- extendedWaitUntil: {visible: "Scoring: Bedroom", timeout: 8000}
+- scrollUntilVisible: {element: "Skip room", direction: DOWN}
+- tapOn: "Skip room"
+- extendedWaitUntil: {visible: "Scoring: Bath", timeout: 8000}
+- tapOn: "Finish"
+- waitForAnimationToEnd: {timeout: 8000}
+- takeScreenshot: f01_05_finish_summary
+- tapOn: {point: "50%, 85%"}
+- extendedWaitUntil: {visible: "12 Willow Lane, Apt 3", timeout: 10000}
+- takeScreenshot: f01_06_list_toured

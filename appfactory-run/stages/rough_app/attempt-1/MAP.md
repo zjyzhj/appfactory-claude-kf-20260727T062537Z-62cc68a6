@@ -82,6 +82,139 @@ TourWise 是本地优先、零账号的 iPhone 看房决策助手:看房现场�
 - 法律文档 URL 为模板域(tourwise.app/privacy、/terms),与 Waitwise 先例一致;真实文档托管非本阶段职责。
 - 运行时 Simulator 验证(runtime_hard ids)由 verification 阶段执行;本阶段已提供 `-syntheticCapture` seam 与 .storekit 配置支持其相机/IAP 路径。
 
+## Feature expansion consumption
+
+- check_id: `product_maturity:feature_expansion`(清单 A2;patch 波次 b-8d7126e43a9d 补齐)
+- 说明:能力图实质成熟度已由 verification attempt-1 运行时终审独立证实(见各行 evidence 引用);本节为 already_mature 举证载体,无实质缺口,不触发最小扩张实现。
+
+```json
+{
+  "check_id": "product_maturity:feature_expansion",
+  "product_shape": "already_mature",
+  "gap_assessment": "能力图完整覆盖核心任务生命周期(新建→walkthrough→对比→Verdict→导出)、回访价值(多 WeightProfile、自定义指标、历史 viewing 复访与状态切换)、持久化(LocalStore JSON + 沙盒相对路径照片 + ExportCreditLedger)与空/加载/成功/错误/中断/恢复态(空态 CTA、Σ≠100 阻存、shortlist<2 提示、购买失败 toast、删除确认、断点 Resume)。全部经 QA 运行时终审 pass,无实质缺口。",
+  "areas": [
+    {
+      "area_id": "criteria_system",
+      "capability": "9 内置指标 seeded(稳定 UUID 幂等)+ 自定义指标即时进入打分/对比 + 内置不可删可停用",
+      "evidence": "stages/verification/attempt-1/MAP.md tourwise:criteria_system pass(f05_01/f05_02/f05_05;LocalStore.swift:294-318)"
+    },
+    {
+      "area_id": "weight_profiles",
+      "capability": "多 WeightProfile + Balanced seed Σ=100 + Σ≠100 阻存差值提示 + 切 active 即时重排",
+      "evidence": "stages/verification/attempt-1/MAP.md tourwise:weighted_scoring_formula pass(f05_04/f05_05/se_04;20/20 单测)"
+    },
+    {
+      "area_id": "evidence_photos",
+      "capability": "相机/相册证据照绑定 RoomNote,沙盒 Photos/<viewingId>/ 相对路径持久化,级联删除同步清理",
+      "evidence": "stages/verification/attempt-1/MAP.md ios_delivery:camera_permission / photo_library_read_write_permission / tourwise:cascade_delete pass"
+    },
+    {
+      "area_id": "normalized_weighted_ranking",
+      "capability": "归一化加权排序 Σ(score×weight)/Σ(weight over 已打分且启用指标),缺分显示 '—' 不造 0,2–5 shortlist 边界",
+      "evidence": "stages/verification/attempt-1/MAP.md tourwise:weighted_scoring_formula pass(ScoringEngine.swift:28-38;se_04)"
+    },
+    {
+      "area_id": "verdict_render_export",
+      "capability": "2160×2700 UIKit 确定性渲染结论卡 + Save to Photos / Share + 成功才扣 1 credit + 失败同事务退款",
+      "evidence": "stages/verification/attempt-1/MAP.md tourwise:verdict_card_export pass(f03_04/f03_05;相册读回 verdict_readback_photos_library.png)"
+    }
+  ]
+}
+```
+
+## Functional completeness final review
+
+- check_id: `product_maturity:functional_completeness_final_review`(清单 A17;patch 波次 b-3966df17f43a 补齐)
+- 说明:以下为 PDA 逐 area 终审 manifest;每项证据直接引用 verification attempt-1 MAP 的独立运行时终审结论(QA 已对全部 14 条 route 做点击级到达与端到端闭环验证)。
+
+```json
+{
+  "check_id": "product_maturity:functional_completeness_final_review",
+  "areas": [
+    {
+      "area_id": "viewing_create_and_list",
+      "status": "pass",
+      "entry_point": "tab_viewings(New Viewing 仅地址)",
+      "state_action_outcome": "空态→创建 draft→hero/分组列表/搜索;首启空态 CTA、列表过滤跨 tab 保留",
+      "chain_connection": "创建后自动进入 capture_walkthrough,产出喂 walkthrough 链",
+      "evidence": "verification MAP product_maturity:core_value_and_feature_completeness / information_architecture_and_navigation pass(f01_01, f10_01/f10_02)"
+    },
+    {
+      "area_id": "walkthrough_capture",
+      "status": "pass",
+      "entry_point": "capture_walkthrough + room_capture",
+      "state_action_outcome": "6 房间步进/乱序/跳过/打分 1–5/备注/拍照或选图;Finish→status=toured,pending→skipped,汇总展示 scored/skipped",
+      "chain_connection": "中断杀进程后 viewing_detail Resume 恢复原房间原进度;toured 产出喂 compare 链",
+      "evidence": "verification MAP tourwise:walkthrough_lifecycle pass(f01_03..f01_06, f04_01..f04_03)"
+    },
+    {
+      "area_id": "viewing_detail_management",
+      "status": "pass",
+      "entry_point": "viewing_detail / viewing_edit",
+      "state_action_outcome": "证据照条、房间卡、状态切换(draft/toured/shortlisted/rejected)、删除确认取消不删/确认级联删(RoomNote 清空 + 沙盒照片目录消失 + compareSelection 残留清除)",
+      "chain_connection": "级联删除维护 compare/verdict 数据不变量;状态机喂 compare shortlist",
+      "evidence": "verification MAP tourwise:cascade_delete / workflow_coherence_and_lifecycle pass(f06_01..f06_04 + 容器回读)"
+    },
+    {
+      "area_id": "criteria_management",
+      "status": "pass",
+      "entry_point": "tab_criteria / criterion_edit",
+      "state_action_outcome": "9 内置 seed 可见;内置无删除入口;自定义新建即时进入指标列表/权重编辑器;启停过滤打分与对比",
+      "chain_connection": "指标集喂 walkthrough 打分与 compare_board 列",
+      "evidence": "verification MAP tourwise:criteria_system pass(f05_01/f05_02/f05_05)"
+    },
+    {
+      "area_id": "weight_profiles",
+      "status": "pass",
+      "entry_point": "weight_editor",
+      "state_action_outcome": "Σ=100 实时校验阻存 + 差值提示;多 profile 管理;切 active 即时重排",
+      "chain_connection": "active profile 权重喂归一化加权排序",
+      "evidence": "verification MAP tourwise:weighted_scoring_formula pass(f05_04/f05_05/f05_06)"
+    },
+    {
+      "area_id": "compare_and_ranking",
+      "status": "pass",
+      "entry_point": "tab_compare / compare_board",
+      "state_action_outcome": "2–5 shortlist(1 套提示、>5 阻止);固定指标列 + 横滑 viewing 列 ≥140pt;缺分 '—';#1/#2 文本徽标",
+      "chain_connection": "选择集存 LocalStore 跨 tab/重启保留;排名喂 verdict_card",
+      "evidence": "verification MAP product_maturity:information_architecture_and_navigation / tourwise:weighted_scoring_formula pass(store_after_f03.json, se_04)"
+    },
+    {
+      "area_id": "verdict_render_export",
+      "status": "pass",
+      "entry_point": "verdict_card(Make Verdict)",
+      "state_action_outcome": "渲染预览(#1 徽标/大分数/≤3 证据照拍立得/runner-up 条柱/权重依据+日期);Save to Photos 成功扣 1(100→99 三重一致:toast+store JSON+DCIM 读回);无照片色块降级不阻断;写 denied→Share 可用;余额 0→Get Credits 不阻断预览",
+      "chain_connection": "导出写 ExportRecord 快照;credit 扣账接力 IAP 链",
+      "evidence": "verification MAP tourwise:verdict_card_export pass(f03_04/f03_05, verdict_readback_photos_library.png)"
+    },
+    {
+      "area_id": "credits_iap_paywall",
+      "status": "pass",
+      "entry_point": "paywall(tab_settings 余额卡 / credits_empty CTA)",
+      "state_action_outcome": "StoreKit 2 consumable 473900(+110)/473901(+210);首启 grant +100;验证后入账、finish 前落账、按交易 id 幂等;失败 toast 不动余额;无 Restore/订阅/解锁",
+      "chain_connection": "余额门槛喂 verdict 导出(spend 1);账本回读 UI 与 store JSON 一致",
+      "evidence": "verification MAP ios_delivery:consumable_iap pass(CreditStore.swift, store_after_f03.json, f07_02)"
+    },
+    {
+      "area_id": "settings_privacy_legal",
+      "status": "pass",
+      "entry_point": "tab_settings / privacy / 两个法律 WebView",
+      "state_action_outcome": "privacy 路由展示数据边界 + 三权限实时状态;Delete All Data 二次确认后 viewings/photos/exports 清空并重置 seed;法律两独立 https WebView 加载失败友好态+Retry",
+      "chain_connection": "本地优先边界与缺席证明集(mic/ATT)一致;擦除后回到首启空态链",
+      "evidence": "verification MAP tourwise:local_only_privacy_surface / ios_delivery:legal_webviews pass(f12_01..f12_04, f07_04/f07_05)"
+    },
+    {
+      "area_id": "app_shell_navigation",
+      "status": "pass",
+      "entry_point": "TabView 4 tab(Viewings/Compare/Criteria/Settings)",
+      "state_action_outcome": "逐 tab 截图可见底栏与当前态;跨 tab 状态保留(搜索词、compareSelection、walkthrough 中断进度);legal/privacy 嵌 Settings 二级",
+      "chain_connection": "承载全部主链;杀进程重进数据完整",
+      "evidence": "verification MAP product_maturity:information_architecture_and_navigation / workflow_coherence_and_lifecycle pass(r01, f04 系列, f09 系列)"
+    }
+  ]
+}
+```
+
 ## Pointers
 
 - PM 标准:`stages/pm_docs/attempt-2/MAP.md`(build/* 八章全读)

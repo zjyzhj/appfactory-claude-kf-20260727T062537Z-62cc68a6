@@ -15,3 +15,8 @@
 {"event": "milestone_validated", "milestone": "checklist", "ts": "2026-07-27T07:29:31Z"}
 {"attempt": 1, "event": "milestone_attempt", "milestone": "rough_app", "ts": "2026-07-27T07:29:31Z"}
 {"event": "milestone_validated", "milestone": "rough_app", "ts": "2026-07-27T08:33:04Z"}
+{"event": "milestone_skipped", "milestone": "full_rewrite", "reason": "qa_first_loop", "ts": "2026-07-27T08:33:13Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "verification", "ts": "2026-07-27T08:33:13Z"}
+{"blockers": ["product_maturity:feature_expansion", "product_maturity:functional_completeness_final_review"], "event": "milestone_blocked", "milestone": "verification", "ts": "2026-07-27T10:26:12Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "patch", "ts": "2026-07-27T10:26:12Z"}
+{"event": "milestone_validated", "milestone": "patch", "ts": "2026-07-27T10:30:05Z"}

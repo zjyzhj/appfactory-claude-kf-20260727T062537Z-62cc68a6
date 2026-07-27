@@ -1,0 +1,18 @@
+appId: com.appfactory.tourwise.app
+---
+- launchApp:
+    appId: com.appfactory.tourwise.app
+    arguments:
+      "-syntheticCapture": "1"
+- extendedWaitUntil: {visible: "5 Pine Court", timeout: 15000}
+- tapOn: "5 Pine Court"
+- extendedWaitUntil: {visible: "Resume Walkthrough", timeout: 8000}
+- tapOn: "Resume Walkthrough"
+- extendedWaitUntil: {visible: "Scoring: Kitchen", timeout: 10000}
+- tapOn: "Choose Photo"
+- waitForAnimationToEnd: {timeout: 10000}
+- takeScreenshot: f08_01_picker_granted
+- tapOn: {point: "14%, 24%"}
+- waitForAnimationToEnd: {timeout: 10000}
+- extendedWaitUntil: {visible: "Kitchen evidence photo 1 of 1", timeout: 10000}
+- takeScreenshot: f08_02_read_bound

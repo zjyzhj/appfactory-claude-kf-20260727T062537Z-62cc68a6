@@ -1,0 +1,89 @@
+{
+  "candidate_id": "paint-mix-01",
+  "verdict": "reject_saturated_clone",
+  "axes": {
+    "collision": {
+      "level": "high",
+      "notes": "active L2=4 L3=2 L1=18; zombies=3",
+      "nearest_clones": [
+        {
+          "name": "Real Paint mixing tools PRO",
+          "trackId": 1593248741,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/real-paint-mixing-tools-pro/id1593248741?uo=4",
+          "ratingCount": 29
+        },
+        {
+          "name": "PalettePro – Oil Paint Mixing",
+          "trackId": 6757408609,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/palettepro-oil-paint-mixing/id6757408609?uo=4",
+          "ratingCount": 10
+        },
+        {
+          "name": "KitColorsPro: Model Paint",
+          "trackId": 6739132740,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/kitcolorspro-model-paint/id6739132740?uo=4",
+          "ratingCount": 20
+        },
+        {
+          "name": "Real Paint mixing tools",
+          "trackId": 1431308757,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/real-paint-mixing-tools/id1431308757?uo=4",
+          "ratingCount": 17
+        },
+        {
+          "name": "Mixable - Paint Mixing Guide",
+          "trackId": 6769655280,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/mixable-paint-mixing-guide/id6769655280?uo=4",
+          "ratingCount": 7
+        }
+      ]
+    },
+    "heat": {
+      "band": "red",
+      "head_structure": "concentrated",
+      "moat_types": [],
+      "zombie_ratio": 0.1,
+      "top1_rating_count": 499709,
+      "active_recent_count": 14,
+      "notes": "pool=24 top1=499709 top3_sum=868232"
+    },
+    "survivability": {
+      "band": "low",
+      "needs_network_for_aha": false,
+      "underserved_moment": "existing color-mixing apps are generic color pickers or games; painters need tube-bound ratio math, offline in the studio",
+      "wedge_vs_top_n": [
+        {
+          "name": "Real Paint mixing tools PRO",
+          "trackId": 1593248741,
+          "url": "https://apps.apple.com/us/app/real-paint-mixing-tools-pro/id1593248741?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "PalettePro – Oil Paint Mixing",
+          "trackId": 6757408609,
+          "url": "https://apps.apple.com/us/app/palettepro-oil-paint-mixing/id6757408609?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "KitColorsPro: Model Paint",
+          "trackId": 6739132740,
+          "url": "https://apps.apple.com/us/app/kitcolorspro-model-paint/id6739132740?uo=4",
+          "note": "wedge moment not evident in listing"
+        }
+      ],
+      "notes": "factory v0 is local zero-account; network moats are hostile"
+    },
+    "verdict": "reject_saturated_clone",
+    "required_actions": [
+      "Drop this candidate; pick next shortlist item"
+    ],
+    "blockers": []
+  },
+  "evidence_count": 30,
+  "markdown_path": "research/appstore-scan/paint-mix-01.md"
+}

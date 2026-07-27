@@ -1,0 +1,36 @@
+{
+  "access_model": "none",
+  "bundle_id": "pm_docs_map:attempt-2",
+  "core_flows": [
+    "New Viewing → 录入地址/租金等基础信息(30 秒内可开始打分)。",
+    "Walkthrough 引导流：按房间(Kitchen / Living / Bedroom / Bath / Building / Outdoor)逐项打分(1–5)、拍证据照、一句话备注；可跳过任何项。",
+    "回到 Viewings：每套房有完成度与均分；标记 toured / shortlist / rejected。",
+    "Compare：选 2–5 套 shortlist，按当前 WeightProfile 加权排序，逐指标并排对比。",
+    "Verdict：生成结论卡(排名 + 关键证据照 + 权重依据),导出到相册或系统分享(消耗 1 枚 Export Credit)。",
+    "下周末再看新房 → 加入对比，排序自动更新。"
+  ],
+  "differentiation": {
+    "summary": "唯一把「现场证据 → 加权排序 → 可分享结论」串成闭环的本地零账号产品。证据照绑定房间而非相册散片；权重模型是一等产品对象而非写死 checklist;Verdict 卡是决策的交付物。"
+  },
+  "diversity_key": "tourwise tourwise 是本地优先 零账号的 iphone 看房决策助手 看房现场按房间拍证据照并打分 回家用可调权重横向对比所有看过的房 导出一张结论卡说服自己与家人 不做房源搜索 不做账号云同步 不做 ai categoryskeleton decisionassistant compare options recommend choose 非 logrecordarchive iashape tab3to5 4 个 task distinct 主 tab v",
+  "feature_blocks": [
+    "建/改/删看房记录;status 流转;列表按 status 分组 + 搜索。",
+    "成功信号:30 秒内从空态到首个 Viewing 创建完成;删除有确认;列表均分即时刷新。",
+    "相关 route:tabviewings, viewingdetail, viewingedit。"
+  ],
+  "pattern_id": "none",
+  "presentation_key": "none n a 无 ai 界面 n a n a",
+  "primary_cta": "n/a",
+  "product_fingerprint": "98db04813e982bffd228229ab451af520835100a4419ec69316bb9c036d43320",
+  "product_name": "TourWise",
+  "reference_app": {
+    "name": "",
+    "url": ""
+  },
+  "remote_ai": "no",
+  "result_ui": "n/a",
+  "surface": "n/a(无 AI 界面)",
+  "target_user": "",
+  "user_problem": "",
+  "value_proposition": "TourWise 是本地优先、零账号的 iPhone 看房决策助手：看房现场按房间拍证据照并打分，回家用可调权重横向对比所有看过的房，导出一张结论卡说服自己与家人。不做房源搜索、不做账号云同步、不做 AI。\ncategoryskeleton: decisionassistant(compare options → recommend → choose;非 logrecordarchive)\niashape: tab3to5(4 个 task-distinct 主 tab:Viewings / Compare / Criteria / Settings)"
+}

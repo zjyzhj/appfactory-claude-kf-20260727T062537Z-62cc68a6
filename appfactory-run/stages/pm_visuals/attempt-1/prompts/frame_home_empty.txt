@@ -1,0 +1,13 @@
+A high-fidelity iPhone app UI design mockup, full-screen portrait composition, flat product-design screenshot style (not a photo of a phone).
+
+App: "TourWise" — a house-viewing decision assistant. Visual direction: "evidence board on warm paper". Warm paper background #F6F1E7 covering the whole screen, white cards #FFFFFF, ink text #2B2620, brass accent #B4762A, sage green accent #6E7F5C. System sans-serif type, calm and trustworthy.
+
+Screen: "Viewings" home tab in its EMPTY state. Layout skeleton:
+- Top navigation area with title "Viewings".
+- Center of screen: a charming flat illustration of a small stack of slightly tilted polaroid photos with a brass star badge on top, drawn in warm paper/brass/sage tones.
+- Below the illustration: a centered empty-state heading "No viewings yet" in ink, and one supporting line "Walk a place, capture evidence, compare calmly."
+- One centered brass rounded primary button "Start Walkthrough".
+- Bottom iOS tab bar with 4 tabs: Viewings (active, brass), Compare, Criteria, Settings.
+
+Density: low. Lots of breathing room, the illustration is the clear center of gravity.
+Avoid: pure white background, text-only empty state, cold blue palette, stock 3D renders, people, confetti, dark mode.

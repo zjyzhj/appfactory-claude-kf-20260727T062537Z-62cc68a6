@@ -1,0 +1,11 @@
+A high-fidelity iPhone app UI design mockup, full-screen portrait composition, flat product-design screenshot style (not a photo of a phone).
+
+App: "TourWise" — a house-viewing decision assistant. Visual direction: "evidence board on warm paper". Warm paper background #F6F1E7 covering the whole screen, white cards #FFFFFF, ink text #2B2620, brass accent #B4762A (rank #1 highlight), sage green #6E7F5C, muted score-track bars #E4DCCB. System sans-serif, tabular numbers for scores.
+
+Screen: "Compare" board. Layout skeleton:
+- Top: a horizontal ranking strip showing three viewing chips ordered by weighted score — "Maple St 4.3" with a brass #1 badge, "Oak Ave 3.9" with #2, "Cedar Ln 3.4" with #3.
+- Main body: a comparison table. Left fixed column lists criteria rows: Natural Light, Noise, Layout, Storage, Commute. To the right, two side-by-side viewing columns (horizontally scrollable feel, wide comfortable columns) each headed by a small apartment thumbnail and name; every cell shows a 1–5 score with a small horizontal bar track and a tabular number (e.g. 4, 5, 3).
+- Bottom: a weight-profile selector pill row ("Balanced" active, "Commute-first", "Quiet-first") and an iOS tab bar with Compare highlighted in brass.
+
+Density: high but readable — no cramped tiny text, generous row height.
+Avoid: tiny illegible spreadsheet text, cold blue enterprise dashboard look, flashing colors, dark mode, pure white background.

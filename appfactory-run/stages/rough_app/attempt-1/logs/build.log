@@ -1,0 +1,43 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project TourWise.xcodeproj -scheme TourWise -destination "platform=iOS Simulator,name=iPhone 16 Pro Max" -derivedDataPath .build/DerivedData CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'TourWise' in project 'TourWise' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E252-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -o /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E252-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+
+ProcessInfoPlistFile /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/Info.plist /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Info.plist (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-infoPlistUtility /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Info.plist -producttype com.apple.product-type.application -genpkginfo /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/assetcatalog_generated_info.plist -o /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/Info.plist
+
+Validate /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-validationUtility /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app -shallow-bundle -infoplist-subpath Info.plist
+
+note: Removed stale file '/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/Frameworks'
+
+note: Removed stale file '/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/PlugIns'
+
+** BUILD SUCCEEDED **
+

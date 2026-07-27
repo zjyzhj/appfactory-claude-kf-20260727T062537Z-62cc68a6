@@ -1,0 +1,123 @@
+{
+  "acceptance_policy": {
+    "acceptance_policy": {
+      "authorization": {
+        "id": "appfactory-runtime-verification-v1",
+        "type": "system_default"
+      },
+      "mode": "runtime_verification_required",
+      "required_source_proofs": [
+        "xcode_source_build",
+        "source_unit_tests",
+        "source_artifact"
+      ],
+      "schema_version": "appfactory.acceptance-policy.v1",
+      "simulator_runtime": {
+        "accepted": false,
+        "claimed_pass": false,
+        "evidence_skill": "ios_runtime_acceptance",
+        "must_not_claim_pass": false,
+        "required": true,
+        "status": "REQUIRED"
+      }
+    },
+    "acceptance_policy_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/acceptance_policy.v1.json",
+    "acceptance_policy_sha256": "cb56b5d7daa90d2173a7d2eb10d6b10329b123f1b668f599ee933660c911651e",
+    "mode": "runtime_verification_required"
+  },
+  "blockers": [],
+  "created_at": "2026-07-27T06:25:37Z",
+  "factory_version": "1.2.1",
+  "goal_version": 1,
+  "milestones": {
+    "checklist": {
+      "attempts": 2,
+      "blockers": [],
+      "evidence_refs": {
+        "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/checklist/attempt-2/MAP.md",
+        "result_sha256": "39e0be10258b3f8534361506c9b2396cbc8832c08df407c7ddd33fa1a8fc6144"
+      },
+      "status": "validated",
+      "updated_at": "2026-07-27T07:29:31Z"
+    },
+    "delivery": {
+      "attempts": 0,
+      "blockers": [],
+      "evidence_refs": {},
+      "status": "pending",
+      "updated_at": "2026-07-27T07:15:35Z"
+    },
+    "full_rewrite": {
+      "attempts": 0,
+      "blockers": [],
+      "evidence_refs": {},
+      "status": "pending",
+      "updated_at": "2026-07-27T07:15:35Z"
+    },
+    "goal": {
+      "attempts": 1,
+      "blockers": [],
+      "evidence_refs": {
+        "goal_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/goal/goal.json",
+        "goal_sha256": "15c4a70f2f0f1e31dc6dc70ee65209a9aef0f6ace1fa60c39878094b0778542b"
+      },
+      "status": "validated",
+      "updated_at": "2026-07-27T06:25:37Z"
+    },
+    "patch": {
+      "attempts": 0,
+      "blockers": [],
+      "evidence_refs": {},
+      "status": "pending",
+      "updated_at": "2026-07-27T07:15:35Z"
+    },
+    "pm_docs": {
+      "attempts": 2,
+      "blockers": [],
+      "evidence_refs": {
+        "dedupe_candidate_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/factory/pm_dedupe/pm_docs_candidate.json",
+        "dedupe_commit_receipt_refs": "[\"/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/factory/pm_dedupe/pm_docs_candidate.dedupe_receipt.v1.commit.v1.json\"]",
+        "dedupe_receipt_refs": "[\"/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/factory/pm_dedupe/pm_docs_candidate.dedupe_receipt.v1.json\"]",
+        "dedupe_store": "/Users/zhoujinyu/.claude/app-factory/pmagent_global_dedupe.sqlite",
+        "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_docs/attempt-2/MAP.md",
+        "result_sha256": "fda0574f4e5e9ae938ca58ee85296d05db0ad04c6d4cf2be35279cd6fca1bcc9"
+      },
+      "status": "validated",
+      "updated_at": "2026-07-27T07:20:04Z"
+    },
+    "pm_visuals": {
+      "attempts": 2,
+      "blockers": [],
+      "evidence_refs": {
+        "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_visuals/attempt-2/MAP.md",
+        "result_sha256": "74a871845ea9135f387a94e24bf0fb191693b5b507dc5b0452712e1a899e92b7"
+      },
+      "status": "validated",
+      "updated_at": "2026-07-27T07:26:30Z"
+    },
+    "rough_app": {
+      "attempts": 1,
+      "blockers": [],
+      "evidence_refs": {
+        "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/MAP.md",
+        "result_sha256": "3b33e48d233e62fcdd6aaa9278944ad6b590a929425f060ddf2554c378df590e"
+      },
+      "status": "validated",
+      "updated_at": "2026-07-27T08:33:04Z"
+    },
+    "verification": {
+      "attempts": 0,
+      "blockers": [],
+      "evidence_refs": {},
+      "status": "pending",
+      "updated_at": "2026-07-27T07:15:35Z"
+    }
+  },
+  "objective": "由 PMAgent 基于真实市场证据自主选定有差异化机会的 iOS 本地零账号 App 产品方向",
+  "requested_count": 1,
+  "run_id": "kf-20260727T062537Z-62cc68a6",
+  "run_status": "active",
+  "schema_version": "claude-app-factory.run-state.v1",
+  "self_evolution_cases": [],
+  "state_version": 16
+}

@@ -1,0 +1,786 @@
+{
+  "schema_version": "appfactory.itunes_search_raw.v1",
+  "status": "ok",
+  "country": "us",
+  "seeds": [
+    "house viewing checklist",
+    "apartment comparison",
+    "home buyer checklist",
+    "flat hunting",
+    "compare apartment viewings with weighted scorecard to choose"
+  ],
+  "limit_per_seed": 25,
+  "cap": 30,
+  "per_seed": [
+    {
+      "term": "house viewing checklist",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "apartment comparison",
+      "result_count": 22,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "home buyer checklist",
+      "result_count": 21,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "flat hunting",
+      "result_count": 25,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "compare apartment viewings with weighted scorecard to choose",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    }
+  ],
+  "results": [
+    {
+      "trackId": 288487321,
+      "trackName": "Trulia Real Estate & Rentals",
+      "bundleId": "com.trulia.Trulia",
+      "sellerName": "Trulia, Inc",
+      "description": "When searching for a new home, the more you know about the home and neighborhood, the more you know it’s right. Trulia helps you discover the perfect home AND neighborhood for your lifestyle to buy or rent. Get a genuine feel of what it’s like to live there before you buy with 30 neighborhood map overlays, 55+ millions of neighborhood reviews from locals, and virtual neighborhood tours. Browse 1M+ real-time MLS listings with Trulia’s robust search filters, easily plan open houses, and customize instant alerts to stay ahead of the real estate market. ****** Trulia Real Estate Key Features: ****** TRULIA NEIGHBORHOODS -- get more neighborhood details than any real estate app • Browse 30 neighborhood heat overlay maps such as schools, amenities, and commute • Tour the neighborhood with original photos, local stories, and drone footage • Learn about everyday life with the What Locals Say feature, ranging from whether people feel it is safe to get packages delivered to if neighborhoods are friendly. • Research schools in the neighborhood with trustworthy reviews from parents OVER 1M+ LISTINGS -- sourced from MLS databases, take your search on-the-go • Browse and save your favorites listings and searches to easily access them later • Get an overview of the surrounding area with Street View • Access the map in normal, satellite or terrain mode • Connect with highly rated agents to find a home you love SEARCH CUSTOMIZATION TOOLS -- find a home and neighborhood uniquely suited for you • Draw your own map boundaries to focus on the neighborhoods you care most about • Be in control with useful filters and custom keyword search • Find any type of property such as a condo, apartment, single family homes, or foreclosures DETAILED HOME LISTINGS-- simplify your home search with an intuitive experience • Browse large and beautiful photos of homes • Get the financial details you need like property tax, sales history, and more • Leverage pricing info on recently sold homes to spot high-value properties • Calculate multiple commutes by different transportation modes • Understand local LGBTQ non-discrimination laws for housing, employment, and public accommodations HOME BUYING ALERTS -- take your search on-the-go and never miss a listing • Stay up to date on the market and neighborhoods with alerts on new listing recommendations, price drops, or nearby open homes • Customize email and push notification alerts to only see what you care about • Check out your daily feed of new listing recommendations based on your search behavior and favorites OPEN HOMES SCHEDULING TOOL • Plan and manage open houses with calendar sync and mapping directions • Get open house recommendations near you AFFORDABILITY CALCULATORS • Calculate the full cost of owning your dream home, taking into account: mortgage, interest rate, HOA, homeowners insurance, and property taxes • Determine what you can afford based on your current financial situation ****** Trulia Rentals Key Features: ****** 1-CLICK REQUEST • Contact landlords and rental property managers on the go with just one click - it's that easy! EASILY FIND APARTMENTS, CONDOS, & RENTAL PROPERTIES • Discover diverse listings in a beautiful, intuitive way • Check out floor plans and availabilities FILTER BY TRANSIT &/OR PETS • Find rentals near transit and calculate commutes • Sort for properties by whether they allow cats or dogs Discover a place you’ll love to live. Comments, suggestions, feedback? Let us know what you think about Trulia Homes For Sale, Real Estate and Rentals at apphelp@trulia.com",
+      "averageUserRating": 4.81675,
+      "userRatingCount": 1412937,
+      "currentVersionReleaseDate": "2026-07-13T17:00:26Z",
+      "releaseDate": "2019-02-12T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Finance"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/trulia-real-estate-rentals/id288487321?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 6774289434,
+      "trackName": "Home viewing - house checklist",
+      "bundleId": "com.jeroenlamberts.homeviewing",
+      "sellerName": "Jeroen Lamberts",
+      "description": "Are you about to view a property soon? The Viewing App helps you make sure you don't miss a thing — whether you're looking at a home to buy or rent, searching for your first place as a first-time buyer, or already a pro on the housing market. With a smart checklist, you work your way through the home step by step. From the foundation to the roof, from damp spots to the condition of the kitchen — everything is covered. So you walk in well prepared and leave well informed. What can you expect? A comprehensive checklist designed specifically for home viewings Works for both homes to buy and homes to rent Handy for open house days Save your findings for each property Ideal as a complement to a home inspection Perfect for first-time buyers on the housing market Whether you're working with a real estate agent or searching on your own — the Viewing App is your guide on every house visit. Download for free and head out well prepared.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2026-06-06T21:31:50Z",
+      "releaseDate": "2026-05-29T07:00:00Z",
+      "genres": [
+        "Productivity",
+        "Utilities"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/home-viewing-house-checklist/id6774289434?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 336698281,
+      "trackName": "Realtor.com Real Estate & Rent",
+      "bundleId": "com.move.Realtor",
+      "sellerName": "Move, Inc.",
+      "description": "Find a home that’s perfect for you with the award-winning, easy-to-use Realtor.com® Real Estate app. The #1 app trusted by real estate professionals* *Based on an Aug. 2024 proprietary survey among real estate professionals. Whether you’re renting, buying, or looking for a home’s estimated value, Realtor.com makes home search fun and easy with a robust set of tools and a guiding hand throughout the process, to help you browse millions of homes and zero in on the one that fits your needs. Customize your home search • Use a large variety of filters to tailor your home search around your wants and needs • Search by price range, lot size, number of bedrooms and bathrooms, commute time, and more • Search by school name to see home listings near your preferred schools boundaries Find the right home in the right neighborhood with the interactive map • Define your own search area with Draw on Map • Use the points of interest map layer to see nearby restaurants, shops, cafes, and more • View neighborhood noise levels to find a quiet home • Assess a home’s flood risk with the flood map layer View homes in stunning detail • Browse through big beautiful photos • Get to the pics you really want to see faster with photos categorized by room • Take a 3D home tour from the comfort of your couch More 3D tours added all the time Collaborate on your home search • Renting or buying with someone else? Link your Realtor.com accounts to share your favorite homes and comments with each other • Request feedback on property listings from those you trust quickly and easily via text, email or social media Never miss out with timely home alerts • Save your searches to know when new homes hit the market that match your search criteria • Act fast with alerts when home prices increase or decrease Stay on budget • Use the Affordability Calculator to figure out your home price range • Use the Mortgage Calculator to fine tune your estimated monthly payment • Search homes by price or estimated monthly payment Have feedback? Contact us at realappfeedback@move.com Find more information at www.realtor.com",
+      "averageUserRating": 4.78677,
+      "userRatingCount": 1060546,
+      "currentVersionReleaseDate": "2026-07-25T12:44:40Z",
+      "releaseDate": "2010-01-11T07:06:20Z",
+      "genres": [
+        "Lifestyle",
+        "Business"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6000"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/realtor-com-real-estate-rent/id336698281?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1433915149,
+      "trackName": "Home by ShowingTime",
+      "bundleId": "com.showingtime.ConsumerApp",
+      "sellerName": "ShowingTime.com, LLC",
+      "description": "Are you connected with a real estate agent who uses ShowingTime? Whether you’re buying or selling a home, Home by ShowingTime simplifies the process by allowing you to easily manage showings, tours, feedback and more. · View your upcoming tours as a buyer · Manage your upcoming showings as a seller · Easily connect with your agent · Turn-by-turn directions to your next destination · Review newly received showing feedback · Set your communication preferences · And more!real estate, ShowingTime products - accessible via its mobile app - are used in more than 250 MLSs across North America representing more than 950,000 members, helping them schedule 3 million showings per month. ShowingTime is a leading provider of residential real estate technology, used by agents and their clients to manage millions of home showings every month.",
+      "averageUserRating": 4.9078,
+      "userRatingCount": 16138,
+      "currentVersionReleaseDate": "2025-04-17T14:03:46Z",
+      "releaseDate": "2019-02-26T01:08:40Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/home-by-showingtime/id1433915149?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1265223425,
+      "trackName": "Zillow 3D Home",
+      "bundleId": "com.zillow.CaptureApp",
+      "sellerName": "Zillow, Inc.",
+      "description": "Looking for a way to make your listings stand out? Zillow Interactive Floor Plans and 3D Home® Tours are a free, easy and effective way to help you boost your listings and win more customers. In fact, listings with a Zillow Interactive Floor Plan or 3D Home Tour got twice as many views and sold, on average, 10% faster than listings without. - Free and easy to use: Unlike some other virtual tour options, the app is free, comes with the option to create a floor plan, easy for anyone to use and a great way to let people tour and experience a home virtually. - Stand out: Listings with an Interactive Floor Plan or 3D Home Tour get specialized placement on Zillow and are supported by dedicated emails to prospective buyers. - Reach more buyers & renters: Your Zillow Interactive Floor Plan or 3D Home Tour is automatically posted to your listing on Zillow, Trulia, and Redfin. You can also share them anywhere, including your website, the MLS and social media. Connect a supported 360° camera from Insta360 (X2, X3, X4, X5, and One RS 1-inch 360 edition) or Ricoh Theta (Z1, X, SC2, V), then let the app automatically build your interactive floor plan and virtual tour. You can also use your smartphone camera to capture panoramas to create virtual tours only.",
+      "averageUserRating": 4.70302,
+      "userRatingCount": 5667,
+      "currentVersionReleaseDate": "2026-07-20T14:09:33Z",
+      "releaseDate": "2018-01-17T14:37:27Z",
+      "genres": [
+        "Photo & Video",
+        "Business"
+      ],
+      "primaryGenreName": "Photo & Video",
+      "genreIds": [
+        "6008",
+        "6000"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/zillow-3d-home/id1265223425?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 521946672,
+      "trackName": "Checklist – Simple Task Lists",
+      "bundleId": "ito.koji.checklistfree",
+      "sellerName": "Koji Ito",
+      "description": "Manage all your checklists in one app — from travel and shopping to daily to-dos. Stay organized with nesting, templates, list duplication, and quick bulk check actions. Stay organized and keep your tasks clear with Checklist — the simple, smart way to manage everything you need to do. Over 550,000 downloads worldwide and an average rating of 4.6 from more than 6,000 reviews. Checklist helps you manage all kinds of lists — from travel packing and shopping to daily to-dos, study plans, and moving checklists. ■ Simplify complex lists with nesting Organize items hierarchically with parent and child relationships. Create structured lists like “Travel > Clothes > Shirts / Socks” or “Shopping > Groceries > Milk / Bread.” Reorder easily with the drag handle (≡) and keep your lists neat and clear. ■ Reuse your lists: Templates & duplication Save frequently used lists as templates to quickly create new ones anytime. Duplicate existing lists in one tap and start recurring routines like packing or shopping without starting from scratch. ■ Work efficiently with bulk actions Use “Check All” or “Uncheck All” to reset your recurring lists with a single tap. Perfect for seasonal packing or weekly to-do lists. ■ Simple, intuitive interface Add items continuously without switching screens. Reorder, move, or copy items easily — and when you check a parent item, its children are checked automatically. ■ Optional Premium for ad-free focus All core features are free to use. Upgrade to Premium to remove ads and stay fully focused on your lists. Your purchase can be restored anytime after changing devices. ■ Key Features • Nested structure (parent-child organization) • Continuous item input, move, copy, and linked checking • Bulk check/uncheck for quick resets • Templates and list duplication • Filtering (Incomplete / All) • Dark Mode, search, and badge count • Export lists via Notes, email, or copy • Ad-free with Premium purchase Organize everything in one simple app. Checklist keeps your day — and your life — beautifully in order.",
+      "averageUserRating": 4.71835,
+      "userRatingCount": 2915,
+      "currentVersionReleaseDate": "2026-07-13T23:34:49Z",
+      "releaseDate": "2012-04-30T19:32:14Z",
+      "genres": [
+        "Productivity",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/checklist-simple-task-lists/id521946672?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.6",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1031975953,
+      "trackName": "Flexmls For Homebuyers",
+      "bundleId": "com.fbsdata.flexmls-vow",
+      "sellerName": "Financial Business Systems, Inc.",
+      "description": "** This app is for homebuyers and requires an invitation from your Realtor. Ask your Realtor if they use Flexmls and if they can send you an invitation today** The Flexmls app connects you to your REALTOR® with the same accurate, comprehensive and up-to-date listing information that they rely on every day. You’ve already made a great decision to work with a licensed REALTOR®. Realtors use their local knowledge and expertise to help guide you through your home search journey, and we designed the Flexmls app with this relationship in mind. Search for homes, view beautiful photos, select your favorites, hide homes you don’t like, and even directly message your Realtor - anytime and anywhere. Search, collaborate and find your dream home with the Flexmls app. ****** Flexmls App Features: ****** The Most Trusted Information Source • Accurate, reliable property information • Real-time data that provides the most up-to-date pricing and home details • Directly from the source (the MLS) Endless Search Options • Search homes by city, address, zip code or even MLS # • Filter your search by property type, bedrooms, bathrooms, square footage, list price and year built • Use the map to view homes for sale in that location or neighborhood • Search for homes in your desired school districts • View open house information or attend a live virtual open house (where available) • Sort your search results by price, new or recently changed, status, city, bedrooms or bathrooms Hot Market? Customize Your Notifications • Subscribe to get notifications of the types of homes you want to see; with push notifications directly to your mobile device • Manage the types of push notifications you want to receive, including new recommendations from your Realtor and market updates: when homes hit the market, are pending sale, have price changes, sell, or go back on the market • No digging through emails: View your personalized news feed to review all the property updates you have received Easy To Use • Swipe through photos, videos, virtual tours, immersive 3D home tours (where offered) and documents • Save and rank your favorite homes and hide the ones you don’t want to see • Beautiful, modern interface that's consistent with the home search you’ll use on your computer • Touch ID for easy login Collaborate With Your Realtor • Quick and easy access to the home searches your Realtor created for you • Direct in-app messaging allows you to contact your Realtor to ask for more information, request a showing, and more Involve Your Family & Friends • Quickly share listings you’re excited about with your loved ones via iMessages, airdrop, email, and other sharing options that are available on your mobile device • Never get lost with quick access to turn-by-turn driving directions on every listing Your Flexmls app gives you what you need to find the home of your dreams! Please contact your Realtor if you have problems accessing or using this app.",
+      "averageUserRating": 2.50862,
+      "userRatingCount": 464,
+      "currentVersionReleaseDate": "2026-05-26T19:49:08Z",
+      "releaseDate": "2016-08-10T08:08:30Z",
+      "genres": [
+        "Lifestyle",
+        "Productivity"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/flexmls-for-homebuyers/id1031975953?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 665910228,
+      "trackName": "Etta Homes",
+      "bundleId": "com.commissionsinc.localhomes",
+      "sellerName": "HBN Media Inc",
+      "description": "Discover, Discuss & Organize Features Include: • Establish a digital relationship with your agent. Communicate via the all new Etta messenger. • Receive Personalized Property Recommendations: As your agent finds properties that are a fit you will receive an email and push notification to view the recommendations directly in the App. • Request a Showing: Did you find an interesting property? Schedule an in person showing or request a video chat with your agent. • Take advantage of the map preview function. Select and scroll through property photo galleries from the map. • Sharing Features: With one click you can share your favorite homes, and more as you collaborate with key people in your final decision. • View New Properties as soon as they hit the market with Etta Instant Alert Notifications.",
+      "averageUserRating": 4.79417,
+      "userRatingCount": 7992,
+      "currentVersionReleaseDate": "2026-06-05T17:02:14Z",
+      "releaseDate": "2013-07-02T20:09:01Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/etta-homes/id665910228?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1327264569,
+      "trackName": "Rently Tours",
+      "bundleId": "com.rently.renterapp",
+      "sellerName": "Consumer 2.0 Inc",
+      "description": "Rently Tours is an innovative app that helps renters look for and view apartments and homes for rent on your own through our pioneering self-guided tours, agent tours, rental listings, online property matching, application and more.",
+      "averageUserRating": 4.8089,
+      "userRatingCount": 32067,
+      "currentVersionReleaseDate": "2026-07-08T05:16:22Z",
+      "releaseDate": "2018-01-18T23:34:04Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/rently-tours/id1327264569?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.5",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1477403391,
+      "trackName": "This Old House",
+      "bundleId": "com.thisoldhouse.ios",
+      "sellerName": "This Old House Ventures LLC",
+      "description": "The free This Old House app features 1,400+ full episodes –– with new ones added weekly –– streaming to your TV, tablet or phone. Upgrade to Insider for ad-free viewing, and to unlock every episode in the archive. This Old House is the number one home improvement brand, serving over 40 million consumers each month with trusted information and expert advice through the EMMY award-winning television shows This Old House and Ask This Old House, the Webby Award-winning site ThisOldHouse.com, and the Insider membership program. Privacy Policy: https://www.thisoldhouse.com/pages/privacy-policy CA Privacy Notice: https://www.thisoldhouse.com/pages/privacy-policy#JxAGJj Terms of Use: https://www.thisoldhouse.com/legal/terms-of-use",
+      "averageUserRating": 3.99167,
+      "userRatingCount": 480,
+      "currentVersionReleaseDate": "2026-06-18T19:14:37Z",
+      "releaseDate": "2019-12-14T08:00:00Z",
+      "genres": [
+        "Entertainment",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Entertainment",
+      "genreIds": [
+        "6016",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/this-old-house/id1477403391?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1666093703,
+      "trackName": "CheckDo: Checklist",
+      "bundleId": "com.jasonkoehn.CheckDo",
+      "sellerName": "Jason Koehn",
+      "description": "CheckDo is a simple colorful checklist. Create your own categories and pick a color for it. The items will be colored with a gradient effect using the category color. Features: -Create new category or item by touching the + button. -Sort the categories alphabetically and the items alphabetically or by due date. -Touch a category to navigate into it to see all its items creating a gradient effect using the category color. -Swipe categories or items to open the editing menu. -Touch an item to mark it as done and keep in the list, or swipe to delete it. -Search for a category or item using the search bar. -Drag categories or items by holding and dragging them.",
+      "averageUserRating": 4.85714,
+      "userRatingCount": 7,
+      "currentVersionReleaseDate": "2023-04-04T00:02:25Z",
+      "releaseDate": "2023-02-23T08:00:00Z",
+      "genres": [
+        "Productivity",
+        "Utilities"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/checkdo-checklist/id1666093703?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 819779884,
+      "trackName": "Home Inspection Ready - House Inspector Checklist",
+      "bundleId": "com.TSLLC.Home-Inspection-Ready",
+      "sellerName": "Tucson Software LLC",
+      "description": "PASS your home inspection! Contains guidelines to help you prepare for a home inspection so you can avoid delays during a real estate transaction. Shows you what a home inspector looks at when inspecting your property, and what kinds of problems he/she might find. Presents you with a checklist of items on your property to look at so you can write notes, take photos, and set the status of each item into a log. Stores these logs for you to share with your real estate agent or contractor via Message, Mail or AirPrint. Allows you to create a To-Do List to quickly report what needs to be worked on before the inspection. Can also be used by property owners or renters before move-in and/or at move-out to track any work that needs to be done. Is simple to use.",
+      "averageUserRating": 3.71429,
+      "userRatingCount": 7,
+      "currentVersionReleaseDate": "2016-12-04T22:14:34Z",
+      "releaseDate": "2015-03-12T00:10:43Z",
+      "genres": [
+        "Lifestyle",
+        "Productivity"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/home-inspection-ready-house-inspector-checklist/id819779884?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1187749768,
+      "trackName": "NterNow App",
+      "bundleId": "com.nternow.nternowapp",
+      "sellerName": "NterNow, LLC",
+      "description": "Our patented On-Demand Access Service for real estate gives driving-by homebuyers and future tenants the convenience of instant, independent property touring, yet keeps the property secure. Your properties can be shown off even if your agents are busy with other customers or on their days off! - This is the beta release of our application. Please submit any feedback on issues to barrett@nternow.com. How to use NterNow? #1 - Find a home online that interests you and drive by the home to check it out and see if it’s on the NterNow system #2 - When at the front door of an NterNow home, either call the number on the door sign or download our app, verify your identity, and receive a one-time-use access code to punch in the lock. Turn the knob and start your tour! #3 - Simply close the door behind you when you leave. The door is already reset to lock. It’s that easy! #4 - In the app, select other NterNow properties to visit. Create your own tour of homes!",
+      "averageUserRating": 4.72621,
+      "userRatingCount": 1987,
+      "currentVersionReleaseDate": "2026-07-23T10:59:55Z",
+      "releaseDate": "2016-12-29T18:43:34Z",
+      "genres": [
+        "Shopping",
+        "Travel"
+      ],
+      "primaryGenreName": "Shopping",
+      "genreIds": [
+        "6024",
+        "6003"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/nternow-app/id1187749768?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1134017691,
+      "trackName": "RentCheck",
+      "bundleId": "rentcheck",
+      "sellerName": "RentCheck Holdings, Inc.",
+      "description": "RentCheck helps Property Operators, Owners, and Residents. SAVE TIME Keep your properties at your fingertips! Grow your business utilizing fully remote property inspections from a mobile device. Request and track routine property inspections that residents will complete on their own. RentCheck will walk residents through an easy-to-follow guided inspection and checklist. Residents will take the photos, check appliances, evaluate each room’s condition, add notes, and create an unalterable and time-stamped record of the property’s condition. MINIMIZE COSTS Prevent unexpected repairs and ensure your properties are in tip-top shape. Organize and schedule move-out inspections to enable faster turnover; take the pain out of security deposit deductions. AVOID STRESS AND FRUSTRATION Organize all property and inspection reports in one place! All data collected is available the moment needed; stored securely and safely via the Cloud. Complete and accurate inspection documentation means less conflict at move-out. Eliminate disputes over security deposit deductions. SEAMLESS INTEGRATIONS Simplify your workflow! We currently partner with AppFolio, Rent Manager, Zapier and Latchel. Our integrations offer work order creation, inspection automation and link directly to your property management software.Easily get data in and out - pull in property and resident data, schedule inspections, and then take action once inspections are completed. Build your own integration with RentCheck API, we’ll support you every step of the way! Residents PEACE OF MIND Complete inspections on your own without having to coordinate with your landlord. Our simple standardized guided walkthrough process covers all the bases and makes completing inspections easy. Take photos, check appliances, evaluate each room’s condition, and add notes to create an unalterable and time-stamped record of the property's condition all from your mobile device. MAXIMIZE THE RETURN OF YOUR SECURITY DEPOSIT Securely share inspection reports with time-stamped images and notes anytime. Easily transfer inspection updates to your property manager for greater transparency and a faster return. PREVENT SECURITY DEPOSIT DEDUCTIONS Complete and accurate inspection documentation prevents disagreements over property conditions at move-out. Inspection reports & data are backed up via Cloud and are available the moment you need them.",
+      "averageUserRating": 4.79345,
+      "userRatingCount": 18224,
+      "currentVersionReleaseDate": "2026-07-06T21:50:24Z",
+      "releaseDate": "2018-03-12T18:07:39Z",
+      "genres": [
+        "Lifestyle",
+        "Productivity"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/rentcheck/id1134017691?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 899726785,
+      "trackName": "Open House App",
+      "bundleId": "com.wanderbit.openhousemanager",
+      "sellerName": "WANDER BIT LLC",
+      "description": "Open house sign-in sheets...There has to be something better than pen & paper, right? Now there is. With the Open House App, real estate agents like you are creating beautiful forms that your guests can complete right on your iPhone or iPad. Get any information you need from your potential leads by creating a custom form with any multiple-choice or text-response question you need. When are they moving? Do they have a property they need to sell? Ask the questions that are important to you and design your form to fit your listing & your brand with customizable background, welcome, and thank you messages. When guests arrive at your open house, they can quickly fill out their information right on your device. Guests only see the form they are completing so it keeps your valuable leads safe from other visiting agents. After your open house, you can export all your responses to CSV or just email all your open house guests right from the app. Spend your time planning an open house for your next listing instead of manually entering the email address and phone number of each potential lead. Impress visitors at your next open house and get more organized with the Open House App.",
+      "averageUserRating": 4.36228,
+      "userRatingCount": 334,
+      "currentVersionReleaseDate": "2020-04-06T20:16:56Z",
+      "releaseDate": "2014-08-02T02:25:57Z",
+      "genres": [
+        "Business",
+        "Utilities"
+      ],
+      "primaryGenreName": "Business",
+      "genreIds": [
+        "6000",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/open-house-app/id899726785?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "11.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1668895697,
+      "trackName": "Moving Home Checklist",
+      "bundleId": "com.reallymoving.uk.mhc",
+      "sellerName": "REALLYMOVING.COM LTD",
+      "description": "We’ve put together a comprehensive series of checklists to help make your move a little easier. Don’t worry, we won’t let you forget a thing! Please bear in mind these checklist have been designed for a move within England and Wales, although most steps apply to a move anywhere in the world. Our first checklist, the Moving House Checklist has details of all the thing you’ll need to do when you move, and is customisable depending on whether you’re a first time buyer, you’re buying and/or selling, or renting your next home. Our second, the Property Viewing Checklist, details everything you need to check when you go to view a potential new home to buy. And our Change of Address Checklist outlines all the types of companies and organisations you’ll need to inform of your move. In all checklists, tasks are grouped by the stage of your move or organisation type, you can check them off as you go, and the app lets you know how many you still have left to complete. We hope our app is a valuable service during your move: we’d love to hear your thoughts on it and ideas for how we could improve it.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2025-03-15T18:47:28Z",
+      "releaseDate": "2023-03-02T08:00:00Z",
+      "genres": [
+        "Productivity",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/moving-home-checklist/id1668895697?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 6762364394,
+      "trackName": "Lok l0k: Watch Movies,TV Drama",
+      "bundleId": "com.kuldeep.lumicine",
+      "sellerName": "Kuldeep Singh",
+      "description": "Stop scrolling. Start deciding. This app helps you choose what to watch in seconds using a focused, decision-first experience. Instead of browsing endless lists, get a small set of highly relevant recommendations tailored to your mood, attention level, and available time. Begin by selecting how you want to feel — intense, easy, or meaningful — along with how you plan to watch and how much time you have. The app then generates a short list of carefully selected options designed to fit your current context. Each recommendation includes a match score and a clear explanation, so you understand why it was chosen for you. This makes it easier to decide quickly without second-guessing or switching between apps. The experience is intentionally simple: • No overwhelming feeds • No infinite scrolling • No cluttered discovery pages Just a focused way to decide what to watch. You can still explore details like cast, reviews, and trailers when needed, but these are secondary to the core decision flow. Key features: • Context-based recommendations using mood, time, and attention • Clear match scores with explanation • Limited, high-quality choices instead of long lists • Quick reshuffle for new options • Clean and distraction-free interface • Save picks and revisit recent decisions Designed for moments when you don’t want to browse — you just want to watch. If choosing what to watch feels harder than it should, this app simplifies the process into something fast, clear, and intentional. Data Source: Movie and television information, including posters, artwork, and summaries, is provided by The Movie Database (TMDB). This app uses the TMDB API but is not endorsed, certified, or officially associated with TMDB. Disclaimer: This is an independent movie discovery tool and is not affiliated with or endorsed by any film studios, production companies, or streaming platforms. It does not host, upload, or stream movies or TV shows. All trademarks, logos, and copyrighted materials belong to their respective owners.",
+      "averageUserRating": 4.26338,
+      "userRatingCount": 467,
+      "currentVersionReleaseDate": "2026-04-24T08:36:49Z",
+      "releaseDate": "2026-04-24T07:00:00Z",
+      "genres": [
+        "Reference",
+        "Entertainment"
+      ],
+      "primaryGenreName": "Reference",
+      "genreIds": [
+        "6006",
+        "6016"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/lok-l0k-watch-movies-tv-drama/id6762364394?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.6",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 6748577802,
+      "trackName": "CazaHQ: House Hunting Tracker",
+      "bundleId": "com.cazahqapp.app",
+      "sellerName": "Jonathan Tseng",
+      "description": "Your home search, organized. CazaHQ helps you keep track of every home you’re considering, all in one simple, powerful app. Whether you’re a first-time homebuyer or comparing your next move, CazaHQ gives you clarity and confidence at every step. Key Features: Compare Homes Side-by-Side View prices, features, and notes for multiple properties on one screen to make faster, smarter decisions. Save Photos and Details Upload photos, jot down notes, and keep key details organized for every home you visit. Search and Save Addresses Add homes from anywhere on the map, whether you found them online or while driving through your favorite neighborhood. Stay Organized Effortlessly Keep track of important updates, filter by favorite homes, and access your full list anytime. Why Homebuyers Love CazaHQ Unlike typical real estate search apps, CazaHQ is designed for the decision-making process. It’s the perfect companion once you’ve started touring homes, taking notes, and narrowing down your choices. Your Next Home, Simplified. Compare. Track. Decide. With CazaHQ. End User License Agreement: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Privacy Policy: https://cazahq.com/privacy-policy/",
+      "averageUserRating": 5.0,
+      "userRatingCount": 1,
+      "currentVersionReleaseDate": "2026-07-20T22:48:21Z",
+      "releaseDate": "2025-12-01T08:00:00Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/cazahq-house-hunting-tracker/id6748577802?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 6695740469,
+      "trackName": "Security Home - Camera Connect",
+      "bundleId": "com.sanzheng.cameraconnect",
+      "sellerName": "GearX Apps",
+      "description": "Security Home - Camera Connect simplifies smart home monitoring, providing a comprehensive solution for your home security: Real-Time Monitoring and Access High-Quality Live Video & Audio: Using advanced technology, enjoy clear and smooth real-time video and audio, keeping you assured of your home's status. Video Recording and Playback: Efficiently record and playback videos, allowing you to easily review stored content and stay on top of key security details. Network and Device Security Smart Device Identification: Automatically scan all devices on your network, quickly discover and manage them, enhancing overall network security. Easy IP Camera Connection: Compatible with various brands of IP cameras, simple setup enables quick activation of efficient monitoring, ensuring ease of use. Comprehensive Area Coverage Multi-Room Synchronized Monitoring: Install cameras in multiple areas and achieve synchronized monitoring through a single interface, ensuring every corner of your home is covered. Flexible Monitoring Configuration: Adjust monitoring settings according to your needs, effectively covering critical areas and ensuring comprehensive home security. Download Security Home - Camera Connect now to easily manage your home security and focus on what matters most. Subscription Information – Payment will be charged to your iTunes account upon confirmation of purchase. – Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period. – Account will be charged for renewal within 24 hours prior to the end of the current period, and renewal costs will be identified. – You can manage your subscriptions and auto-renewal preferences in your account settings. Privacy Policy: https://www.ruanxiaoer20219.link/pp/6695740469/ Terms of Use: https://www.ruanxiaoer20219.link/tou/6695740469/",
+      "averageUserRating": 4.34867,
+      "userRatingCount": 10451,
+      "currentVersionReleaseDate": "2026-01-27T16:08:49Z",
+      "releaseDate": "2024-10-11T07:00:00Z",
+      "genres": [
+        "Utilities"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/security-home-camera-connect/id6695740469?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1167421883,
+      "trackName": "HAR Open House",
+      "bundleId": "com.har.OpenHouseRegistery",
+      "sellerName": "Houston Association of Realtors",
+      "description": "The Open House Registry app for iPad and iPhone allows Texas REALTORS® to keep track of their current and upcoming open houses. REALTORS® can securely register users directly from the app and follow up with them once the open house is completed. The app can save agents a lot of time by downloading the contact information for registered guests directly to their device. The app also allows real estate professionals to see the open houses they’ve claimed from other agents. It’s easy for agents to create reports and share information, too. Open House data can be shared with an agent’s contacts right from the app, including the Agent Full Report and the Listing Detail information. Agents can also swap open house hosting duties between other agents in their office. Open House Registry App features: · Simplified Design: We designed this app with one thing in mind; managing open houses. This singular focus allows agents to concentrate on making the most out of those events. · Quick access to visitor lists: Bring up the number of visitors for each day an open house was active with just one click on the listing. · Secure the visitor sign-in: Agents can securely lock the app and let their visitors sign in with no hassle. · Create reports and share info: Need to get the word out on an upcoming open house? Share it with contacts right from the app. The Agent Full Report and Listing Details information can also be shared directly from the app. · Invite and Request to host: You can request to host one agent's open house and invite others to host yours with ease. · Download contacts: The agent can now save time and download all new contacts directly to their device. · Record audio feedback” Customers can record an audio message as they’re walking through the house. The audio can be played back at any time and the agent can reach out to that customer. *MLS Platinum Subscription is required to use this app.",
+      "averageUserRating": 4.33333,
+      "userRatingCount": 9,
+      "currentVersionReleaseDate": "2025-08-12T02:21:10Z",
+      "releaseDate": "2017-03-14T01:12:59Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/har-open-house/id1167421883?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1487714281,
+      "trackName": "Showami",
+      "bundleId": "com.showami.showamiapp",
+      "sellerName": "Showing Agent Services LLC",
+      "description": "Showami is an on-demand showing solution that connects you with the largest network of licensed real estate agents. Show homes, host open houses, and perform other property tasks for a pay-per-service fee. Showami’s agent network is qualified, vetted, and licensed, ensuring access whenever and wherever you need. How Showami Works Simply open the app to schedule or accept a showing, open house, or property-related task. Communicate with the initiating agent in our easy-to-use messages center, eliminating the extra texts and phone calls for a seamless process. Once the showing is complete, feedback is provided, and payment is on its way! Flexible, fast, convenient, and reliable! Earn More On Your Terms Earn money by showing homes, hosting open houses, property photography, lockbox runners, and more! Showami offers you opportunities in the geographic area you choose at times when you are available to help. Leverage Your Time Showami helps you schedule showings so you can leverage your time and spend it better where it matters most. More time with your family, a much-needed vacation, improve time management, and enhance client service. Download for FREE and start earning and saving time today! About Showami Showami is the #1 proptech solution for on-demand showings that leverages Showing Agents for quick, reliable, and efficient property showings, open houses and much more. With hundreds of thousands of successful requests completed nationwide at a 97% pick up rate and the average request being picked up in less than three minutes, Showami helps agents maintain control over their schedules while retaining their commissions. The Showami community is made up of dedicated nationwide real estate professionals committed to supporting one another. App Store End User License Agreement: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Showami Privacy Policy: https://showami.com/privacy",
+      "averageUserRating": 4.27536,
+      "userRatingCount": 138,
+      "currentVersionReleaseDate": "2026-07-23T18:09:12Z",
+      "releaseDate": "2020-03-11T07:00:00Z",
+      "genres": [
+        "Business",
+        "Productivity"
+      ],
+      "primaryGenreName": "Business",
+      "genreIds": [
+        "6000",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/showami/id1487714281?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 878612832,
+      "trackName": "Checklist: Tasks & Routines",
+      "bundleId": "com.checklist.ios",
+      "sellerName": "Checklist.com B.V.",
+      "description": "Checklist helps you organize what needs to be done, start from ready-made templates, build better lists with helpful suggestions, share with family or friends, and follow each step in guided mode. Use Checklist for everyday tasks, shared lists, repeatable routines, reminders, habits, and work procedures. WHAT YOU CAN DO WITH CHECKLIST • Start from ready-made checklist templates • Use checklist builders for groceries, routines, packing, and more • Get helpful task suggestions when building a list • Create task lists for everyday life • Share lists with family, friends, or teammates • Follow each checklist step by step in guided mode • Add reminders so important tasks do not slip • Turn repeated checklists into routines • Track progress and stay consistent • Use checklists for SOPs, procedures, and repeatable work USE CHECKLIST FOR • Grocery lists and shopping • Packing lists and travel checklists • Cleaning checklists and chores • Home maintenance • Morning routines and night routines • Daily habits and weekly resets • Workout and stretch routines • Family tasks and personal projects • Event planning • Work checklists, SOPs, and business procedures START FROM TEMPLATES, BUILDERS, OR SUGGESTIONS Do not start from a blank page every time. Browse ready-made public checklist templates, use a checklist builder, get helpful task suggestions, or create your own list from scratch. FOLLOW CHECKLISTS STEP BY STEP Guided mode helps you move through a checklist one step at a time, so you know what to do next and nothing important gets missed. Use guided lists for routines, packing, cleaning, workouts, family tasks, SOP execution, procedures, and any checklist where order matters. SHARE, REPEAT, AND TRACK PROGRESS Share checklists with family, partners, friends, or teammates. Use shared lists to plan a trip, coordinate chores, manage groceries, prepare for an event, or keep everyone aligned on a repeatable process. Turn repeated checklists into routines, schedule them, reuse them, and track progress over time. Use routines for morning habits, night routines, cleaning schedules, workouts, family tasks, weekly resets, and recurring work processes. FOR LIFE, FAMILY, AND WORK Checklist is useful for everyday checklists, guided routines, shared household lists, SOPs, standard operating procedures, and step-by-step business processes. Create a checklist, start from a template, build the list you need, share it, follow each step, and repeat it as a routine. Terms of Use: https://www.checklist.com/terms Privacy Policy: https://www.checklist.com/privacy",
+      "averageUserRating": 3.5619,
+      "userRatingCount": 105,
+      "currentVersionReleaseDate": "2026-07-14T04:36:51Z",
+      "releaseDate": "2014-06-11T07:22:08Z",
+      "genres": [
+        "Productivity",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/checklist-tasks-routines/id878612832?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 6754038639,
+      "trackName": "Home Hunter - Smart Checklist",
+      "bundleId": "com.ventodigitale.homehunter",
+      "sellerName": "Vento Digitale di Marco Forlani",
+      "description": "=== HOME HUNTER - YOUR SMART HOUSE HUNTING ASSISTANT Find your dream home the smart way! Home Hunter helps you stay organized during house visits — no more messy notes or forgotten details! Create detailed profiles for every property you visit, compare them with your ideal home, and make confident decisions based on clear data, not just impressions. === WHAT YOU CAN DO WITH HOME HUNTER - Add properties you visit: record all details — address, price, size, layout, and more. - Take photos directly from the app: link images to each property (and, in Premium, even to specific rooms). - Use ready-made checklists: no more forgetting details! Evaluate every aspect of the house easily with taps and checkboxes. - Add personal notes: keep your thoughts and impressions safely on your device. - Compare with your “Ideal Home”: define your dream home once, and see compatibility scores for each property in real time. - Mark houses as “Hot”, “OK” or “Bad”: make your shortlists instantly clear. === WHY HOME HUNTER IS DIFFERENT Unlike other real estate apps, Home Hunter doesn’t sell houses — it helps you choose the right one. It’s your personal assistant during house visits: practical, private, and 100% offline. - All data stays on your phone. - No registration, no login, no cloud. - Simple, elegant, and multilingual-friendly. You’ll never lose track of details like room size, storage space, light exposure, or nearby amenities. Everything you note during visits stays safely organized and easy to compare. === PERFECT FOR - House hunters, apartment seekers, and renters - Real estate agents and property finders - Anyone visiting multiple houses and wanting a clear, private system to compare them === WHY YOU'LL LOVE IT Home Hunter turns your phone into a smart home viewing companion: intuitive, visual, and distraction-free. You’ll finish every visit knowing exactly how that house compares to your dream one — and which deserves a second look. === UPGRADE ONCE, UNLOCK EVERYTHING Home Hunter is FREE to download and it will let you save the checklist for max 1 house. When you’re ready to explore more: - Upgrade to Premium for just one-time payment (no subscriptions). - Add unlimited homes. - Attach photos to every room. - Unlock advanced comparison and scoring tools. Launch Offer: Premium is now just $3.99 instead of $5.99 — for the first 1,000 users only! Grab it while it lasts and unlock your smart home-hunting experience for life. === GET READY FOR YOUR NEXT HOME VISIT! FREE, NO SIGNUP REQUIRED Download Home Hunter now, and make your next house hunt simple, smart, and stress-free. Your next home is just a checklist away.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2025-11-19T07:45:32Z",
+      "releaseDate": "2025-11-18T08:00:00Z",
+      "genres": [
+        "Productivity"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/home-hunter-smart-checklist/id6754038639?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 1665668888,
+      "trackName": "ShowingTime Next Generation",
+      "bundleId": "com.showingtime.AA3",
+      "sellerName": "ShowingTime.com, LLC",
+      "description": "Introducing ShowingTime’s next generation mobile app, a modern, comprehensive toolkit designed to revolutionize how you manage real estate showings, gain invaluable market insights and enhance your productivity. This next generation experience helps you stay connected and transparent with clients and spend more of your time marketing listings and growing your business. ShowingTime provides residential real estate agents, teams, offices, associations and MLSs with tools to manage showings and feedback, plus analytics and reporting tools to gain valuable marketing insights. Join the hundreds of thousands of agents who rely on ShowingTime's cutting-edge mobile app, the go-to resource for scheduling showings, generating feedback and optimizing your business. ShowingTime+ products are used by hundreds of MLSs representing more than 1 million real estate professionals across the U.S. and Canada. Why choose ShowingTime? Effortlessly Schedule and Access Showings: Take control of your busy schedule with our intuitive mobile app. Seamlessly schedule showings, view instructions and access vital details anytime, anywhere. Buyers’ agents can plan a tour in minutes with an optimized Smart Route, adding multiple properties to a tour directly from the MLS and placing them in a cart. Discover Listings Near You: Explore a vast selection of listings available for showings in your immediate vicinity. Effortlessly find properties that meet your clients' needs and take advantage of opportunities right at your fingertips. Streamline Communication with Clients: Keep your clients in the loop by easily sharing listing activity and other important updates. Build trust and maintain strong relationships by providing timely and transparent information. Manage Feedback Effectively: Gain valuable insights from buyers and colleagues by effortlessly managing and analyzing feedback for your listings and easily sharing it with your sellers. Personalize Your Experience: With a variety of interactive calendar views, you can view your showing appointments in the way that best fits your needs. Additionally, customize your viewing experience with multilingual support, or toggle between light and dark mode to fit your preferences or the time of day.",
+      "averageUserRating": 4.86015,
+      "userRatingCount": 9460,
+      "currentVersionReleaseDate": "2026-05-26T14:57:22Z",
+      "releaseDate": "2023-08-14T07:00:00Z",
+      "genres": [
+        "Business"
+      ],
+      "primaryGenreName": "Business",
+      "genreIds": [
+        "6000"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/showingtime-next-generation/id1665668888?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.0",
+      "matched_seed": "house viewing checklist"
+    },
+    {
+      "trackId": 659694038,
+      "trackName": "Apartment List: Apt rentals",
+      "bundleId": "com.verticalbrands.apartmentlist",
+      "sellerName": "Apartment List, Inc.",
+      "description": "Search fast and rent faster with Apartment List – the most personalized way to apartment hunt. Tell us what you want in your next home, and discover premium apartments for rent in any city, curated just for you. Our Rental Matchmaker instantly filters through 1000s of rental apartments to guide you to the perfect one, so you love where you rent next. Apartment List Key Features: Rental Matchmaker Quiz Our 5-minute quiz saves you hours of searching for the perfect apartment. Answer a few questions about what you’re looking for – apartment size, amenities, location, budget, and more – and we’ll instantly recommend premium rental apartments that match your preferences. Adjust your preferences at any time, and we’ll refresh your matches. Curated Apartment Matches We sort your apartment matches into two categories: Perfect Matches and Flex Matches. Perfect Matches: Listings that have everything on your wishlist. Flex Matches: These listings may not match all your preferences, but you might find a few hidden gems. Our Flex Matches are based on local insights and similar searches from renters like you. See an apartment for rent that you love? Swipe right and we’ll automatically add it to your shortlist. Hit “Maybe” on the listings you’re not sure about–we’ll save them so you can check them out later. Additional Features: Amenity Focused Filters Personalize your search even further with filters for everything: amenities, move-in dates, commute times, rent specials, lease lengths, and more! Map Searches Discover Perfect Matches and Smart Matches in neighborhoods you’ll love to call home. Our in-map filters help you find rental apartments that fit your wishlist, budget, and location preferences. Real-Time Alerts Get updates on unit availability, price changes, or new rent specials on rental apartments saved to your shortlist. 24/7 Availability and Tour Booking Get in touch with properties anytime, anywhere via phone, text, or email. Book an in-person or virtual tour from the app whenever you’re ready to check out your favorite listings. Our premium apartment listings feature high-quality photos, virtual tours, and real-time updates on pricing, unit availability, and rent specials. We don’t skip out on the fine print – like pet policies and move-in fees – so you know exactly what to expect before you rent. Download Apartment List and find your perfect apartment match today. We’re always making improvements to our app to make your apartment search even better. Have questions or feedback for us? Email us at feedback@apartmentlist.com. We’d love to hear from you!",
+      "averageUserRating": 4.69247,
+      "userRatingCount": 495586,
+      "currentVersionReleaseDate": "2026-07-14T14:05:48Z",
+      "releaseDate": "2013-06-17T21:05:53Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/apartment-list-apt-rentals/id659694038?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "apartment comparison"
+    },
+    {
+      "trackId": 345957475,
+      "trackName": "HotPads - Apartment Rentals",
+      "bundleId": "com.hotpads.hotpadsapp",
+      "sellerName": "Hotpads.com",
+      "description": "We know that renting an apartment can be stressful. We make it a breeze with the HotPads home and apartment finder app! Peruse the largest collection of available homes for rent and real estate in the U.S. Whether you’re looking for place in San Francisco, Los Angeles, Denver, Dallas, Chicago, New York, Boston, Washington D.C., Atlanta, or Miami, we’ve got the places you want and you can search for them on-the-go. Our rental search team of wizards work their magic 24/7 to provide the most accurate and up-to-date rental listings just for you. Quickly contact landlords, gawk property photos, explore area stats, and save as many favs to your Favorites as you like. Some of Our Splendid Apartment Search Features - Search Alerts: No need to constantly check up on new apartment or house rentals. Name your price on quintessential neighborhoods and our search alerts will notify you when new rentals are listed! - Share Listings: Sharing is caring! Show off cool homes you’ve found with all of your friends (don’t be shy!). - Advance Filters: Fiddle with the filters to find senior housing communities in Miami for grandma, student housing for your high school graduate in Austin, or cheap low-income restricted houses in Atlanta. Our filters allow you to find homes tailor-made to your exact needs. - Listing Views: Enjoy the view? Choose between our List View, Map View, or Hybrid View to make your way home easier and faster. Let’s get you home, today! What our users are saying: \"I've moved a lot in the last 5 years in Chicago and I always come back to HotPads. Great app!\" “My lease will be up in a few months and this app has been very helpful in assisting me find a new place in whatever area of metro-Atlanta I want!” “ HotPads app has been very helpful in my search for a new home rental. I actually appreciated the email updates when something was listed that matched my search criteria.” “HotPads pulls up many more apartments that fit my preferences and budget than any other apartment search engine I have tried. I love this app.” “Makes finding a apartment rental simple and easy in Los Angeles area. Great apps like this are hard to find!” “Such better listings than Craigslist. Clean and easy to use! Direct contact to agents is also a plus!”",
+      "averageUserRating": 4.80866,
+      "userRatingCount": 108928,
+      "currentVersionReleaseDate": "2026-07-13T02:46:24Z",
+      "releaseDate": "2010-01-08T15:40:11Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/hotpads-apartment-rentals/id345957475?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "apartment comparison"
+    },
+    {
+      "trackId": 319836632,
+      "trackName": "Apartments.com Rental Finder",
+      "bundleId": "com.apartments.apartmentsapplication",
+      "sellerName": "CoStar Realty Information Inc.",
+      "description": "Find apartments, houses, condos, and townhomes for rent on Apartments.com. Explore listings your way, review unit-level details, and find your next rental all in one place. • Search: Look for rentals by city, neighborhood, or landmark. • Filter: Narrow your search by price, floor plan, amenities, pet policy, commute time, and more. • Explore 3D tours: Take immersive Matterport 3D Tours anytime, anywhere. • View photos and videos: View detailed floor plans and high-quality media. • Calculate costs: Estimate one-time fees and monthly expenses. • Book tours: Message property managers directly and schedule a tour. • Save favorites: Revisit the rentals you love and get notifications about new listings. From first search to scheduled tour, Apartments.com helps you stay organized and informed at every step. Download the app today and start exploring rentals designed to fit your lifestyle.",
+      "averageUserRating": 4.85639,
+      "userRatingCount": 473046,
+      "currentVersionReleaseDate": "2026-07-16T17:42:07Z",
+      "releaseDate": "2009-06-20T18:15:22Z",
+      "genres": [
+        "Lifestyle",
+        "Business"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6000"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/apartments-com-rental-finder/id319836632?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.6",
+      "matched_seed": "apartment comparison"
+    },
+    {
+      "trackId": 388038507,
+      "trackName": "Rent. Apartments and Homes",
+      "bundleId": "com.rent.mobile.iphone.app",
+      "sellerName": "Rent Group Inc.",
+      "description": "With Rent.™ you’ll find the fastest way to search houses, apartments, condos and townhouses for rent anywhere in the US. With 1,000s of new listings every day we can help you find the perfect rental home, whether it’s in Miami, New York, Atlanta, Chicago, Dallas, Phoenix, Denver, Los Angeles, Seattle. What others are saying about the Rent. app: “I’ve been finding great deals on this app. Never been easier, seriously it’s given me countless options within my budget and beautiful places to be honest. Five stars for sure” “Give the most accurate prices. Very easy to use.” “I really enjoy looking for apartments using rent. They helped me find my very first apartment 8 years ago. Now I’m using them again for my new search! The details and pictures are accurate.” You need to find the right apartment - like, yesterday. It’s got to have specific amenities and be within your budget. Rent. is here to help. The Rent.™ mobile app allows you to: • Find apartments in specific locations using a map or list view. • Share your favorite apartments with friends and family. • Find out what residents think of the property - read real ratings and reviews you can trust from actual residents. • Explore trusted listings from sources that are verified by Rent. • Take a virtual tour with our exclusive HD videos and panoramic tours with 360-degree views of the exteriors, interiors, and amenities of many apartments. • View HD photos and floor-plan images for a glimpse of what each unit has to offer. • Use advanced search tools and filters to narrow in on your perfect rental. • Save your favorite rentals to easily access them again and again. • Save your search criteria and get alerted when new listings become available through push notifications and email. • Call or email properties directly from the app. The perfect apartment within your budget is out there. Use the Rent. app to help you find it.",
+      "averageUserRating": 4.73608,
+      "userRatingCount": 213950,
+      "currentVersionReleaseDate": "2026-07-20T14:28:55Z",
+      "releaseDate": "2010-08-26T00:36:10Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/rent-apartments-and-homes/id388038507?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "apartment comparison"
+    },
+    {
+      "trackId": 678683201,
+      "trackName": "Zumper - Apartment Finder",
+      "bundleId": "com.zumper.Rentals",
+      "sellerName": "Zumper, Inc.",
+      "description": "Zumper is a trusted rental marketplace website and app that helps millions of renters find apartments, houses, condos, or rooms for rent that fit their needs and timeline. With over a decade of expertise, we provide renters like you with a best-in-class apartment search experience, with a vast selection of apartment rentals to explore throughout the U.S. and Canada. Browse the millions of apartments, houses, and rooms for rent on our app, and leverage our renter-focused tools to narrow your search. We understand the importance of variety and cater to your unique preferences. Whether you're searching for a cozy one-bedroom apartment or a spacious family house, our extensive filters allow you to tailor your rental search to fit your needs, from preferred location to apartment price and pet policies, desired amenities, and more. You can sort available apartment rentals that meet your criteria by price or date added. Once you see a listing (or a few!) that you like, request virtual or in-person tours and submit apartment applications—all in one app. We are dedicated to matching you with the perfect apartment to call home. Discover, rent, and make your apartment dreams come true with Zumper. WHAT OUR USERS SAY Zumper has fostered a community of satisfied renters who have found their apartments through our platform: \"Very reliable, easy to navigate.\" \"Amazingly easy app to utilize and very informative.\" \"I found 75% more housing listings than I would have because their search algorithm is amazing.\" ZUMPER’S APARTMENT SEARCH FEATURES Extensive filters that allow you to customize your apartment search to your exact criteria. - Choose your price range, number of bedrooms, desired neighborhoods, and the apartment amenities that most matter to you. - Pet owners can easily filter for pet-friendly apartments that welcome their furry friends. - Zumper’s inventory also includes short-term apartments and furnished apartments, so securing temporary apartments or rentals is a breeze. Quality data and up-to-date pricing - Extensive data powers Zumper, allowing us to provide you with the most up-to-date information - From real-time availability and pricing updates to high-quality rental photos and descriptions, our commitment to accuracy ensures you’ll discover apartments that fit your lifestyle. Verified listings - We know you are looking for apartment listings you can trust. At Zumper, we let you know which apartments have been vetted so you can feel confident that what you see is what you get. Real-time alerts - Our precise notifications ensure you're the first to know about new apartments, and inventory is updated in real-time, so you'll always see the latest apartments on Zumper first. AI-powered apartment recommendations - Based on your preferences, we take the effort out of your rental search and find great apartments for you. Effortless tour booking - You can request virtual or in-person tours of the apartments you adore with a single click. Direct communication with property managers - Skip the intermediaries and interact with the people who can provide you with the most helpful information about your potential apartment. Flexible rentals - Toggle between the long-term rental and short-term rental options to see apartments and houses offering short-term leases, from 1 night to 6 months. Join Zumper Today Zumper is more than just an app; it's your gateway to the world of apartment rentals. We know the apartment search can be difficult, but we're here to guide you every step of the way. Contact Us We're here to assist you on your apartment search journey. For questions or comments, reach out to us at hello@zumper.com. Usage of the Zumper app is bound by the our terms of service: https://www.zumper.com/terms-of-use.",
+      "averageUserRating": 4.78162,
+      "userRatingCount": 64196,
+      "currentVersionReleaseDate": "2026-06-04T20:16:19Z",
+      "releaseDate": "2013-08-15T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Travel"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6003"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/zumper-apartment-finder/id678683201?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.4",
+      "matched_seed": "apartment comparison"
+    },
+    {
+      "trackId": 1521697583,
+      "trackName": "Openigloo NYC Apartment Finder",
+      "bundleId": "com.openigloo.app",
+      "sellerName": "openigloo Inc.",
+      "description": "Find apartments in buildings you can actually trust. The Openigloo app helps renters research buildings, landlords, and apartments before they sign a lease. Browse millions of US addresses, read anonymous reviews from real renters, and discover listings in buildings with strong reputations. Avoid bad landlords, hidden issues, and problem buildings - and find your next home with confidence. Search Apartments in Trusted Buildings Browse thousands of apartment listings while researching the buildings behind them. • Explore exclusive apartment listings in select cities • Schedule apartment tours instantly with our AI bot across thousands of listings • Filter by neighborhood, amenities, and stabilized apartments • Focus on buildings with strong renter ratings Research Any Building Search millions of building profiles and see what renters actually think. • Read anonymous reviews from verified renters • Discover building scores for: Maintenance Cleanliness Heat & water pressure Garbage Management Pest control Landlord responsiveness • Check city data including: Building violations Bedbug complaints Eviction filings Litigation history Unlock Deep Building Reports (Paid) App users can pay to get access to powerful insights to evaluate buildings before signing a lease. • Construction permits and renovation history • Median rent trends and historical pricing • Lease renewal expectations and tenant turnover signals • Stabilization insights and deeper building analytics • Advanced building intelligence powered by city data Know what’s happening behind the walls before you move in. Research Landlords Understand who manages your future home. • View a landlord’s entire building portfolio • See aggregated ratings across all their properties • Learn how many buildings they own • Check property tax status • Identify tenant litigation history Share Your Rental Experience Help other renters make smarter housing decisions. • Write anonymous rental reviews • Upload photos, videos, and documents • Share insights you wish you knew before moving in • Contribute to a transparent rental community Data + Real Renter Experiences Openigloo combines crowdsourced tenant reviews with public city data to give renters the full picture of any building or landlord. Research smarter. Rent safer. Have feedback? We'd love to hear from you: info@openigloo.com",
+      "averageUserRating": 4.61807,
+      "userRatingCount": 3155,
+      "currentVersionReleaseDate": "2026-07-20T06:45:11Z",
+      "releaseDate": "2020-07-16T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Business"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6000"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/openigloo-nyc-apartment-finder/id1521697583?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "apartment comparison"
+    }
+  ],
+  "errors": [],
+  "fetched_at": "2026-07-27T14:29:43+08:00",
+  "cache_hit": false,
+  "cache_path": "/Users/zhoujinyu/.claude/app-factory/itunes_cache/6ee711945a61b115d4adadd5.json"
+}

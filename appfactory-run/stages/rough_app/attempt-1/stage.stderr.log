@@ -1,0 +1,906 @@
+Xcode 26.4.1
+Build version 17E202
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc
+appfactory-claude-kf-20260726T231103Z-266162ab
+batch-20260727-142530
+kf-20260727T062537Z-62cc68a6
+kf-20260727T064356Z-f1f46f7a
+kf-20260722T065221Z-94bb916c
+/Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Waitwise.xcodeproj
+/Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/project.yml
+appfactory-run
+build-smoke.log
+credential-packaging-receipt.json
+project.yml
+Sources
+Tests
+Waitwise
+Waitwise.storekit
+Waitwise.xcodeproj
+name: Waitwise
+options:
+  bundleIdPrefix: com.appfactory.waitwise
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  Waitwise:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Waitwise
+        excludes:
+          - "Info.plist"
+          - "PrivacyInfo.xcprivacy"
+    resources:
+      - Waitwise.storekit
+      - Waitwise/PrivacyInfo.xcprivacy
+    scheme:
+      storeKitConfiguration: Waitwise.storekit
+      testTargets:
+        - WaitwiseTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.appfactory.waitwise.app
+        PRODUCT_NAME: Waitwise
+        INFOPLIST_FILE: Waitwise/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_PREVIEWS: YES
+  WaitwiseTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/WaitwiseTests
+    dependencies:
+      - target: Waitwise
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.appfactory.waitwise.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Waitwise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Waitwise"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+---
+project.pbxproj
+project.xcworkspace
+xcshareddata
+---
+/opt/homebrew/bin/brew
+xcodegen not brew-installed
+-rw-r--r--@ 1 zhoujinyu  staff  4275931  7月 27 15:34 xcodegen.zip
+xcodegen-dist
+xcodegen-dist/xcodegen
+xcodegen-dist/xcodegen/LICENSE
+xcodegen-dist/xcodegen/bin
+xcodegen-dist/xcodegen/bin/xcodegen
+xcodegen-dist/xcodegen/install.sh
+xcodegen-dist/xcodegen/share
+xcodegen-dist/xcodegen/share/xcodegen
+Version: 2.43.0
+Sources/AppState.swift
+Sources/CoachService.swift
+Sources/CodingClient4599692e19f1.swift
+Sources/ContentLibrary.swift
+Sources/Envelope7a16ed59e087.swift
+Sources/LocalStore.swift
+Sources/Materiala97216cb4a24.swift
+Sources/Models.swift
+Sources/MotionLanguage.swift
+Sources/PremiumStore.swift
+Sources/SealedCoachProvider.swift
+Sources/Theme.swift
+Sources/Views/DrillViews.swift
+Sources/Views/ExportWaitMapView.swift
+Sources/Views/GuideViews.swift
+Sources/Views/LabViews.swift
+Sources/Views/PaywallView.swift
+Sources/Views/RecallViews.swift
+Sources/Views/RootTabView.swift
+Sources/Views/TileViews.swift
+Sources/WaitEngine.swift
+Sources/WaitwiseApp.swift
+Tests/WaitwiseTests/WaitwiseCoreTests.swift
+Waitwise/Assets.xcassets/AppIcon.appiconset/app_icon.png
+Waitwise/Assets.xcassets/AppIcon.appiconset/Contents.json
+Waitwise/Assets.xcassets/Contents.json
+Waitwise/Assets.xcassets/recall_empty_illustration.imageset/Contents.json
+Waitwise/Assets.xcassets/recall_empty_illustration.imageset/recall_empty_illustration.png
+Waitwise/Info.plist
+Waitwise/PrivacyInfo.xcprivacy
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Waitwise</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Waitwise uses the camera when you choose Capture table layout to attach a photo to this HandStudy while you enter its tiles.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Waitwise lets you choose a table-layout photo to attach to this HandStudy while you enter its tiles.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Waitwise saves the Wait Map you made from this hand to your photo library when you choose Save Wait Map.</string>
+</dict>
+</plist>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>C617.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
+{
+  "identifier" : "5E8F1A2B3C4D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "7C1A0B2D3E4F",
+      "localizations" : [
+        {
+          "description" : "One-time unlock: advanced shape packs, mixed-shape challenge packs, a personal custom Focus Deck, and expanded Guide chapters.",
+          "displayName" : "Tenpai Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "waitwise_tenpai_pro",
+      "referenceName" : "Tenpai Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
+===
+import Foundation
+import StoreKit
+
+/// Tenpai Pro — yanran-compatible StoreKit 2 non-consumable (PM Commerce card).
+/// Sells advanced shape packs, the mixed-shape challenge pack, the personal
+/// custom Focus Deck, and expanded Guide chapters. Never sells answers or AI
+/// access; the Foundation Drill → Wait Map → Recall loop is never gated.
+@MainActor
+final class PremiumStore: ObservableObject {
+    static let productID = "waitwise_tenpai_pro"
+
+    @Published private(set) var isPremium: Bool = false
+    @Published private(set) var product: Product?
+    @Published private(set) var loadFailed: Bool = false
+    @Published private(set) var purchaseInFlight: Bool = false
+    @Published private(set) var restoreInFlight: Bool = false
+
+    private var updatesTask: Task<Void, Never>?
+
+    init() {
+        updatesTask = Task { [weak self] in
+            await self?.listenForTransactions()
+        }
+        Task { await refresh() }
+    }
+
+    deinit {
+        updatesTask?.cancel()
+    }
+
+    func refresh() async {
+        await loadProduct()
+        await refreshEntitlement()
+    }
+
+    private func loadProduct() async {
+        do {
+            let products = try await Product.products(for: [Self.productID])
+            product = products.first
+            loadFailed = products.isEmpty
+        } catch {
+            product = nil
+            loadFailed = true
+        }
+    }
+
+    func refreshEntitlement() async {
+        var premium = false
+        for await result in Transaction.currentEntitlements {
+            if case .verified(let transaction) = result,
+               transaction.productID == Self.productID,
+               transaction.revocationDate == nil {
+                premium = true
+            }
+        }
+        isPremium = premium
+    }
+
+    enum PurchaseOutcome {
+        case purchased, cancelled, failed, unavailable
+    }
+
+    /// Purchase never mutates current practice state; entitlement flips only on
+    /// a verified transaction.
+    func purchase() async -> PurchaseOutcome {
+        guard let product else { return .unavailable }
+        purchaseInFlight = true
+        defer { purchaseInFlight = false }
+        do {
+            let result = try await product.purchase()
+            switch result {
+            case .success(let verification):
+                guard case .verified(let transaction) = verification else { return .failed }
+                await transaction.finish()
+                await refreshEntitlement()
+                return isPremium ? .purchased : .failed
+            case .userCancelled:
+                return .cancelled
+            case .pending:
+                return .cancelled
+            @unknown default:
+                return .failed
+            }
+        } catch {
+            return .failed
+        }
+    }
+
+    enum RestoreOutcome {
+        case restored, noPurchase, failed
+    }
+
+    func restore() async -> RestoreOutcome {
+        restoreInFlight = true
+        defer { restoreInFlight = false }
+        do {
+            try await AppStore.sync()
+        } catch {
+            await refreshEntitlement()
+            return isPremium ? .restored : .failed
+        }
+        await refreshEntitlement()
+        return isPremium ? .restored : .noPurchase
+    }
+
+    var priceText: String {
+        if let product { return product.displayPrice }
+        return loadFailed ? "Unavailable" : "…"
+    }
+
+    private func listenForTransactions() async {
+        for await result in Transaction.updates {
+            if case .verified(let transaction) = result {
+                await transaction.finish()
+                await refreshEntitlement()
+            }
+        }
+    }
+}
+{
+  "schema_version": "appfactory.finalgate.consumable_balance_catalog.v1",
+  "catalog_id": "yanran",
+  "version": "1.0.0",
+  "initial_balance": 100,
+  "products": [
+    {"product_id": "473900", "amount": 110, "reference_price": "$0.99", "promotion": false},
+    {"product_id": "473901", "amount": 210, "reference_price": "$1.99", "promotion": false},
+    {"product_id": "473902", "amount": 310, "reference_price": "$2.99", "promotion": false},
+    {"product_id": "473903", "amount": 400, "reference_price": "$3.99", "promotion": false},
+    {"product_id": "473904", "amount": 520, "reference_price": "$4.99", "promotion": false},
+    {"product_id": "473905", "amount": 630, "reference_price": "$5.99", "promotion": false},
+    {"product_id": "473906", "amount": 740, "reference_price": "$6.99", "promotion": false},
+    {"product_id": "473907", "amount": 1000, "reference_price": "$8.99", "promotion": false},
+    {"product_id": "473908", "amount": 1200, "reference_price": "$9.99", "promotion": false},
+    {"product_id": "473909", "amount": 1600, "reference_price": "$12.99", "promotion": false},
+    {"product_id": "473910", "amount": 2000, "reference_price": "$15.99", "promotion": false},
+    {"product_id": "473911", "amount": 2600, "reference_price": "$19.99", "promotion": false},
+    {"product_id": "473912", "amount": 3300, "reference_price": "$24.99", "promotion": false},
+    {"product_id": "473913", "amount": 4200, "reference_price": "$29.99", "promotion": false},
+    {"product_id": "473914", "amount": 4900, "reference_price": "$34.99", "promotion": false},
+    {"product_id": "473915", "amount": 6000, "reference_price": "$39.99", "promotion": false},
+    {"product_id": "473916", "amount": 8000, "reference_price": "$49.99", "promotion": false},
+    {"product_id": "473917", "amount": 14000, "reference_price": "$79.99", "promotion": false},
+    {"product_id": "473918", "amount": 14998, "reference_price": "$99.99", "promotion": false},
+    {"product_id": "473919", "amount": 520, "reference_price": "$1.99", "promotion": true},
+    {"product_id": "473920", "amount": 800, "reference_price": "$2.99", "promotion": true},
+    {"product_id": "473921", "amount": 1300, "reference_price": "$4.99", "promotion": true},
+    {"product_id": "473922", "amount": 1500, "reference_price": "$5.99", "promotion": true},
+    {"product_id": "473923", "amount": 2700, "reference_price": "$11.99", "promotion": true},
+    {"product_id": "473924", "amount": 2900, "reference_price": "$12.99", "promotion": true},
+    {"product_id": "473925", "amount": 7200, "reference_price": "$34.99", "promotion": true},
+    {"product_id": "473926", "amount": 17000, "reference_price": "$79.99", "promotion": true}
+  ]
+}
+import XCTest
+@testable import Waitwise
+
+/// Headless unit coverage for engine seeds, FocusCard lifecycle, coach daily
+/// quota, Premium product id, and privacy-boundary absences required by the
+/// checklist (`pm_acceptance:headless_build_and_tests`).
+final class WaitwiseCoreTests: XCTestCase {
+
+    // MARK: - Wait engine + seed content
+
+    func testRyanmenHandWaitsAndShape() throws {
+        // Same 13-tile layout as foundation ww-d1 (shapeTarget ryanmen).
+        let hand = try XCTUnwrap(ContentLibrary.drill(id: "ww-d1")).handTiles
+        let waits = Set(WaitEngine.winningTiles(for: hand))
+        XCTAssertFalse(waits.isEmpty)
+        XCTAssertTrue(waits.contains(Tile(suit: .sou, rank: 3)))
+        XCTAssertTrue(waits.contains(Tile(suit: .sou, rank: 6)))
+        let infos = WaitEngine.waitInfos(for: hand)
+        XCTAssertTrue(infos.contains { $0.shape == .ryanmen })
+    }
+
+    func testEverySeedDrillIsTenpaiAndHitsTargetShape() {
+        for drill in ContentLibrary.drills {
+            XCTAssertEqual(drill.handTiles.count, 13, drill.id)
+            let infos = WaitEngine.waitInfos(for: drill.handTiles)
+            XCTAssertFalse(infos.isEmpty, "\(drill.id) must be tenpai")
+            XCTAssertTrue(
+                infos.contains { $0.shape == drill.shapeTarget },
+                "\(drill.id) must include target shape \(drill.shapeTarget.rawValue)"
+            )
+            let counts = WaitEngine.counts(for: drill.handTiles)
+            XCTAssertTrue(counts.allSatisfy { $0 <= 4 }, "\(drill.id) 4-copy limit")
+        }
+    }
+
+    func testEvaluateSplitsCorrectMissedExtra() throws {
+        let d1 = try XCTUnwrap(ContentLibrary.drill(id: "ww-d1"))
+        let trueWaits = Set(WaitEngine.winningTiles(for: d1.handTiles))
+        XCTAssertFalse(trueWaits.isEmpty)
+
+        let oneCorrect = trueWaits.sorted().first!
+        let eval = WaitEngine.evaluate(
+            hand: d1.handTiles,
+            selected: [oneCorrect, Tile(suit: .man, rank: 1)],
+            declaredNoWaits: false
+        )
+        XCTAssertEqual(eval.correct, [oneCorrect])
+        XCTAssertEqual(Set(eval.missed), trueWaits.subtracting([oneCorrect]))
+        XCTAssertEqual(eval.extra, [Tile(suit: .man, rank: 1)])
+
+        let noWaits = WaitEngine.evaluate(hand: d1.handTiles, selected: [], declaredNoWaits: true)
+        XCTAssertEqual(Set(noWaits.missed), trueWaits)
+        XCTAssertTrue(noWaits.extra.isEmpty)
+        XCTAssertTrue(noWaits.correct.isEmpty)
+    }
+
+    func testGuideTopicsReferenceRealDrills() {
+        for topic in ContentLibrary.guideTopics {
+            if let id = topic.workedExampleDrillID {
+                XCTAssertNotNil(ContentLibrary.drill(id: id), "guide \(topic.id) -> \(id)")
+            }
+        }
+    }
+
+    // MARK: - FocusCard lifecycle + coach quota
+
+    @MainActor
+    func testFocusCardLifecycleAndPersonalCue() throws {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent("waitwise-tests-\(UUID().uuidString)", isDirectory: true)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let store = LocalStore(testingDirectory: root)
+
+        let hand = try XCTUnwrap(ContentLibrary.drill(id: "ww-d1")).handTiles
+        let attempt = DrillAttempt(
+            id: UUID(), drillID: "ww-d1", focusCardID: nil,
+            handTiles: hand,
+            selectedWaitTiles: [Tile(suit: .sou, rank: 3)],
+            declaredNoWaits: false,
+            correctTiles: [Tile(suit: .sou, rank: 3)],
+===
+import SwiftUI
+import UIKit
+
+/// PM design.md "Motion & interaction language" — shared motion tokens.
+/// Thesis: the user proofreads a hand tile by tile; motion only reveals changes
+/// in selection, relationship, and error position. No celebration, no loops.
+enum MotionLanguage {
+    /// tile_settle — 180ms easeOut: tiles settle into the board / result states land.
+    static let tileSettle = Animation.easeOut(duration: 0.18)
+    /// map_trace — 260ms easeInOut: Wait Map edges and legend trace relationships.
+    static let mapTrace = Animation.easeInOut(duration: 0.26)
+    /// cue_shift — 140ms light spring: FocusCard Due/Mastered pill and cue appearance.
+    static let cueShift = Animation.spring(response: 0.14, dampingFraction: 0.8)
+
+    /// Applies `animation` only when the user has not requested Reduce Motion.
+    /// Reduce Motion equivalents always update state instantly instead.
+    static func animation(_ animation: Animation, reduceMotion: Bool) -> Animation? {
+        reduceMotion ? nil : animation
+    }
+}
+
+enum WaitwiseHaptics {
+    /// haptic_select — single tile select / undo.
+    static func selection() {
+        UISelectionFeedbackGenerator().selectionChanged()
+    }
+
+    /// haptic_verdict — fired once per verdict: success for all-correct, warning for any miss.
+    static func verdict(allCorrect: Bool) {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(allCorrect ? .success : .warning)
+    }
+
+    /// draft-anchor — warning only for an invalid 13-tile check attempt.
+    static func invalidHand() {
+        UINotificationFeedbackGenerator().notificationOccurred(.warning)
+    }
+
+    /// recall-turn — success only when the card turns Mastered.
+    static func mastered() {
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
+    }
+}
+
+/// Shared "reduce motion aware" transition helpers.
+extension View {
+    /// Instant state change when Reduce Motion is on; animated otherwise.
+    func waitwiseAnimation(_ animation: Animation, value: some Equatable, reduceMotion: Bool) -> some View {
+        self.animation(MotionLanguage.animation(animation, reduceMotion: reduceMotion), value: value)
+    }
+import Foundation
+
+/// Local-first persistence (PM data-model.md): every entity lives on-device as
+/// JSON in the app sandbox. No account, no sync, no analytics.
+@MainActor
+final class LocalStore: ObservableObject {
+    @Published private(set) var attempts: [DrillAttempt] = []
+    @Published private(set) var focusCards: [FocusCard] = []
+    @Published private(set) var handStudies: [HandStudy] = []
+    @Published var draft: PracticeDraft = .empty { didSet { scheduleSave() } }
+    @Published private(set) var coachUsage = CoachUsage() { didSet { scheduleSave() } }
+
+    private let fileURL: URL
+    private var saveTask: Task<Void, Never>?
+
+    init() {
+        let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+        fileURL = dir.appendingPathComponent("waitwise-store.json")
+        load()
+    }
+
+    /// Isolated store for unit tests — never touches the live Documents JSON.
+    init(testingDirectory: URL) {
+        try? FileManager.default.createDirectory(at: testingDirectory, withIntermediateDirectories: true)
+        fileURL = testingDirectory.appendingPathComponent("waitwise-store.json")
+        // Start empty; do not load production state.
+    }
+
+    // MARK: - Snapshot files (TableSnapshot sandbox copies)
+
+    var snapshotDirectory: URL {
+        let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            .appendingPathComponent("snapshots", isDirectory: true)
+        try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        return dir
+    }
+
+    func snapshotURL(fileName: String) -> URL {
+        snapshotDirectory.appendingPathComponent(fileName)
+    }
+
+    func saveSnapshot(data: Data, source: String, altText: String) -> TableSnapshotInfo? {
+        let fileName = "snap-\(UUID().uuidString).jpg"
+        let url = snapshotURL(fileName: fileName)
+        do {
+            try data.write(to: url, options: .atomic)
+            return TableSnapshotInfo(fileName: fileName, source: source, createdAt: Date(), altText: altText)
+        } catch {
+            return nil
+        }
+    }
+
+    func deleteSnapshot(fileName: String) {
+        try? FileManager.default.removeItem(at: snapshotURL(fileName: fileName))
+    }
+
+    // MARK: - Attempts
+
+    @discardableResult
+    func recordAttempt(_ attempt: DrillAttempt) -> DrillAttempt {
+        attempts.insert(attempt, at: 0)
+        // Submitted: clear the matching preserved drill selection.
+        draft.drillSelections.removeValue(forKey: attempt.drillID)
+        scheduleSave()
+        return attempt
+    }
+
+    // MARK: - FocusCards
+
+    /// Add to Recall — explicit user action only; all-correct results never call this.
+    @discardableResult
+    func createFocusCard(fromAttempt attempt: DrillAttempt, shapeKey: ShapeKey) -> FocusCard {
+        if let existing = focusCards.first(where: { $0.sourceAttemptID == attempt.id }) {
+            return existing
+        }
+        let card = FocusCard(
+            id: UUID(), sourceAttemptID: attempt.id, handStudyID: nil,
+            handTiles: attempt.handTiles,
+            missedTileIDs: attempt.missedTiles, extraTileIDs: attempt.extraTiles,
+            shapeKey: shapeKey, dueState: .due, lastPracticedAt: nil,
+            masteryCount: 0, personalCue: nil)
+        focusCards.insert(card, at: 0)
+        scheduleSave()
+        return card
+    }
+
+    @discardableResult
+    func createFocusCard(fromStudy study: HandStudy, missed: [Tile], extra: [Tile], shapeKey: ShapeKey) -> FocusCard {
+        if let existing = focusCards.first(where: { $0.handStudyID == study.id }) {
+            return existing
+        }
+        let card = FocusCard(
+            id: UUID(), sourceAttemptID: nil, handStudyID: study.id,
+            handTiles: study.virtualTiles,
+            missedTileIDs: missed, extraTileIDs: extra,
+            shapeKey: shapeKey, dueState: .due, lastPracticedAt: nil,
+            masteryCount: 0, personalCue: nil)
+        focusCards.insert(card, at: 0)
+        scheduleSave()
+        return card
+===WC===
+      33 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/AppState.swift
+      76 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/CoachService.swift
+     212 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/CodingClient4599692e19f1.swift
+     137 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/ContentLibrary.swift
+      17 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Envelope7a16ed59e087.swift
+     219 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/LocalStore.swift
+      16 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Materiala97216cb4a24.swift
+     233 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Models.swift
+      51 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/MotionLanguage.swift
+     119 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/PremiumStore.swift
+      31 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/SealedCoachProvider.swift
+      70 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Theme.swift
+     223 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/WaitEngine.swift
+      31 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/WaitwiseApp.swift
+     736 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/DrillViews.swift
+     146 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/ExportWaitMapView.swift
+     378 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/GuideViews.swift
+     702 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/LabViews.swift
+     153 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/PaywallView.swift
+     470 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/RecallViews.swift
+      25 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/RootTabView.swift
+     387 /Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/TileViews.swift
+    4465 total
+160:        XCTAssertNil(bundle.object(forInfoDictionaryKey: "NSMicrophoneUsageDescription"))
+161:        XCTAssertNil(bundle.object(forInfoDictionaryKey: "NSUserTrackingUsageDescription"))
+===
+            correctTiles: [Tile(suit: .sou, rank: 3)],
+            missedTiles: [Tile(suit: .sou, rank: 6)],
+            extraTiles: [],
+            shapeKeys: [.ryanmen],
+            completedAt: Date()
+        )
+        store.recordAttempt(attempt)
+        XCTAssertEqual(store.attempts.count, 1)
+
+        let card = store.createFocusCard(fromAttempt: attempt, shapeKey: .ryanmen)
+        XCTAssertEqual(card.dueState, .due)
+        XCTAssertEqual(store.focusCards.count, 1)
+        // Idempotent create from the same attempt.
+        let again = store.createFocusCard(fromAttempt: attempt, shapeKey: .ryanmen)
+        XCTAssertEqual(again.id, card.id)
+        XCTAssertEqual(store.focusCards.count, 1)
+
+        var mastered = card
+        mastered.dueState = .mastered
+        mastered.masteryCount = 1
+        mastered.personalCue = "Watch the open-ended bamboo pair."
+        store.updateFocusCard(mastered)
+        XCTAssertEqual(store.focusCards.first?.dueState, .mastered)
+        XCTAssertEqual(store.focusCards.first?.personalCue, "Watch the open-ended bamboo pair.")
+
+        store.deleteFocusCard(id: card.id)
+        XCTAssertTrue(store.focusCards.isEmpty)
+    }
+
+    @MainActor
+    func testCoachDailyLimitCountsOnlySuccessfulResults() {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent("waitwise-coach-\(UUID().uuidString)", isDirectory: true)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let store = LocalStore(testingDirectory: root)
+
+        XCTAssertEqual(LocalStore.coachDailyLimit, 3)
+        XCTAssertEqual(store.coachUsesRemainingToday, 3)
+        store.recordSuccessfulCoachResult()
+        store.recordSuccessfulCoachResult()
+        XCTAssertEqual(store.coachUsesRemainingToday, 1)
+        store.recordSuccessfulCoachResult()
+        XCTAssertEqual(store.coachUsesRemainingToday, 0)
+        store.recordSuccessfulCoachResult()
+        XCTAssertEqual(store.coachUsesRemainingToday, 0)
+    }
+
+    @MainActor
+    func testPracticeDraftSurvivesAcrossWrites() {
+        let root = FileManager.default.temporaryDirectory
+            .appendingPathComponent("waitwise-draft-\(UUID().uuidString)", isDirectory: true)
+        defer { try? FileManager.default.removeItem(at: root) }
+        let store = LocalStore(testingDirectory: root)
+        store.draft.drillSelections["ww-d1"] = DrillSelectionDraft(
+            selectedTiles: [Tile(suit: .sou, rank: 3)],
+            declaredNoWaits: false
+        )
+        XCTAssertEqual(store.draft.drillSelections["ww-d1"]?.selectedTiles.count, 1)
+    }
+
+    // MARK: - Premium + privacy boundaries
+
+    @MainActor
+    func testPremiumProductIDIsNonConsumableContract() {
+        XCTAssertEqual(PremiumStore.productID, "waitwise_tenpai_pro")
+    }
+
+    func testInfoPlistDeclaresCameraAndPhotoOnly() throws {
+        let bundle = Bundle.main
+        let camera = bundle.object(forInfoDictionaryKey: "NSCameraUsageDescription") as? String
+        let photoRead = bundle.object(forInfoDictionaryKey: "NSPhotoLibraryUsageDescription") as? String
+        let photoWrite = bundle.object(forInfoDictionaryKey: "NSPhotoLibraryAddUsageDescription") as? String
+        XCTAssertNotNil(camera)
+        XCTAssertTrue(
+            camera?.localizedCaseInsensitiveContains("table") == true
+            || camera?.localizedCaseInsensitiveContains("HandStudy") == true
+            || camera?.localizedCaseInsensitiveContains("Capture") == true
+        )
+        XCTAssertNotNil(photoRead)
+        XCTAssertNotNil(photoWrite)
+        XCTAssertNil(bundle.object(forInfoDictionaryKey: "NSMicrophoneUsageDescription"))
+        XCTAssertNil(bundle.object(forInfoDictionaryKey: "NSUserTrackingUsageDescription"))
+    }
+}
+/Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/GuideViews.swift:240:            case .privacyPolicy: return URL(string: "https://waitwise.app/privacy")!
+/Volumes/zjySD/claude-app-factory/runs/appfactory-claude-kf-20260726T231103Z-266162ab/Sources/Views/GuideViews.swift:241:            case .userAgreement: return URL(string: "https://waitwise.app/terms")!
+===
+import SwiftUI
+
+@main
+struct WaitwiseApp: App {
+    @StateObject private var appState = AppState()
+
+    var body: some Scene {
+        WindowGroup {
+            RootTabView()
+                .environmentObject(appState)
+                .environmentObject(appState.store)
+                .environmentObject(appState.premium)
+                .onAppear {
+                    CoachBootstrap.registerIfAvailable()
+                }
+        }
+    }
+}
+
+/// Registers the sealed Coach provider when the credential package generated a
+/// client; otherwise the drill-result surface stays on the free local cue.
+enum CoachBootstrap {
+    @MainActor
+    static func registerIfAvailable() {
+        #if canImport(Foundation)
+        if let provider = SealedCoachProviderFactory.makeIfAvailable() {
+            CoachProviderRegistry.provider = provider
+        }
+        #endif
+    }
+}
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_visuals/attempt-2/slots/app_icon.png
+  /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Assets.xcassets/AppIcon.appiconset/app_icon.png
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Assets.xcassets/AppIcon.appiconset/app_icon.png
+  pixelWidth: 1024
+  pixelHeight: 1024
+14:    @State private var walkthroughViewingId: UUID? = nil
+88:                    walkthroughViewingId = created.id
+91:            .fullScreenCover(item: $walkthroughViewingId) { viewingId in
+⚙️  Generating plists...
+⚙️  Generating project...
+⚙️  Writing project...
+Created project at /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise.xcodeproj
+    iPhone 16 Pro Max (FA8B0BD4-6453-4190-A3DE-BACD3664EC2E) (Shutdown) 
+    iPhone 16 Pro Max 2 (2AD52339-10DC-4625-9178-3210686CAE32) (Booted) 
+    iPhone SE (2nd generation) (9D366A61-1AD6-4232-B749-808F902EFACA) (Shutdown) 
+Copy /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftmodule (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftmodule /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftdoc (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftdoc /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.abi.json /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.abi.json (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.abi.json /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftsourceinfo (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/Objects-normal/arm64/TourWise.swiftsourceinfo /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+ProcessInfoPlistFile /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/Info.plist /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Info.plist (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    builtin-infoPlistUtility /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/TourWise/Info.plist -producttype com.apple.product-type.application -genpkginfo /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Intermediates.noindex/TourWise.build/Debug-iphonesimulator/TourWise.build/assetcatalog_generated_info.plist -o /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.build/DerivedData/Build/Products/Debug-iphonesimulator/TourWise.app/Info.plist
+
+SwiftCompile normal arm64 Compiling\ AppState.swift,\ CompareViews.swift /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/AppState.swift /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/Views/CompareViews.swift (in target 'TourWise' from project 'TourWise')
+
+SwiftCompile normal arm64 /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/AppState.swift (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    
+
+SwiftCompile normal arm64 /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/Views/CompareViews.swift (in target 'TourWise' from project 'TourWise')
+    cd /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling CreditStore.swift, CriteriaViews.swift (in target 'TourWise' from project 'TourWise')
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 Compiling\ LocalStore.swift,\ Models.swift /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/LocalStore.swift /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/Models.swift (in target 'TourWise' from project 'TourWise')
+	SwiftCompile normal arm64 /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/LocalStore.swift (in target 'TourWise' from project 'TourWise')
+	Building project TourWise with scheme TourWise
+(3 failures)
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/LocalStore.swift:141:70: error: value of type '@MainActor (UUID) -> Viewing?' has no member 'idString'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:63:64: error: value of type 'UIBezierPath' has no member 'setFill'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:84:62: error: value of type 'UIBezierPath' has no member 'setFill'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:89:141: error: value of type 'UIBezierPath' has no member 'setFill'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:121:74: error: value of type 'UIBezierPath' has no member 'setFill'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:144:67: error: value of type 'UIBezierPath' has no member 'setFill'
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/Sources/VerdictRenderer.swift:149:143: error: value of type 'UIBezierPath' has no member 'setFill'
+** BUILD FAILED **
+48:        paper.setFill()
+55:        panel.setFill()
+63:        UIBezierPath(roundedRect: badgeRect, cornerRadius: 20).setFill()
+64:        brass.setFill()
+84:        UIBezierPath(roundedRect: barRect, cornerRadius: 13).setFill()
+85:        track.setFill()
+89:            UIBezierPath(roundedRect: CGRect(x: barRect.minX, y: barRect.minY, width: fillWidth, height: barRect.height), cornerRadius: 13).setFill()
+90:            brass.setFill()
+121:                    UIBezierPath(roundedRect: rotated, cornerRadius: 18).setFill()
+122:                    track.setFill()
+144:            UIBezierPath(roundedRect: railRect, cornerRadius: 12).setFill()
+145:            track.setFill()
+149:                UIBezierPath(roundedRect: CGRect(x: railRect.minX, y: railRect.minY, width: fill, height: railRect.height), cornerRadius: 12).setFill()
+150:                sage.setFill()
+48:        paper.setFill()
+55:        panel.setFill()
+63:        brass.setFill()
+83:        track.setFill()
+87:            brass.setFill()
+118:                    track.setFill()
+140:            track.setFill()
+144:                sage.setFill()
+** BUILD SUCCEEDED **
+--- Open Settings ---
+Sources/PermissionCenter.swift:8:/// NO "Open Settings" path anywhere in this product: denial keeps the user
+--- Mic/ATT APIs ---
+CLEAN
+--- Restore purchases ---
+Sources/VerdictRenderer.swift:57:        context.restoreGState()
+Sources/VerdictRenderer.swift:115:                    context.restoreGState()
+Sources/VerdictRenderer.swift:128:                context.restoreGState()
+Sources/LocalStore.swift:4:/// Walkthrough resume snapshot (PM routes: Resume Walkthrough restores the
+Sources/CreditStore.swift:7:/// Consumable semantics: NO Restore Purchases, no subscription, no unlock copy.
+Sources/Views/PaywallView.swift:8:/// Restore Purchases entry, no subscription/unlock copy, product IDs never
+--- subscription/unlock copy ---
+Sources/CreditStore.swift:7:/// Consumable semantics: NO Restore Purchases, no subscription, no unlock copy.
+Sources/Views/PaywallView.swift:8:/// Restore Purchases entry, no subscription/unlock copy, product IDs never
+com.appfactory.tourwise.app: 73403
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: F272A2D6-692C-481E-88E2-C4B616C76F3F (screenID: 1, name: LCD)
+Wrote screenshot to: /tmp/tourwise_home.png
+SHOT_OK
+origin	https://github.com/wangrenzhu-ola/appfactory-claude-kf-20260726T231103Z-266162ab.git (fetch)
+origin	https://github.com/wangrenzhu-ola/appfactory-claude-kf-20260726T231103Z-266162ab.git (push)
+e12a648 chore(appfactory): publish full run context for kf-20260726T231103Z-266162ab after delivery
+acc5db8 chore(appfactory): publish full run context for kf-20260726T231103Z-266162ab after verification
+4ba6010 chore(appfactory): publish full run context for kf-20260726T231103Z-266162ab after full_rewrite
+---
+github.com
+  ✓ Logged in to github.com account zjyzhj (keyring)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+已初始化空的 Git 仓库于 /Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product/.git/
+ create mode 100644 TourWise/PrivacyInfo.xcprivacy
+ create mode 100644 project.yml
+Flag --confirm has been deprecated, Pass any argument to skip confirmation prompt
+GraphQL: zjyzhj cannot create a repository for wangrenzhu-ola. (createRepository)
+https://github.com/zjyzhj/appfactory-claude-kf-20260727T062537Z-62cc68a6
+To https://github.com/zjyzhj/appfactory-claude-kf-20260727T062537Z-62cc68a6.git
+ * [new branch]      main -> main
+分支 'main' 设置为跟踪 'origin/main'。
+build exit: 0
+
+screenshot copied
+ac95bbe feat(tourwise): rough_app attempt-1 — full SwiftUI package from PM attempt-2 manual
+---
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/:
+logs
+MAP.md
+MAP.progress.md
+prompt.md
+stage.events.jsonl
+stage.stderr.log
+
+/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/logs/:
+build.log
+smoke_home_empty.png
+test.log

@@ -1,0 +1,11 @@
+{
+  "candidate_id": "paint-mix-01",
+  "one_liner": "Offline paint mixing workbench: build recipes from your own tubes, compute ratios to hit a target color, save and scale mixes",
+  "target_user": "watercolor, gouache and acrylic painters who mix colors by hand",
+  "core_job": "paint color mixing recipe calculator with personal tube palette",
+  "domain_objects": ["tube", "recipe", "mix", "swatch"],
+  "primary_interaction": "pick target color -> get ratio recipe from owned tubes -> save and scale the mix",
+  "wedge_hypothesis": "existing color-mixing apps are generic color pickers or games; painters need tube-bound ratio math, offline in the studio",
+  "query_seeds": ["paint mixing", "color mixer paint", "watercolor mixing", "paint recipe"],
+  "locale": "us"
+}

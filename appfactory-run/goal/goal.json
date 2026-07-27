@@ -1,0 +1,11 @@
+{
+  "acceptance_policy": {
+    "mode": "runtime_verification_required"
+  },
+  "factory_version": "1.2.1",
+  "locked_at": "2026-07-27T06:25:37Z",
+  "objective": "由 PMAgent 基于真实市场证据自主选定有差异化机会的 iOS 本地零账号 App 产品方向",
+  "requested_count": 1,
+  "run_id": "kf-20260727T062537Z-62cc68a6",
+  "schema_version": "claude-app-factory.goal-lock.v1"
+}

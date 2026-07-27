@@ -1,0 +1,17 @@
+{"event": "run_created", "run_id": "kf-20260727T062537Z-62cc68a6", "ts": "2026-07-27T06:25:37Z"}
+{"event": "milestone_validated", "milestone": "goal", "ts": "2026-07-27T06:25:37Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "pm_docs", "ts": "2026-07-27T06:25:46Z"}
+{"event": "milestone_validated", "milestone": "pm_docs", "ts": "2026-07-27T06:43:42Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "pm_visuals", "ts": "2026-07-27T06:44:59Z"}
+{"event": "milestone_validated", "milestone": "pm_visuals", "ts": "2026-07-27T07:05:25Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "checklist", "ts": "2026-07-27T07:05:49Z"}
+{"event": "milestone_validated", "milestone": "checklist", "ts": "2026-07-27T07:14:23Z"}
+{"event": "milestone_retry_from", "milestone": "pm_docs", "reason": "graph product_shape refine: checklist g1 IAP 文案与 yanran 目录冲突(10/30 两档 seed 3 → 473900/473901 initial 100),feedback=Gaps 字面", "reset": ["pm_docs", "pm_visuals", "checklist"], "ts": "2026-07-27T07:15:35Z"}
+{"attempt": 2, "event": "milestone_attempt", "milestone": "pm_docs", "ts": "2026-07-27T07:15:47Z"}
+{"event": "milestone_validated", "milestone": "pm_docs", "ts": "2026-07-27T07:20:04Z"}
+{"attempt": 2, "event": "milestone_attempt", "milestone": "pm_visuals", "ts": "2026-07-27T07:20:04Z"}
+{"event": "milestone_validated", "milestone": "pm_visuals", "ts": "2026-07-27T07:26:30Z"}
+{"attempt": 2, "event": "milestone_attempt", "milestone": "checklist", "ts": "2026-07-27T07:26:30Z"}
+{"event": "milestone_validated", "milestone": "checklist", "ts": "2026-07-27T07:29:31Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "rough_app", "ts": "2026-07-27T07:29:31Z"}
+{"event": "milestone_validated", "milestone": "rough_app", "ts": "2026-07-27T08:33:04Z"}

@@ -1,0 +1,12 @@
+{
+  "bundle_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/factory/pm_dedupe/pm_docs_candidate.json",
+  "bundle_sha256": "33b53ebce42b1d081b759c544beceed5acf28a8b64b57655d950d3c96a4b0a72",
+  "committed_at": "2026-07-27T15:20:04+08:00",
+  "jsonl_memory_deduped": true,
+  "reservation_id": "82575e90060ad4ea3ad74e02",
+  "reservation_receipt_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/factory/pm_dedupe/pm_docs_candidate.dedupe_receipt.v1.json",
+  "reservation_receipt_sha256": "ebe829268c446201e50167f6317ce8bfdd1fdd3b868c93d1ef2fc3cd20afcf19",
+  "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_docs/attempt-2/MAP.md",
+  "schema_version": "appfactory.pmagent-dedupe-commit-receipt.v1",
+  "status": "PASS"
+}

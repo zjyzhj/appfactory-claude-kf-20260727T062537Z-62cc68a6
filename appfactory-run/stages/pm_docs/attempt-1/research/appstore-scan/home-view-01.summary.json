@@ -1,0 +1,93 @@
+{
+  "candidate_id": "home-view-01",
+  "verdict": "proceed_narrow_wedge",
+  "axes": {
+    "collision": {
+      "level": "med",
+      "notes": "active L2=1 L3=0 L1=5; zombies=2",
+      "nearest_clones": [
+        {
+          "name": "Home Hunter - Smart Checklist",
+          "trackId": 6754038639,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/home-hunter-smart-checklist/id6754038639?uo=4",
+          "ratingCount": 0
+        },
+        {
+          "name": "HotPads - Apartment Rentals",
+          "trackId": 345957475,
+          "layer": "L1",
+          "url": "https://apps.apple.com/us/app/hotpads-apartment-rentals/id345957475?uo=4",
+          "ratingCount": 108928
+        },
+        {
+          "name": "Zumper - Apartment Finder",
+          "trackId": 678683201,
+          "layer": "L1",
+          "url": "https://apps.apple.com/us/app/zumper-apartment-finder/id678683201?uo=4",
+          "ratingCount": 64196
+        },
+        {
+          "name": "This Old House",
+          "trackId": 1477403391,
+          "layer": "L1",
+          "url": "https://apps.apple.com/us/app/this-old-house/id1477403391?uo=4",
+          "ratingCount": 480
+        },
+        {
+          "name": "Open House App",
+          "trackId": 899726785,
+          "layer": "L1",
+          "url": "https://apps.apple.com/us/app/open-house-app/id899726785?uo=4",
+          "ratingCount": 334
+        }
+      ]
+    },
+    "heat": {
+      "band": "red",
+      "head_structure": "concentrated",
+      "moat_types": [
+        "network",
+        "ugc"
+      ],
+      "zombie_ratio": 0.0667,
+      "top1_rating_count": 108928,
+      "active_recent_count": 3,
+      "notes": "pool=6 top1=108928 top3_sum=173604"
+    },
+    "survivability": {
+      "band": "med",
+      "needs_network_for_aha": false,
+      "underserved_moment": "people rely on memory and scattered photos; existing apps are realtor CRMs or generic checklists, not decision compare",
+      "wedge_vs_top_n": [
+        {
+          "name": "Home Hunter - Smart Checklist",
+          "trackId": 6754038639,
+          "url": "https://apps.apple.com/us/app/home-hunter-smart-checklist/id6754038639?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "HotPads - Apartment Rentals",
+          "trackId": 345957475,
+          "url": "https://apps.apple.com/us/app/hotpads-apartment-rentals/id345957475?uo=4",
+          "note": "wedge moment not evident in listing; primary interaction not mirrored"
+        },
+        {
+          "name": "Zumper - Apartment Finder",
+          "trackId": 678683201,
+          "url": "https://apps.apple.com/us/app/zumper-apartment-finder/id678683201?uo=4",
+          "note": "primary interaction not mirrored"
+        }
+      ],
+      "notes": "factory v0 is local zero-account; network moats are hostile"
+    },
+    "verdict": "proceed_narrow_wedge",
+    "required_actions": [
+      "Document wedge_vs_top_n with real trackId/url in research and product.md stance",
+      "Office Hours must challenge whether the wedge is real vs Top-N"
+    ],
+    "blockers": []
+  },
+  "evidence_count": 30,
+  "markdown_path": "research/appstore-scan/home-view-01.md"
+}

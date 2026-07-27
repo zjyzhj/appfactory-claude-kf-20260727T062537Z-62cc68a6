@@ -1,0 +1,14 @@
+{
+  "backend": "claude_gpt_image_http_factory_relay",
+  "code": "ok",
+  "content_type": "image/png",
+  "height": 1825,
+  "model": "gpt-image-2",
+  "ok": true,
+  "output_bytes": 1767113,
+  "output_path": "frames/frame_verdict.png",
+  "output_sha256": "a72fd4d3d121c6b84a0528c830407c616a2a20ab0f6b367f34db1a2da5d2ade0",
+  "requested_size": "862x1825",
+  "timestamp": "2026-07-27T06:59:48Z",
+  "width": 862
+}

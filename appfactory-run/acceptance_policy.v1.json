@@ -1,0 +1,21 @@
+{
+  "authorization": {
+    "id": "appfactory-runtime-verification-v1",
+    "type": "system_default"
+  },
+  "mode": "runtime_verification_required",
+  "required_source_proofs": [
+    "xcode_source_build",
+    "source_unit_tests",
+    "source_artifact"
+  ],
+  "schema_version": "appfactory.acceptance-policy.v1",
+  "simulator_runtime": {
+    "accepted": false,
+    "claimed_pass": false,
+    "evidence_skill": "ios_runtime_acceptance",
+    "must_not_claim_pass": false,
+    "required": true,
+    "status": "REQUIRED"
+  }
+}

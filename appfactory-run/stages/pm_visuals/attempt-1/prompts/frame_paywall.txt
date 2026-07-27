@@ -1,0 +1,15 @@
+A high-fidelity iPhone app UI design mockup, full-screen portrait composition, flat product-design screenshot style (not a photo of a phone).
+
+App: "TourWise" — a house-viewing decision assistant. Visual direction: "evidence board on warm paper". Warm paper background #F6F1E7 covering the whole screen, white cards #FFFFFF, ink text #2B2620, brass accent #B4762A, sage accent #6E7F5C. System sans-serif type.
+
+Screen: "Export Credits" purchase sheet (consumable credits, NOT a subscription). Layout skeleton:
+- Top: navigation bar with title "Export Credits" and a small close X on the right.
+- A balance card: "Balance" label with a large tabular number "2" credits, a thin brass underline.
+- Two product cards stacked, each a white card with 14pt radius:
+  - Card A: "1 Export Credit" — right-aligned price "$0.99", small caption "One Verdict card export".
+  - Card B: "5 Export Credits" — price "$3.99", small caption "Best value · five exports", with a small sage "Best value" pill.
+- A short plain-language note block: "Credits never expire. Exports are rendered on-device; nothing leaves your phone."
+- Bottom: a quiet text link "Restore Purchases".
+
+Density: low. Calm, honest, no pressure tactics.
+Avoid: subscription wording ("monthly", "plan", "auto-renew"), countdown timers, dark patterns, aggressive red, cold blue SaaS checkout look, dark mode.

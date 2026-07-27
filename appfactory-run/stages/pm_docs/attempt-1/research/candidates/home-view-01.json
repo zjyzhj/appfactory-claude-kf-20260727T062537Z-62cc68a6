@@ -1,0 +1,11 @@
+{
+  "candidate_id": "home-view-01",
+  "one_liner": "Offline apartment/house viewing decision assistant: room-by-room scorecards with photo evidence, weighted side-by-side comparison, verdict",
+  "target_user": "renters and buyers visiting multiple properties before deciding",
+  "core_job": "compare apartment viewings with weighted scorecard to choose",
+  "domain_objects": ["viewing", "room", "criterion", "photo", "verdict"],
+  "primary_interaction": "score rooms during the visit -> weighted ranking across viewings -> pick a winner",
+  "wedge_hypothesis": "people rely on memory and scattered photos; existing apps are realtor CRMs or generic checklists, not decision compare",
+  "query_seeds": ["house viewing checklist", "apartment comparison", "home buyer checklist", "flat hunting"],
+  "locale": "us"
+}

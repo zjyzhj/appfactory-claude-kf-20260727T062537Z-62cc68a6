@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "blockers": [],
+  "business": "pass",
+  "exec": {
+    "command_preview": [
+      "/Users/zhoujinyu/.kimi-code/bin/kimi",
+      "-p",
+      "<prompt>",
+      "--output-format",
+      "stream-json",
+      "-m",
+      "kimi-code/k3",
+      "--add-dir",
+      "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/product",
+      "--add-dir",
+      "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_visuals/attempt-2",
+      "--skills-dir",
+      "/Volumes/zjySD/claude-app-factory/skills",
+      "--skills-dir",
+      "/Volumes/zjySD/claude-app-factory/factory/skills"
+    ],
+    "duration_seconds": 3762.8,
+    "events_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/stage.events.jsonl",
+    "exit_code": 0,
+    "model": {
+      "alias": "kimi-code/k3",
+      "channel": "kimi",
+      "effort": "max",
+      "mode": "kimi",
+      "note": "rough_app: kimi CLI -p -m kimi-code/k3 (config permission_mode=auto)"
+    },
+    "runner": "kimi_cli",
+    "stderr_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/stage.stderr.log",
+    "timed_out": false
+  },
+  "map_present": true,
+  "ok": true,
+  "result_ref": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/rough_app/attempt-1/MAP.md",
+  "result_sha256": "3b33e48d233e62fcdd6aaa9278944ad6b590a929425f060ddf2554c378df590e"
+}

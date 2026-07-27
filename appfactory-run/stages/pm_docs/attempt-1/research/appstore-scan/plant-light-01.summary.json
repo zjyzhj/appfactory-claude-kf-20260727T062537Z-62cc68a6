@@ -1,0 +1,92 @@
+{
+  "candidate_id": "plant-light-01",
+  "verdict": "reject_saturated_clone",
+  "axes": {
+    "collision": {
+      "level": "high",
+      "notes": "active L2=4 L3=7 L1=18; zombies=1",
+      "nearest_clones": [
+        {
+          "name": "PictureThis - Plant Identifier",
+          "trackId": 1252497129,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129?uo=4",
+          "ratingCount": 1099939
+        },
+        {
+          "name": "Planta: Plant & Garden Care",
+          "trackId": 1410126781,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781?uo=4",
+          "ratingCount": 112452
+        },
+        {
+          "name": "Plantion - Plant Identifier",
+          "trackId": 1673397906,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/plantion-plant-identifier/id1673397906?uo=4",
+          "ratingCount": 9689
+        },
+        {
+          "name": "Photone - Grow Light Meter",
+          "trackId": 1450079523,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/photone-grow-light-meter/id1450079523?uo=4",
+          "ratingCount": 4874
+        },
+        {
+          "name": "Light Meter LM-3000",
+          "trackId": 1554264761,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/light-meter-lm-3000/id1554264761?uo=4",
+          "ratingCount": 2530
+        }
+      ]
+    },
+    "heat": {
+      "band": "red",
+      "head_structure": "concentrated",
+      "moat_types": [
+        "network",
+        "hardware"
+      ],
+      "zombie_ratio": 0.0333,
+      "top1_rating_count": 1099939,
+      "active_recent_count": 14,
+      "notes": "pool=29 top1=1099939 top3_sum=1222080"
+    },
+    "survivability": {
+      "band": "low",
+      "needs_network_for_aha": false,
+      "underserved_moment": "generic lux meters ignore plants; plant apps are watering reminders; nobody answers 'will this spot keep this plant alive' live",
+      "wedge_vs_top_n": [
+        {
+          "name": "PictureThis - Plant Identifier",
+          "trackId": 1252497129,
+          "url": "https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "Planta: Plant & Garden Care",
+          "trackId": 1410126781,
+          "url": "https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "Plantion - Plant Identifier",
+          "trackId": 1673397906,
+          "url": "https://apps.apple.com/us/app/plantion-plant-identifier/id1673397906?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        }
+      ],
+      "notes": "factory v0 is local zero-account; network moats are hostile"
+    },
+    "verdict": "reject_saturated_clone",
+    "required_actions": [
+      "Drop this candidate; pick next shortlist item"
+    ],
+    "blockers": []
+  },
+  "evidence_count": 30,
+  "markdown_path": "/Volumes/zjySD/claude-app-factory/runs/kf-20260727T062537Z-62cc68a6/stages/pm_docs/attempt-1/research/appstore-scan/plant-light-01.md"
+}

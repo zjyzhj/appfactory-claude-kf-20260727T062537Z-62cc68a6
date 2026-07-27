@@ -1,0 +1,11 @@
+{
+  "candidate_id": "stitch-gauge-01",
+  "one_liner": "Offline multi-mode knitting/crochet workshop tool: gauge converter, yardage estimator, size grader and multi-project row counters",
+  "target_user": "knitters and crocheters adapting patterns to their own gauge and yarn",
+  "core_job": "convert knitting gauge and estimate yardage for pattern adaptation",
+  "domain_objects": ["gauge swatch", "project", "counter", "yarn"],
+  "primary_interaction": "enter measurements -> get converted numbers -> keep per-project counters",
+  "wedge_hypothesis": "serious knitters juggle gauge math + multiple WIP counters; existing apps are account-based social trackers or single-purpose calculators",
+  "query_seeds": ["knitting gauge calculator", "crochet stitch counter", "knitting row counter", "yarn yardage calculator"],
+  "locale": "us"
+}

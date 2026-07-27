@@ -1,0 +1,15 @@
+A high-fidelity iPhone app UI design mockup, full-screen portrait composition, flat product-design screenshot style (not a photo of a phone).
+
+App: "TourWise" — a house-viewing decision assistant. Visual direction: "evidence board on warm paper". Warm paper background #F6F1E7 covering the whole screen, white cards #FFFFFF, ink text #2B2620, brass accent #B4762A, sage accent #6E7F5C. System sans-serif, confident serif-like data typography feel for the big numbers, tabular figures.
+
+Screen: "Verdict card" preview. Layout skeleton:
+- Centered verdict card occupying about 60% of screen height, white card with 14pt corner radius and a soft shadow, looking like a printed decision card laid on the paper desk:
+  - Card header: brass #1 badge and title "Verdict: Maple St 2B".
+  - A large weighted score "4.3" with a small "/ 5" and a horizontal score bar on a #E4DCCB track.
+  - A small strip of three tiny polaroid evidence photos (kitchen, window light, street) slightly tilted.
+  - Two compact comparison rows beneath: "Oak Ave 3.9" and "Cedar Ln 3.4" with thin bars.
+  - A short one-line rationale: "Best light + quiet; commute trade-off accepted."
+- Below the card: two buttons side by side — secondary outline "Save" and brass primary "Share".
+
+Density: medium. The card is the single hero; background stays calm paper.
+Avoid: system alert/modal look, confetti, fireworks, dark mode, cold blue, marketing-poster style.

@@ -1,0 +1,830 @@
+{
+  "schema_version": "appfactory.itunes_search_raw.v1",
+  "status": "ok",
+  "country": "us",
+  "seeds": [
+    "paint mixing",
+    "color mixer paint",
+    "watercolor mixing",
+    "paint recipe",
+    "paint color mixing recipe calculator with personal tube palette"
+  ],
+  "limit_per_seed": 25,
+  "cap": 30,
+  "per_seed": [
+    {
+      "term": "paint mixing",
+      "result_count": 23,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "color mixer paint",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "watercolor mixing",
+      "result_count": 22,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "paint recipe",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "paint color mixing recipe calculator with personal tube palette",
+      "result_count": 22,
+      "http_status": 200,
+      "error": null
+    }
+  ],
+  "results": [
+    {
+      "trackId": 1517758900,
+      "trackName": "Real Color Mixer",
+      "bundleId": "pl.apelgrim.colormixer",
+      "sellerName": "Maciej Wilanowski",
+      "description": "Unlock the perfect palette with Real Color Mixer. Whether you are a professional artist, a student, or a DIY hobbyist, Real Color Mixer provides a professional-grade paint mixing simulation. Unlike standard digital tools that use RGB (light) mixing, our app uses a sophisticated light-spectrum model to simulate physical paint mixing (subtractive color). Stop wasting expensive materials. Now you can preview exactly how your oil, acrylic, or watercolor paints will behave in different proportions before you ever touch a brush. Key Features: - Realistic Paint Mixing: Simulate real-world results—mixing Red, Green, and Blue won't give you white; it creates the deep, earthy tones found in real pigments. - Comprehensive Color Database: Access a built-in library of 430 predefined colors. - Smart Color Calculator: Input your desired volume (Liters, Gallons, Fluid Ounces, Pints) and let the app calculate the exact paint ratios needed for your project. - Color Matcher: Use the \"Find Mixture\" tool to reverse-engineer a specific target color from your existing palette. - Image Color Picker: Upload a photo and use the eyedropper tool to extract colors and start mixing them immediately. - Custom Palettes: Organize your workflow by saving up to 40 mixed colors per palette and managing up to 12 colors in your active mixer panel. Advanced Art Tools: - Texture & Brush Control: Customize the form and texture of your brush for a more realistic painting preview. - Flexible Ratios: Effortlessly adjust mixing proportions with a single tap or long-press for bulk adjustments (+/- 10 units). - Import & Export: Seamlessly share your palette with other devices or artists. - Search Accuracy: Fine-tune the color search settings to get the most precise results for your specific target color. Perfect for: - Artists: Preview oil or acrylic mixtures without wasting paint. - Interior Designers: Find the right shade for your next project. - Teachers & Students: Explore color theory and the physics of light absorption and reflection.",
+      "averageUserRating": 3.94444,
+      "userRatingCount": 36,
+      "currentVersionReleaseDate": "2026-03-14T21:11:37Z",
+      "releaseDate": "2020-06-23T07:00:00Z",
+      "genres": [
+        "Productivity",
+        "Entertainment"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6016"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/real-color-mixer/id1517758900?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1586980403,
+      "trackName": "Coloring Match",
+      "bundleId": "com.JacobVanHaag.ColorMatch",
+      "sellerName": "SUPERSONIC STUDIOS LTD",
+      "description": "Mix colors, match the target, and paint 3D objects in Color Match! Test your eye for color as you blend paints on paper and try to recreate the exact shade of each object. When your mix looks right, paint the 3D model and see how close you got. Explore colorful rooms and collections: • Garden fruits and vegetables • Kitchen treats and desserts • Garage cars and tools • Sports items and balls • Animals, aquarium objects, furniture, electronics, cosmetics, and more What you can do: • Mix colors and discover new shades • Paint 3D objects with your custom color • Compare your result with the target object • Sell painted objects at auction • Display your creations in themed rooms • Unlock new brushes and challenges • Hunt for items in special collection events • Keep playing through hundreds of creative levels Color Match is easy to play and satisfying to master. Every object is a small color puzzle: look carefully, blend the right paint, apply it, and improve your match. Ready to find the perfect shade? Start mixing, painting, and matching colors today!",
+      "averageUserRating": 4.52662,
+      "userRatingCount": 499709,
+      "currentVersionReleaseDate": "2026-07-20T01:02:46Z",
+      "releaseDate": "2021-10-05T07:00:00Z",
+      "genres": [
+        "Games",
+        "Family",
+        "Graphics & Design",
+        "Simulation"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7009",
+        "6027",
+        "7015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/coloring-match/id1586980403?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1593248741,
+      "trackName": "Real Paint mixing tools PRO",
+      "bundleId": "com.ai4res.RPaintPro",
+      "sellerName": "AI4RES SRL",
+      "description": "Painters can pick colors from their own images and have the OPAQUE paint mixing recipe computed for many commercial brands! Great for art students, painters with color vision difficulties or for those working in the painting conservation and restoration fields. Paint, time and money waste can be greatly reduced! Many Color Spaces are included: sRGB, Display P3, CMYK, HSL, HSV/B, Lab, Lch-ab, Luv, Lch-uv, XYZ, xyY and Munsell coordinates. The Munsell coordinates are computed from the original and extrapolated Renotation Data with great precision even around the neutral axis. Real Paint Pro includes one Ideal Paint set (8 colors) and 24 commercial Paint Sets: 1 Createx Illustration Opaques (11 colors) 2 Daler-Rowney Georgian Oil Colours (22 colors) 3 Daler-Rowney System3 Original Acrylics (29+3 colors) 4 Ferrario 1919 Oil Colors (30 colors) 5 Ferrario Pen Colors (26 colors) 6 Gamblin Artist Oil Colors (46 colors) 7 Gamblin Conservation Colors (42 colors) 8 Golden Heavy Body Acrylic Colors (35 colors) 9 Golden Matte Fluid Acrylic Colors (27 colors) 10 Chartpak Grumbacher MAX Water Mixable Oils (45 colors) 11 Chartpak Grumbacher Pre-tested Professional Oils (44 colors) 12 Liquitex Heavy Body Artist Colors (22+15 colors) 13 Maimeri Polycolor (33 colors) 14 Schmincke Norma Professional finest artist’s oil colors (21 colors) 15 Schmincke Primacryl (32 colors) 16 Sennelier Extra Fine Oils (46 colors) 17 Royal Talens Rembrandt Extra-Fine Artists’ Oil Colors (40 colors) 18 Royal Talens Van Gogh Oil colors (25 colors) 19 Vallejo Acrylic Studio Colours (27 colors) 20 Winsor&Newton Artisan Water Soluble Oils (32 colors) 21 Winsor&Newton Artists' Oil Colors (62+4 colors) 22 Winsor&Newton Designers Gouache Colours (48 colors) 23 Winsor&Newton Galeria Acrylic Colors (30 colors) 24 Winsor&Newton Professional Acrylic Colours (60 colors) Real Paint Pro includes all above paint bases! You can select up to 15 colors (white + up to 14 colors) of each Paint Set. Without a subscription you can use the app only with the Ideal Paint Set. The apps of the \"Real Paint mixing tools\" family use measured paint spectral information of painted samples. Big part of the RGB/P3 space can be mixed, but not all RGB/P3 colors. This is not a limitation of the apps, just physics. There are also many colors which can be mixed even if they don't belong to the RGB/P3 color space (you can find these by varying manually the paint amount on the \"mixing\" page). Paint recipes can be obtained using several Mixing Strategies: - “B and W + 2 Colors”: a gray is mixed using Black and White first, then 2 colored bases set Hue and Saturation. - “B or W + 3 Colors”: 3 colored bases are used to set Hue and Saturation and Black OR White set the Value - “at least one opaque”: all possible opaque mixing combinations are shown - “no Black used”: opaque mixing combinations without Black Each recipe can be Exact or Rounded: - “Exact recipe” means that each base has an amount with a precision of 0.01 units. If you need % values of each paint base amount, just enter 100 as amount. Exact setting is helpful for weight based measurements using a scale. - “Rounded recipe” means that each base has an integer number as amount. The recipe will have the minimum possible overall amount computed adding all paint base amounts. The rounded recipes are useful for volume based measurements, like drops, using spoons or squared paper with paint squeezed directly from tubes. Please note that color of paint coming from various parts of a tube/jar or from different batches of the manufacturer can vary, so mix always small amounts first to be sure that computed recipes meet your needs! Please check the video tutorials on youtube by searching for \"Real Paint mixing tools\" to see how to use the app in your paintings. Optishade images can also be imported directly from the Optishade by StyleItaliano app. These images can be used to create gum or dental colors for the mockups used by technicians.",
+      "averageUserRating": 4.89655,
+      "userRatingCount": 29,
+      "currentVersionReleaseDate": "2024-10-04T06:55:24Z",
+      "releaseDate": "2021-12-20T08:00:00Z",
+      "genres": [
+        "Entertainment",
+        "Education"
+      ],
+      "primaryGenreName": "Entertainment",
+      "genreIds": [
+        "6016",
+        "6017"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/real-paint-mixing-tools-pro/id1593248741?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6755033305,
+      "trackName": "Mixing Colors Lab",
+      "bundleId": "jp.aosystem.mixingcolors",
+      "sellerName": "ao-system, Inc.",
+      "description": "Colour Mixing A game where you mix colours to make your desired shade",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2026-06-27T20:55:59Z",
+      "releaseDate": "2025-11-10T08:00:00Z",
+      "genres": [
+        "Utilities",
+        "Graphics & Design"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6027"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/mixing-colors-lab/id6755033305?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.6",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1425573301,
+      "trackName": "Paleto - mixing colors",
+      "bundleId": "me.dev-yutae.paleta",
+      "sellerName": "SUKHUI SON",
+      "description": "Make your color using PALETO. Paleto is a tool for creating beautiful colors. - Blend (Color Mixing), Detect, Library, Palette Paleto is able to extract the colors you like from your photos and the tinting function that mixes colors to create new ones. It also provides a library of 1400 colors and a palette that lets you store and share your colors. Blend - mixing color - real color mixer - concentration of water - tracking Detect - color extraction from photos (album, camera) - save and share Library - 1400+ colors library Palette - saved color from mixed colors - saved color extracted from detection - sharing Free version - specified colors available when mixing Pro version - monthly/life subscription - custom colors available when mixing - delete ads Subscription terms - The following terms do not apply to purchasing PRO. There are no additional fees for PRO. The following information applies to subscriptions only. - You'll be billed on a monthly basis with the payment method listed in your App Store account. - The period of use is one month from the settlement day of each month. - At the end of your current subscription period, your subscription will be automatically renewed and your iTunes account will be charged again, unless you cancel the automatic renewal 24 hours prior to the end of your current subscription period. - You can manage or disable automatic payments in your Apple ID account settings at any time after you make a purchase. Even if you cancel your subscription in the middle, you can use PRO for the rest of the time. - If you want to terminate your subscription payment Settings > Itunes & App Store > Apple ID > View Apple ID > Subscriptions > Paleto > Cancel Terms of Use https://github.com/appyoun/paleto/blob/master/EULA.md Email: appyoun@gmail.com",
+      "averageUserRating": 4.30483,
+      "userRatingCount": 538,
+      "currentVersionReleaseDate": "2026-01-07T20:43:19Z",
+      "releaseDate": "2018-10-31T08:28:31Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/paleto-mixing-colors/id1425573301?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1492035864,
+      "trackName": "Mix & Paint",
+      "bundleId": "com.mix.color.paint.game",
+      "sellerName": "Geisha Tokyo Inc.",
+      "description": "It's painting time! Use your fingers and the palette to mix the colors, then paint a picture based on the sample. The more you match the colors and shape, the more points you'll get. Can you get 3 stars in every stage?",
+      "averageUserRating": 4.58391,
+      "userRatingCount": 85907,
+      "currentVersionReleaseDate": "2026-06-05T20:08:49Z",
+      "releaseDate": "2019-12-18T08:00:00Z",
+      "genres": [
+        "Games",
+        "Casual",
+        "Puzzle"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7003",
+        "7012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/mix-paint/id1492035864?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6769655280,
+      "trackName": "Mixable - Paint Mixing Guide",
+      "bundleId": "com.salvatorebarone.Mixable",
+      "sellerName": "Salvatore Barone",
+      "description": "Mix any color from the paints you actually own. Mixable is a paint mixing guide built for artists who work with watercolor, acrylic, or oil. Pick any target color — from your camera, a photo, or a color wheel — and Mixable calculates the best possible match using only the paints in your palette, with exact ratios. How it works: • Build your palette by selecting the paints you own from real product lines • Choose a target color using your camera, photo library, or color picker • Get a precise mixing recipe with exact ratios from your paints • See how close the match is with a side-by-side comparison and Delta E accuracy score Real brands, real pigments: Mixable includes paints from Winsor & Newton, Daniel Smith, Schmincke, Golden, Gamblin, Liquitex, Van Gogh, and more — each mapped to its actual pigment composition. The mixing engine uses Kubelka-Munk color theory to predict how pigments blend, the same science used in paint manufacturing. Browse by pigment: Explore paints organized by their Color Index pigment codes. See which paints across different brands share the same pigments — and understand what's actually inside your tubes. Features: • 2-paint and 3-paint mixing recipes • Pick a target color from camera, photo, or color wheel • Support for watercolor, acrylic, and oil • Mixing tips tailored to each recipe • Save and revisit your favorite recipes • Browse paints by brand or by pigment code Try Pro for 7 days: Every new install includes 7 days of Mixable Pro with no payment required and no commitment — unlimited palette size, unlimited 3-paint mixing, unlimited saved recipes, and a starter palette so you can begin mixing right away. Free tier: After your trial, continue free with a palette of up to 10 paints, unlimited 2-paint mixing recipes, and 3 free 3-paint mixes per day — no account required. Mixable Pro — $2.99/month or $29.99/year: Unlock unlimited palette size, unlimited 3-paint mixing, and unlimited saved recipes. Brand and product names are trademarks of their respective owners. Mixable is not affiliated with or endorsed by any paint manufacturer. Privacy Policy: https://salvabar.github.io/mixable-support/privacy Terms of Use (EULA): https://salvabar.github.io/mixable-support/terms",
+      "averageUserRating": 4.71429,
+      "userRatingCount": 7,
+      "currentVersionReleaseDate": "2026-07-10T18:07:29Z",
+      "releaseDate": "2026-05-21T07:00:00Z",
+      "genres": [
+        "Graphics & Design",
+        "Education"
+      ],
+      "primaryGenreName": "Graphics & Design",
+      "genreIds": [
+        "6027",
+        "6017"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/mixable-paint-mixing-guide/id6769655280?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.6",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6755313672,
+      "trackName": "Color Study: Simplify Painting",
+      "bundleId": "com.colorpicker.pro",
+      "sellerName": "BrushLabs LLC",
+      "description": "Color Study is a tool for artists to simplify images, study color and value, and accurately match colors through paint mixing. Load any photo and reduce it to clear shapes and essential color information. Color Study generates a clear color map of your reference and provides guidance for mixing paints to match the colors you see, giving you a practical guide you can use at the easel or in study. Focus on the fundamentals that matter in drawing and painting. Made for artists Core tools: • Accurate color picker with magnification and pixel averaging options • Place and customize color markers directly on your reference • Inspect value, saturation, and color codes (RGB, HSV, HSL, CMYK, LAB) • Automatically extract key colors and accents in an image, and mark their locations • Compare colors to assess value, relative temperature, saturation, and perceptual difference • Customizable grid overlay for precise alignment Advanced tools: • Interactive value maps, shape simplification, temperature maps and notan controls • Paint-mixing guidance designed for opaque paints, with real-time feedback from photographed mixes • Export analysis views and color maps as images for reference or study • Advanced grid controls for precision alignment and subdivision • Generate simplified line drawings and contour maps to clarify structure, edges, and major shapes • Organize your work into projects with images, paint palettes, and artwork details • iCloud sync keeps your projects and palettes in sync across all your apple devices Advanced tools available with subscription. Train your artistic eye Color Study is not a design tool or palette generator. It is a learning tool for painters, illustrators, and art students who want to analyze what they see and make better decisions in their artwork. Study master paintings, analyze your own photos, and deepen your understanding of value structure, color harmony, and visual design. Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "averageUserRating": 4.85666,
+      "userRatingCount": 293,
+      "currentVersionReleaseDate": "2026-07-09T22:46:07Z",
+      "releaseDate": "2025-12-22T08:00:00Z",
+      "genres": [
+        "Graphics & Design",
+        "Utilities"
+      ],
+      "primaryGenreName": "Graphics & Design",
+      "genreIds": [
+        "6027",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-study-simplify-painting/id6755313672?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.6",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1629429171,
+      "trackName": "Makeup Kit - Color Mixing",
+      "bundleId": "com.apetrus.makeup",
+      "sellerName": "CRAZY LABS BY TABTALE , G.P.",
+      "description": "The best COLORING MIXING GAME ever! Are you ready to become a makeup artist and make the perfect make up for your eye art? All you have to do is color match, pick the perfect colors, and color mix to get the perfect eyeshadow palette! It is just like DIY Makeup but an even better makeup game! Become a graphic designer for the fashion world! Sounds fun?! It actually is! It is so easy to color match and make stylist makeup! makeover games Color mixing is fun like DIY Makeup and making your own eyeshadow palette is just as cool as going to the lash salon! Release your inner artist and style away with this make up game! To opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+      "averageUserRating": 4.66076,
+      "userRatingCount": 255522,
+      "currentVersionReleaseDate": "2026-05-28T07:30:07Z",
+      "releaseDate": "2022-06-21T07:00:00Z",
+      "genres": [
+        "Games",
+        "Entertainment",
+        "Roleplaying",
+        "Simulation"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7014",
+        "7015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/makeup-kit-color-mixing/id1629429171?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1476681691,
+      "trackName": "Mix Colors!",
+      "bundleId": "jp.aiayatsuji.mixcolors",
+      "sellerName": "Tokyo Smart Games LLC.",
+      "description": "Isn’t it amazing that you can create a whole new color by mixing 2 basic ones? Let’s see if you have any artist quality with “Mix Colors”. The Rule is simple: Create same color with the given theme to clear game! You can press the flushing button as many times as you want to adjust the color. Pour the liquid until it reaches the line of the container. (Remember: Do not let it overflows.) When you think it’s done, press the OK button to check the result! Now, enjoy the challenge of Colors Mix & Match!",
+      "averageUserRating": 4.4778,
+      "userRatingCount": 23535,
+      "currentVersionReleaseDate": "2021-05-13T04:07:00Z",
+      "releaseDate": "2019-08-22T07:00:00Z",
+      "genres": [
+        "Games",
+        "Casual",
+        "Puzzle"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7003",
+        "7012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/mix-colors/id1476681691?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "10.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1568245971,
+      "trackName": "Count Masters: Crowd Runner 3D",
+      "bundleId": "freeplay.crowdrun.com",
+      "sellerName": "Freeplay LLC",
+      "description": "Choose the best gate, pass through it, and bring stickman warriors together to clash with the opposing crowd. Become the crowd master and lead your people through the crowded city till the end of this epic race. Crash obstacles and beat everyone on your way, collect coins and upgrade your levels. Defeat the King-stickman in the final battle and take the castle! Looking for some fun and thrill? Then this 3d running game is just for you. Count Masters is one of the most exciting clash games of all times! You start the battle alone but trust us: there are no chances for you to feel lonely. This city takeover game features fascinating graphics and simple mechanics. You have a chance to get absorbed in the bright world of Count Masters full of gang fights and stickman battles. Get ready to spend hours playing one of the most thrilling running games. We promise: you won’t get bored!",
+      "averageUserRating": 4.49552,
+      "userRatingCount": 596354,
+      "currentVersionReleaseDate": "2026-06-29T13:38:25Z",
+      "releaseDate": "2021-05-19T07:00:00Z",
+      "genres": [
+        "Games",
+        "Entertainment",
+        "Casual",
+        "Action"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7003",
+        "7001"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/count-masters-crowd-runner-3d/id1568245971?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "13.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1658965410,
+      "trackName": "Drawing Carnival",
+      "bundleId": "com.dynlwpp.ios.atur129",
+      "sellerName": "CRAZY LABS BY TABTALE , G.P.",
+      "description": "Are you a fan of coloring games and drawing carnivals? Looking for a fun and creative way to relax? Check out the coloring game, Drawing Carnival, a color puzzle and joy doodle all rolled into one! With our coloring match and draw-it features, you can mix and match different art styles to create a unique masterpiece. In this coloring game, you draw it! Unlock your inner artist and create a picture made up of different styles. Divide your favorite portrait or any painting into four parts. Spray paint, neon markers, gems, glitter powder... Every kind of painting you can imagine! With our diverse makeup kit, you can draw it all with different colors and styles to create the perfect look. And for those who are looking to de-stress in a color me happy headspace, our color page ASMR feature is sure to provide a satisfying sensory experience. There are various beautiful images awaiting your joy doodle. Paint freely and relax but also challenge yourself to artistic color puzzles that combine various effects of makeup kit color palettes to create one outstanding work of art. Let's color match and take the colored pens with the right tools, draw different styles, and try to combine them. Put your different pictures together. Give it a try and show me how talented you are! It’s a Drawing Carnival and the show has just begun. So what are you waiting for? Join the drawing carnival and let your joy doodle creativity run wild! Color me happy with your beautiful artwork and show off your talent to the world in this color page ASMR coloring game. To opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+      "averageUserRating": 4.72811,
+      "userRatingCount": 113001,
+      "currentVersionReleaseDate": "2026-03-24T07:53:57Z",
+      "releaseDate": "2022-12-15T08:00:00Z",
+      "genres": [
+        "Games",
+        "Casual",
+        "Entertainment",
+        "Simulation"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7003",
+        "6016",
+        "7015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/drawing-carnival/id1658965410?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6758065640,
+      "trackName": "Mix Paint",
+      "bundleId": "com.ginaheidel.mix-magic",
+      "sellerName": "GINA JAY HEIDEL",
+      "description": "Mix Paint is a paint mixing companion that helps artists mix paint colors with precision. Features: • Visual Color Picker Select any color you want to match using intuitive hue and lightness controls. • Photo Color Picker Upload a photo and match a color directly from the image. • Intelligent Recipe Generator Get exact mixing ratios using colors from your palette. Our advanced algorithm calculates the optimal ratios of paint to achieve your desired color. • Create colors Explore and create color mixes by adjusting ratios of paints in your palette. • Custom Palettes Work with your actual paint colors. Create custom palettes that match the paints you have on hand, ensuring accurate mixing guidance. • Save Your Recipes Never lose a perfect color mix again. Save unlimited recipes for easy reference. • Clean, Intuitive Interface Focus on your art, not learning complicated software. Mix Paint's simple design gets out of your way and lets you create. How it works: 1. Choose a target color using the visual picker 2. Get a mixing recipe using colors from your palette 3. See the exact proportions needed for each paint 4. Save recipes for future reference Perfect for: • Oil painters • Acrylic artists • Watercolor enthusiasts • Art students • Professional artists Start mixing with confidence. Download Mix Paint today. © 2026 Gina Heidel. All rights reserved.",
+      "averageUserRating": 4.0,
+      "userRatingCount": 4,
+      "currentVersionReleaseDate": "2026-02-11T03:06:27Z",
+      "releaseDate": "2026-01-21T08:00:00Z",
+      "genres": [
+        "Graphics & Design",
+        "Productivity"
+      ],
+      "primaryGenreName": "Graphics & Design",
+      "genreIds": [
+        "6027",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/mix-paint/id6758065640?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1460523910,
+      "trackName": "Model Paints",
+      "bundleId": "Valentin.Ozerov.ModelPaints",
+      "sellerName": "Valentin Ozerov",
+      "description": "A database of paints from most of the manufacturers designed for modellers (more than 20000 paints). Model Paints simplifies scale model builder work by providing a set of easy to use and comprehensive tools. With Model Paints you can: - Browse paint charts from colour standards and model kit paint manufacturers; - Matching paints from whole database or your favourite paints only; - Matching from selected photo from you library; - Online matching from camera; - Get detailed information about paint; - Scale calculation; - Paint matching for a manually specified color - Search for paints by barcode - Paints lists support - Lightening result can depends scale - Getting new colors when blending paints - Database automatically update Current paint manufactures are include: - Abteilung 502 - Agama - AK Interactive - AMMO by Mig Jimenez - Andrea Miniatures - Arion Models - Aztek - Badger - Citadel Paints - Coat D'Arms - Createx Colors - CreateFX - Flames Of War - Floquil - Forge World - Gianonotes - Gravity Colors - Hannants - Hataka - Heki - Heller - Humbrol - Italeri - IPP - Jim Scale - Lefranc Bourgeois - LifeColor - Meng - Mig Productions - Mission Models - Model Master - Molotow - mr.Hobby - Mr.Paint - Pactra - Privateer Press - Pro Acryl - RailMatch - Reaper Miniatures - Revell - Scale75 - Scalecoat - Scale Colors - SMS Paints - Sovereign Hobbies - Splash Paints - Tamiya - Testors - The Army Painter - Vallejo - Wargames Foundry - Wilder - Winsor & Newton - [ ARM.PNT ] - Акан - Моделист - ZIPMaket - Zvezda ... and more References Charts: - Army-Navy Aeronautical (ANA) - British Standard 381C - British Standard 4800 - Federal Standard 595C - RLM - RAL Classic",
+      "averageUserRating": 4.32432,
+      "userRatingCount": 37,
+      "currentVersionReleaseDate": "2026-04-16T18:23:39Z",
+      "releaseDate": "2019-06-01T21:44:06Z",
+      "genres": [
+        "Utilities",
+        "Entertainment"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6016"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/model-paints/id1460523910?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1446609780,
+      "trackName": "Real Paint mixing tools LITE",
+      "bundleId": "com.ai4res.RPaintLite",
+      "sellerName": "AI4RES SRL",
+      "description": "RPaintLite is fully functional with a limited number of Paint Lines (\"ideal paint\" and the airbrush paint \"Ferrario Acrylic Pen Colors\" are available). Please note that RPaintLite includes 8 paint bases of each Paint Line. These bases are Black, White and 3 or 6 colored ones, according to your Palette selection. These bases are fixed, and all color recipes use these and only these. Therefore, once you've selected your real Paint Line (Ferrario Acrylic Pen Colors in this free version), you can purchase the 8 bases and use them for all your paintings. The 6 colored bases of each Paint Line were optimized to cover the widest possible OPAQUE color space offering you as many as possible mixable colors. These tools use measurements of real paint spectra, so big part of the RGB/P3 space can be mixed, but not all RGB/P3 colors. This is not a limitation of the app, just physics. There are also many colors which can be mixed, even if they don't belong to the RGB/P3 color space (you can find these by manually varying the paint base amounts on the \"mixing\" page and reading the Lab values). RPaintLite can be used on iPhone or iPad with iOS 9.0 or later. Even an old iPhone 4S or mini iPad can find a second life and become a Real Paint Mixing Device! Painters can select colors from an image and have the corresponding paint mixing recipe computed. This is very useful to art students, to painters with color vision difficulties or to those working in the painting conservation and restoration fields. Paint and money waste can be greatly reduced! Color Coordinates can be converted from one space into another: sRGB, Display P3, CMYK, HSL, HSV/B, Lab, Lch-ab, Luv, Lch-uv, XYZ, xyY are available. The Munsell space is not available in the RPaintLite app. Digital images usually don't fit into the color gamut of real paint lines. RPaintLite can find an approximated (de)saturation value of an image to fit it into the selected Paint Set color gamut with the current mixing parameters. The value is approximated, because it is based on heuristics, but it is usually a very good approximation. Please note that color of paint coming from various parts of a tube or from different batches of the manufacturer can vary, so mix small amounts first to be sure that computed recipes meet your needs!! Please check the video tutorials on youtube by searching for \"Real Paint mixing tools\" to see how to use these apps in your paintings.",
+      "averageUserRating": 3.2,
+      "userRatingCount": 5,
+      "currentVersionReleaseDate": "2022-05-30T15:00:12Z",
+      "releaseDate": "2018-12-14T06:34:06Z",
+      "genres": [
+        "Entertainment",
+        "Education"
+      ],
+      "primaryGenreName": "Entertainment",
+      "genreIds": [
+        "6016",
+        "6017"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/real-paint-mixing-tools-lite/id1446609780?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1081075274,
+      "trackName": "I Love Hue",
+      "bundleId": "com.zutgames.ilovehue",
+      "sellerName": "Zut Games Ltd",
+      "description": "I Love Hue is a gentle journey into colour and perception. Arrange mosaics of coloured tiles into perfectly ordered spectrums. Lovingly made for players who enjoy beautifully crafted puzzle games - or anyone who needs a few moments of visual tranquility. * COLOUR - move each tile to its perfect place within the spectrum * HARMONY - create order out of chromatic chaos * PERCEPTION - learn to see the smallest difference between similar colours * SERENITY - lose yourself in a tranquil world of colour and light FEATURES: * Mesmerising colour-based gameplay - a puzzle of perception, not logic * A minimal, modernist aesthetic - a playable work of art * A soothing synth soundtrack * Share your accomplishments… and moments of beauty * Over 900 levels to solve * Compare your performance to the world average, and unlock achievements by beating it",
+      "averageUserRating": 4.89879,
+      "userRatingCount": 49323,
+      "currentVersionReleaseDate": "2026-05-20T21:23:22Z",
+      "releaseDate": "2017-01-25T18:39:54Z",
+      "genres": [
+        "Games",
+        "Puzzle",
+        "Board"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7012",
+        "7004"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/i-love-hue/id1081075274?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "11.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6757408609,
+      "trackName": "PalettePro – Oil Paint Mixing",
+      "bundleId": "com.sreejith.palettepro",
+      "sellerName": "Sreejith Rajeevan",
+      "description": "PalettePro – Professional Oil Painting Color Mixing & Palette Tool PalettePro is a professional app for oil painting color mixing, built specifically for traditional oil painters, fine art students, and atelier-trained artists. It helps artists pick, match, and mix oil paint colors accurately from reference images—without guesswork. Upload any reference image or artwork, use the built-in color picker from image, tap a color you want to match, and PalettePro shows how to mix oil paint colors with a clear, step-by-step oil color mixing recipe you can use directly on your physical palette. The app also generates complete oil painting color palettes and includes tools for value and tonal analysis. Color Picker & Color Matching From Reference Images PalettePro includes a powerful painting color picker designed for traditional artists: • Use a color picker for painting directly on a reference image • Sample colors using a color picker reference image tool • Perform accurate oil color matching from photos and artwork • Match oil paint colors with better control of hue, value, and temperature This makes color matching from photo references and master paintings faster and more reliable for oil painters. Oil Paint Mixing & Color Matching Made Simple PalettePro is built to support real-world oil paint mixing: • Pick a color using the color picker • Learn how to mix oil paint colors accurately • Get a repeatable oil paint color match instead of guessing • Reduce muddy colors and wasted paint Whether you’re practicing oil color mixing or refining advanced techniques, PalettePro helps you match oil paint colors with confidence. Automatic Oil Painting Color Palette Generator Create complete color mixing oil painting palettes from any reference image: • Extract dominant and supporting colors • Build limited or full palettes for oil painting • Prepare your palette before painting begins Ideal for portrait painting, landscape painting, still life, and master studies. Squint Tool for Values, Shapes & Tonal Control The built-in squint tool helps oil painters analyze: • Light and dark values • Major shapes and forms • Tonal relationships critical to oil painting This supports stronger oil painting color mixing decisions by improving value accuracy. Reference Image Analysis for Traditional Oil Painting PalettePro works with: • Portrait references • Landscape photos • Still life setups • Master paintings • Plein air reference images Designed for oil paint color matching, observational painting, and classical oil painting workflows. Built Specifically for Oil Painters PalettePro is not a generic photo or design app. It’s a focused tool for artists who want: • Better oil paint mixing • Accurate oil color matching • Cleaner palettes • Stronger value control • Faster learning with less wasted paint Whether you’re an oil painting student learning color mixing oil painting fundamentals or a professional refining your process, PalettePro fits naturally into your studio workflow. Ideal For • Oil painting artists • Fine art & atelier students • Oil color mixing practice • Oil paint color matching • Color picker from image workflows • Value and tonal studies • Reference photo analysis • Plein air painters who need to mix fast before the light changes Subscription Details • PalettePro Pro Monthly – $4.99/month • PalettePro Pro Yearly – $34.99/year Subscriptions auto-renew unless canceled at least 24 hours before the end of the current period. Payment will be charged to your Apple ID account. Manage subscriptions in your App Store account settings. Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Privacy Policy: https://www.palettepro.app/privacy.html",
+      "averageUserRating": 3.6,
+      "userRatingCount": 10,
+      "currentVersionReleaseDate": "2026-05-06T16:32:49Z",
+      "releaseDate": "2026-01-20T08:00:00Z",
+      "genres": [
+        "Graphics & Design",
+        "Photo & Video"
+      ],
+      "primaryGenreName": "Graphics & Design",
+      "genreIds": [
+        "6027",
+        "6008"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/palettepro-oil-paint-mixing/id6757408609?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.1",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1475655474,
+      "trackName": "Perfect Paint",
+      "bundleId": "com.kwalee.artchallenge",
+      "sellerName": "Kwalee Ltd",
+      "description": "Perfect Paint is a fun and addictive game where you compete against others to try and copy the painting as best as you can. Make sure you paint fast to beat the competition as you only have a limited amount of time to paint the picture above perfectly. Use your copying skills to help you become the best painter! Can you copy the painting perfectly? Perfect Paint features: - Simple and addictive gameplay - Colorful paintings to copy - Variety of paintings to unlock - Fierce competition - Limited time to paint",
+      "averageUserRating": 4.51067,
+      "userRatingCount": 35526,
+      "currentVersionReleaseDate": "2025-12-26T07:19:00Z",
+      "releaseDate": "2019-08-23T07:00:00Z",
+      "genres": [
+        "Games",
+        "Puzzle",
+        "Casual"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7012",
+        "7003"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/perfect-paint/id1475655474?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1492913398,
+      "trackName": "Watermarbling",
+      "bundleId": "com.hydro.dipping",
+      "sellerName": "Geisha Tokyo Inc.",
+      "description": "The world's one and only immersion printing simulator! Make your own unique designs and coat 3D objects with them. To start, simply spill color paints on the water's surface. You can even use your fingers to adjust and experiment with the pattern. Then submerge the desired object in the water and Voila! Can you become the world's top watermarbler?",
+      "averageUserRating": 4.67809,
+      "userRatingCount": 155240,
+      "currentVersionReleaseDate": "2026-06-05T23:37:54Z",
+      "releaseDate": "2020-01-08T08:00:00Z",
+      "genres": [
+        "Games",
+        "Casual",
+        "Puzzle"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7003",
+        "7012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/watermarbling/id1492913398?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1672319479,
+      "trackName": "Play Colors",
+      "bundleId": "com.blueberrygames.gamel.ios",
+      "sellerName": "SUPERSONIC STUDIOS LTD",
+      "description": "Color mixing puzzle! Can you make it right?",
+      "averageUserRating": 4.54309,
+      "userRatingCount": 7855,
+      "currentVersionReleaseDate": "2026-04-17T14:40:09Z",
+      "releaseDate": "2023-02-22T08:00:00Z",
+      "genres": [
+        "Games"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/play-colors/id1672319479?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1189158431,
+      "trackName": "Sherwin-Williams PRO+",
+      "bundleId": "com.sherwin.ProBuyPlus",
+      "sellerName": "The Sherwin-Williams Company",
+      "description": "Manage Your Business on the Go Created just for Sherwin-Williams Pros. Your PRO+ account is always at your fingertips with this all-in-one app for pro painters. ORDER ON THE GO* Order paint and supplies anytime, anywhere. Check inventory at your local store or reorder items from your purchase history. Schedule a free delivery to your jobsite or pick up your order at the store. *Online ordering only available in US. SHOP WITH EXCLUSIVE PRICING & SAVINGS Save money from day one with PRO+ pricing, special offers and coupons. MANAGE YOUR ACCOUNT Get 24/7 account access. Easily view your purchase history and invoices and make payments. FIND NEARBY STORES Find your closest store or search by location. WIN JOBS WITH PROJECT BIDS Capture job details and quickly deliver professional project bids to your customers. PLAN YOUR PROJECTS Take advantage of tools built just for you, including product data sheets, paint calculator, Color Toolkit and more. CHOOSE LANGUAGE OPTION The PRO+ app is available in English, Spanish and French. The PRO+ app is intended for use by professional paint contractors in the US and Canada who have a Sherwin-Williams PRO+ account. To access all benefits and features, users will need to link this app with their PRO+ account. If you do not have a PRO+ account reach out to your Sherwin-Williams sales rep, visit your local Sherwin-Williams store or call 1-800-4SHERWIN.",
+      "averageUserRating": 4.73055,
+      "userRatingCount": 13613,
+      "currentVersionReleaseDate": "2026-07-22T20:02:51Z",
+      "releaseDate": "2016-12-30T22:48:07Z",
+      "genres": [
+        "Business",
+        "Productivity"
+      ],
+      "primaryGenreName": "Business",
+      "genreIds": [
+        "6000",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/sherwin-williams-pro/id1189158431?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 6461160796,
+      "trackName": "Color Merge: Color Mixing Game",
+      "bundleId": "gv.ColorMatch",
+      "sellerName": "Gavel-It LLC",
+      "description": "Can you blend colors to perfection in just 6 tries? It's time to find out! Gameplay: Blend, Match, Score: Your goal is to replicate the target color by expertly combining colors with your starting color. The goal is to get to a 95% match to win! Six Tries: You have just six attempts to get it right! Every choice counts, and the pressure is on. Will you rise to the challenge? Endless Possibilities: With countless possible color combinations, each game is a unique puzzle in Color Theory waiting to be solved. No two games are ever the same! Brain-Boosting Fun: Color Merge is not just a game; it's a mental workout that stimulates your problem-solving abilities and foster your color perception.",
+      "averageUserRating": 4.73714,
+      "userRatingCount": 175,
+      "currentVersionReleaseDate": "2023-11-28T12:39:53Z",
+      "releaseDate": "2023-10-20T07:00:00Z",
+      "genres": [
+        "Games",
+        "Puzzle",
+        "Family",
+        "Graphics & Design"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7012",
+        "7009",
+        "6027"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-merge-color-mixing-game/id6461160796?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.1",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1431308757,
+      "trackName": "Real Paint mixing tools",
+      "bundleId": "RealPaint",
+      "sellerName": "AI4RES SRL",
+      "description": "Painters can load an image, pick colors and obtain OPAQUE paint mixing recipes for several commercial paint brands. This is useful for art students, painters with color vision difficulties, and professionals working in painting conservation and restoration. It can also help reduce paint, time, and money waste. Optishade images can be imported directly from the Optishade by StyleItaliano app and used by technicians to create gum or dental colors for mockups. RealPaint includes many color spaces: sRGB, Display P3, CMYK, HSL, HSV/B, Lab, Lch-ab, Luv, Lch-uv, XYZ, xyY, and Munsell coordinates. Munsell coordinates are calculated from the original and extrapolated Renotation Data with high precision, even near the neutral axis. You can also check the color transformation error for full control over conversions. RealPaint includes one Ideal Paint set and many measured Paint Sets from well-known manufacturers: Createx, Daler-Rowney, Ferrario, Gamblin, Grumbacher-Chartpak, Golden, Liquitex, Maimeri, Royal Talens, Schmincke, Sennelier, Vallejo, and Winsor & Newton. Each Paint Set includes 8 paint bases. Once you select a Paint Line, you can purchase the 8 bases wherever you prefer and use them for all your paintings. The 6 colored bases in each Paint Set are optimized to cover the widest possible opaque color space, providing as many mixable colors as possible. Some sets also include phthalocyanine pigments because they offer a wider mixing gamut, although they may be more difficult for beginners. The apps in the “Real Paint mixing tools” family use measured spectral data from painted samples. A large portion of the RGB/P3 space can be mixed, but not every RGB/P3 color is physically achievable with real paints. This is not an app limitation, but a consequence of paint physics. However, many colors outside the RGB/P3 color space can also be mixed by manually adjusting paint amounts on the “Mixing” page. Paint recipes can be generated with several Mixing Strategies: “B and W + 2 Colors”: Black and White first create a gray, then 2 colored bases adjust Hue and Saturation. “B or W + 3 Colors”: 3 colored bases set Hue and Saturation, while either Black or White sets the Value. “At least one opaque”: shows all possible opaque mixing combinations. “No Black used”: shows opaque combinations without Black. “All bases at once”: calculates one recipe using all bases together. The result is usually not unique and opacity is not guaranteed, but it can be useful for color gamut testing. Each recipe can be Exact or Rounded: “Exact recipe” calculates each base amount with 0.01-unit precision. To obtain percentage values, enter 100 as the total amount. This is useful for weight-based measurements with a scale. “Rounded recipe” expresses each base amount as an integer and uses the smallest possible total amount. It is useful for volume-based measurements, such as drops, spoons, or squared paper with paint squeezed directly from tubes. Digital images usually do not fit entirely within the gamut of real paint sets. RealPaint can estimate an approximate desaturation value to adapt an image to the selected Paint Set and current mixing parameters. This heuristic value is approximate, but usually provides very good results. Please note that paint color may vary within the same tube or jar, between different batches, and when manufacturers change formulations over time. Always mix small test amounts first to make sure the computed recipes meet your needs! To learn how to use the app, watch the video tutorials on YouTube by searching for “Real Paint mixing tools”.",
+      "averageUserRating": 4.17647,
+      "userRatingCount": 17,
+      "currentVersionReleaseDate": "2026-07-07T05:53:26Z",
+      "releaseDate": "2018-08-25T23:22:48Z",
+      "genres": [
+        "Entertainment",
+        "Education"
+      ],
+      "primaryGenreName": "Entertainment",
+      "genreIds": [
+        "6016",
+        "6017"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/real-paint-mixing-tools/id1431308757?uo=4",
+      "price": 12.99,
+      "currency": "USD",
+      "minimumOsVersion": "15.5",
+      "matched_seed": "paint mixing"
+    },
+    {
+      "trackId": 1665684077,
+      "trackName": "3D Color DIY - Mixer",
+      "bundleId": "com.raygames.colormix",
+      "sellerName": "Guray Tastan",
+      "description": "3d printed objects are ready to paint. You have to mix colors and find the most beautiful color. You can choose the colors you want and mix them to get new colors. Choose the colors you want from the colorful pictures and mix them by putting them in the paint box. Which color you choose is entirely your decision. Play freely with colors and paints. Put it in a piping bag and mix it in the paint can. Paint and sell newly printed objects. Car, beautiful girls, shoes, a house, samurai, and more. You will paint it all. We have prepared an unlimited number of levels for you for unlimited fun. Drag your finger on the picture to choose the colors. Swipe and choose freely. Then squirt this paint into the paint can. The eye-catching colors in the images of the movie, game characters or superheroes are waiting to go into the paint can. Best squish game ever. Come and paint freely.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2023-01-24T00:18:49Z",
+      "releaseDate": "2023-01-23T08:00:00Z",
+      "genres": [
+        "Games",
+        "Simulation"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/3d-color-diy-mixer/id1665684077?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "11.0",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 1490161691,
+      "trackName": "Color Portfolio",
+      "bundleId": "com.benjaminmoore.colorportfolio",
+      "sellerName": "Benjamin Moore & Co",
+      "description": "Harness the power of Benjamin Moore color, wherever you are—for free. Save colors, share images and more! Find the right paint colors (and have fun doing it) with these features: • VIRTUAL FAN DECK - Easily scroll through Benjamin Moore’s collection of trusted colors including Color Preview®, Benjamin Moore Classics®, Affinity®, Historical Collection, Off-Whites and the Designer Classics. • PHOTO VISUALIZER - Take a photo of a room and “try on” colors by tapping a surface for instant masking, or use photos from our inspiration gallery. • VIDEO VISUALIZER - Step into augmented reality and apply Benjamin Moore paint color to surfaces in real-time. • PRECISION COLOR MATCHING - With purchase of the Benjamin Moore ColorReader or ColorReader Pro device by Datacolor, you can match any color IRL to colors in our library. To order a device, visit datacolor.com/bmorders.",
+      "averageUserRating": 4.51351,
+      "userRatingCount": 11511,
+      "currentVersionReleaseDate": "2026-06-17T03:04:40Z",
+      "releaseDate": "2020-01-21T08:00:00Z",
+      "genres": [
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-portfolio/id1490161691?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.5.2",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 6466933712,
+      "trackName": "Sherwin-Williams Color Expert™",
+      "bundleId": "com.sherwin.diy",
+      "sellerName": "The Sherwin-Williams Company",
+      "description": "Find the perfect palette with the Sherwin-Williams Color Expert™ app. Take the guesswork out of choosing the right paint color for your next project. Color Expert is your tool for finding the perfect color and transforming your space with confidence. Dive into a world of endless possibilities and visualize color like never before. *Sample ordering is currently only available in the U.S. and Canada (excluding Quebec). Key Features Designed for You: COLOR VISUALIZER Our color visualizer lets you explore and visualize colors in your space instantly. Snap a photo of your space and see our colors on your walls with any Sherwin-Williams® color. See how a new shade will look in and around your home before you lift a brush, this intuitive color visualizer helps you gain color confidence. PERSONAL COLOR RECOMMENDATION TOOL Overwhelmed by the endless color possibilities or unsure where to begin? Let our intelligent color recommendation tool simplify the process. Simply snap a picture of your space, and our app will analyze it to provide complementary colors that enhance your home's aesthetic. SAVE & PLAN Found your perfect shade? Save your favorite colors for future projects with ease. Experience your chosen color in your space before you commit by ordering samples directly through the app. Your color journey from inspiration to application is made simple. EXPLORE & DISCOVER Browse our extensive collection of Sherwin-Williams® colors by family, collection, or trend. Find inspiration and discover new favorites with ease. ORDER COLOR CHIPS & PEEL & STICKS* Love a color you see? Order physical color chips and peel & sticks directly from the app, delivered right to your home. This is your chance to experience how a color can look in your home's unique lighting conditions before you commit. Whether you're planning a full home renovation, a quick room refresh, or an interior design update, Color Expert provides the inspiration you need. We help your ideal paint color come to life, and make your color journey exciting. Be your own color expert and download the app today to start your home transformation and gain color confidence. *Sample ordering is currently only available in the U.S. and Canada (excluding Quebec).",
+      "averageUserRating": 4.5632,
+      "userRatingCount": 7017,
+      "currentVersionReleaseDate": "2026-06-25T15:37:12Z",
+      "releaseDate": "2024-04-30T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Photo & Video"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6008"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/sherwin-williams-color-expert/id6466933712?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 6739132740,
+      "trackName": "KitColorsPro: Model Paint",
+      "bundleId": "com.kitcolorspro",
+      "sellerName": "Davit Kamavosyan",
+      "description": "Match and mix the exact paint for every model — from the paints you already own. KitColorsPro recreates any color, finds the closest match across 40+ brands, and previews a whole scheme with AI before you lift a brush. 20,000+ paints. COLOR MIXER WITH AUTO RECIPES Recreate any target color from your own paints. Blend up to 4 paints with a live preview and a real-time accuracy %, let the app auto-calculate the best 1–3 paint recipe, limit it to your inventory, and use Drops mode (1:10) to reproduce a mix at the bench. Every recipe is saved and synced. MATCH & CONVERT ACROSS 40+ BRANDS Out of a paint or it's discontinued? Find the closest match across 20,000+ colors from Tamiya, Vallejo, AK, Citadel, Mr. Hobby, Humbrol, Green Stuff World, Italeri, Revell, Scale75 and more. Paste a HEX or RGB code and convert it to real paints instantly. AI VIRTUAL PAINTER — SEE IT BEFORE YOU PAINT IT Upload a photo of your model, pick up to 5 paints, and AI repaints it in those colors. Test color schemes risk-free with a before/after slider — perfect for miniatures, Gunpla kits, tabletop armies and scale models. PICK A COLOR FROM ANY PHOTO Magnify any image to grab a reference color and match it to buyable, brand-specific paints. Color Unmixer even breaks a shade down into the paints that make it. COLOR WHEEL, PALETTES & PAINT SCHEMES Build color-theory palettes on the wheel, attach real paints, and plan a complete paint scheme per kit with roles for base, shading, highlight and weathering. INVENTORY, WISHLIST & MIXES Track every paint you own so you never buy a duplicate, keep a wishlist, save your custom mixes, and organize colors into groups. Syncs across devices, works offline. Whether you paint tabletop miniatures, Gunpla, military models or dioramas, KitColorsPro is the paint mixer, color matcher and AI planner you'll keep coming back to. Subscription Information * Subscription Titles: * KitcolorsPro Monthly (1 month) * KitcolorsPro Annual (1 year) * Payment: Payment will be charged to your iTunes Account at confirmation of purchase. * Auto-Renewal: Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. * Renewal Charge: Your account will be charged for renewal within 24 hours prior to the end of the current period, at the cost of the renewal. * Manage Subscriptions: You can manage or turn off auto-renew in your Account Settings at any time after purchase. * Free Trial (If Offered): Any unused portion of a free trial period will be forfeited when you purchase a subscription. Privacy Policy https://kitcolorspro.com/privacy.html Terms of Use (EULA) https://kitcolorspro.com/terms.html By using KitcolorsPro, you agree to our Privacy Policy and Terms of Use.",
+      "averageUserRating": 4.7,
+      "userRatingCount": 20,
+      "currentVersionReleaseDate": "2026-07-09T21:45:48Z",
+      "releaseDate": "2025-02-13T08:00:00Z",
+      "genres": [
+        "Graphics & Design",
+        "Utilities"
+      ],
+      "primaryGenreName": "Graphics & Design",
+      "genreIds": [
+        "6027",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/kitcolorspro-model-paint/id6739132740?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 1393042194,
+      "trackName": "Paint Hit: Color Blast",
+      "bundleId": "com.dimico.painthit",
+      "sellerName": "MAG Interactive AB",
+      "description": "* 100's of levels * Challenge the bosses. Can you master their quirks? * Great audio to help you get in the zone * Messy painting fun",
+      "averageUserRating": 4.50567,
+      "userRatingCount": 1412,
+      "currentVersionReleaseDate": "2018-08-24T08:31:22Z",
+      "releaseDate": "2018-07-07T10:16:53Z",
+      "genres": [
+        "Games",
+        "Action",
+        "Casual"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "7001",
+        "7003"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/paint-hit-color-blast/id1393042194?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "8.0",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 6780768123,
+      "trackName": "Color Finder: Paint Mixer Pro",
+      "bundleId": "Com.MyPaletteProAI.IOS",
+      "sellerName": "GaZingBo Productions Pty Ltd",
+      "description": "Color Finder: Paint Mixer Pro helps artists turn any reference image into a complete painting plan. Extract colour palettes from photos, generate paint mixing recipes, build custom palettes, estimate paint requirements, and organise your artwork from inspiration to finished painting. Features include: • AI-powered colour palette extraction from photos • Paint mixing recipes for popular paint brands • Custom master palettes and painting plans • Paint quantity and material estimates • Artwork valuation tools • Cloud backup and project synchronisation • Full-screen colour comparison board • Gallery to organise finished artworks Perfect for watercolour, acrylic, oil and mixed-media artists looking to match colours accurately, mix paint with confidence, and plan every painting from start to finish. https://app.websitepolicies.com/policies/view/jz4duspw https://app.websitepolicies.com/policies/view/kpyyzr3h",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2026-07-13T17:38:45Z",
+      "releaseDate": "2026-07-05T07:00:00Z",
+      "genres": [
+        "Photo & Video",
+        "Productivity"
+      ],
+      "primaryGenreName": "Photo & Video",
+      "genreIds": [
+        "6008",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-finder-paint-mixer-pro/id6780768123?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.6",
+      "matched_seed": "color mixer paint"
+    },
+    {
+      "trackId": 1612030399,
+      "trackName": "Color Match Paint Art Mixer",
+      "bundleId": "com.vectorlabs.colormixing",
+      "sellerName": "Aysha Sehar",
+      "description": "Be ready to feel the magic through this colorful matching game enjoy the color mixing puzzle. This game is an excellent color mix and paint match game that tests your color matching skills. The more you match the colors more points you'll get. Use your fingers and the palette to mix the colors, then paint a picture based on the sample. Finding the right colors for your models has never been easier! Point the finger on the color buckets and start matching colors. Explore the variety of combinations, adjust the color palette, and save the best one. The game easily teaches your child, whether boy or girls ten different colors: red, orange, blue, green, yellow, purple, brown, black, pink, and grey. Each color comes with three very nice pictures mostly fruit (strawberry, apple, cherry), vegetables, and animals like elephant, panda, penguin, monkey, fish. The User Interface is clear so even the youngest babies and toddlers will have no problem interacting with this coloring educational game for kids. How to play: Download free Color Match Fun. Tap to play Choose Level for Color Matching Drag the brush on the canvas for the color mix. Select paint option for model coloring. Let's start with the Models painting. Features: Play to release your stress. Improve your coloring skills. Become a color artist. Relaxing Sound. Impressive design with clean look and feel. This kid's game is more than just to learn colors it has been created as a nice family game.",
+      "averageUserRating": 3.6,
+      "userRatingCount": 10,
+      "currentVersionReleaseDate": "2022-03-07T21:36:14Z",
+      "releaseDate": "2022-03-07T08:00:00Z",
+      "genres": [
+        "Games",
+        "Entertainment"
+      ],
+      "primaryGenreName": "Games",
+      "genreIds": [
+        "6014",
+        "6016"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-match-paint-art-mixer/id1612030399?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "11.0",
+      "matched_seed": "color mixer paint"
+    }
+  ],
+  "errors": [],
+  "fetched_at": "2026-07-27T14:29:37+08:00",
+  "cache_hit": false,
+  "cache_path": "/Users/zhoujinyu/.claude/app-factory/itunes_cache/608d50586f44c4f8a693fc89.json"
+}

@@ -1,0 +1,5 @@
+An isolated wide hero banner image (about 3:1, wide landscape), subject-only, no status bar, no tab bar, no buttons, no UI chrome, no text overlays.
+
+Scene: a warm, inviting living-room interior at golden-hour window light — soft sunlight streaming across a wooden floor and a cream sofa, a few paper notes and polaroid photos casually arranged on a low wooden table in the foreground, suggesting a calm "evidence board" mood for house-hunting decisions. Palette: warm paper cream #F6F1E7, brass #B4762A accents, sage green #6E7F5C plant, ink brown #2B2620 shadows. Photographic but soft and airy, gentle depth of field, cozy and trustworthy.
+
+Avoid: people, cold blue real-estate photography, harsh contrast, text, watermark, dark moody tones.

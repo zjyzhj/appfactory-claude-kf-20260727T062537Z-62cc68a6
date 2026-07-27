@@ -1,0 +1,11 @@
+{
+  "candidate_id": "plant-light-01",
+  "one_liner": "Camera-based live light meter for indoor gardeners: real-time lux/PPFD-style reading mapped to plant light needs, placement scoring across rooms",
+  "target_user": "houseplant owners deciding where each plant can actually thrive",
+  "core_job": "measure live light with the camera and match spots to plant light requirements",
+  "domain_objects": ["spot", "reading", "plant profile", "placement"],
+  "primary_interaction": "point camera at a spot -> live light grade -> match against plant needs -> save placement verdict",
+  "wedge_hypothesis": "generic lux meters ignore plants; plant apps are watering reminders; nobody answers 'will this spot keep this plant alive' live",
+  "query_seeds": ["light meter plant", "lux meter", "plant light", "PPFD meter"],
+  "locale": "us"
+}

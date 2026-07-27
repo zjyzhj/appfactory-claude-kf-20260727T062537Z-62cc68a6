@@ -1,0 +1,5 @@
+An isolated app icon artwork, subject-only, no device frame, no status bar, no UI chrome, no text.
+
+Design: a warm paper-cream rounded-square background (#F6F1E7) with a simple geometric brass-colored house mark (#B4762A) centered — clean minimal house silhouette with a small four-point star badge (#B4762A) on its upper right corner, suggesting "evidence + decision". Subtle flat sage-green (#6E7F5C) grounding shadow or baseline beneath the house. Flat vector style, crisp edges, generous margins, App Store icon feel.
+
+Avoid: text or letters, photo-realism, gradients overload, cold blue, small clutter, watermark, rounded-corner mask borders drawn as UI.

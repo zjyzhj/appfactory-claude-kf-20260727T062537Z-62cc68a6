@@ -1,0 +1,94 @@
+{
+  "candidate_id": "stitch-gauge-01",
+  "verdict": "proceed_narrow_wedge",
+  "axes": {
+    "collision": {
+      "level": "high",
+      "notes": "active L2=9 L3=1 L1=8; zombies=2",
+      "nearest_clones": [
+        {
+          "name": "Crochet row & stitch counter",
+          "trackId": 1545599414,
+          "layer": "L3",
+          "url": "https://apps.apple.com/us/app/crochet-row-stitch-counter/id1545599414?uo=4",
+          "ratingCount": 1182
+        },
+        {
+          "name": "YarnPal - Crochet & Patterns",
+          "trackId": 6738537088,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/yarnpal-crochet-patterns/id6738537088?uo=4",
+          "ratingCount": 29992
+        },
+        {
+          "name": "Loopsy - Crochet & Knitting",
+          "trackId": 6745416564,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/loopsy-crochet-knitting/id6745416564?uo=4",
+          "ratingCount": 13532
+        },
+        {
+          "name": "My Row Counter, Knit & Crochet",
+          "trackId": 1342608792,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/my-row-counter-knit-crochet/id1342608792?uo=4",
+          "ratingCount": 3642
+        },
+        {
+          "name": "Easy Knitty Row Counter knit",
+          "trackId": 1557552992,
+          "layer": "L2",
+          "url": "https://apps.apple.com/us/app/easy-knitty-row-counter-knit/id1557552992?uo=4",
+          "ratingCount": 417
+        }
+      ]
+    },
+    "heat": {
+      "band": "yellow",
+      "head_structure": "fragmented",
+      "moat_types": [
+        "ugc",
+        "network",
+        "hardware"
+      ],
+      "zombie_ratio": 0.0667,
+      "top1_rating_count": 29992,
+      "active_recent_count": 11,
+      "notes": "pool=18 top1=29992 top3_sum=50330"
+    },
+    "survivability": {
+      "band": "med",
+      "needs_network_for_aha": false,
+      "underserved_moment": "serious knitters juggle gauge math + multiple WIP counters; existing apps are account-based social trackers or single-purpose calculators",
+      "wedge_vs_top_n": [
+        {
+          "name": "Crochet row & stitch counter",
+          "trackId": 1545599414,
+          "url": "https://apps.apple.com/us/app/crochet-row-stitch-counter/id1545599414?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "YarnPal - Crochet & Patterns",
+          "trackId": 6738537088,
+          "url": "https://apps.apple.com/us/app/yarnpal-crochet-patterns/id6738537088?uo=4",
+          "note": "insufficient evidence of wedge gap"
+        },
+        {
+          "name": "Loopsy - Crochet & Knitting",
+          "trackId": 6745416564,
+          "url": "https://apps.apple.com/us/app/loopsy-crochet-knitting/id6745416564?uo=4",
+          "note": "wedge moment not evident in listing"
+        }
+      ],
+      "notes": "factory v0 is local zero-account; network moats are hostile"
+    },
+    "verdict": "proceed_narrow_wedge",
+    "required_actions": [
+      "Document wedge_vs_top_n with real trackId/url in research and product.md stance",
+      "Office Hours must challenge whether the wedge is real vs Top-N"
+    ],
+    "blockers": []
+  },
+  "evidence_count": 30,
+  "markdown_path": "research/appstore-scan/stitch-gauge-01.md"
+}

@@ -1,0 +1,802 @@
+{
+  "schema_version": "appfactory.itunes_search_raw.v1",
+  "status": "ok",
+  "country": "us",
+  "seeds": [
+    "knitting gauge calculator",
+    "crochet stitch counter",
+    "knitting row counter",
+    "yarn yardage calculator",
+    "convert knitting gauge and estimate yardage for pattern adaptation"
+  ],
+  "limit_per_seed": 25,
+  "cap": 30,
+  "per_seed": [
+    {
+      "term": "knitting gauge calculator",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "crochet stitch counter",
+      "result_count": 25,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "knitting row counter",
+      "result_count": 24,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "yarn yardage calculator",
+      "result_count": 25,
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "term": "convert knitting gauge and estimate yardage for pattern adaptation",
+      "result_count": 25,
+      "http_status": 200,
+      "error": null
+    }
+  ],
+  "results": [
+    {
+      "trackId": 443932954,
+      "trackName": "Calculator for iPad!",
+      "bundleId": "com.7thg.iPadCalculator",
+      "sellerName": "7th Gear",
+      "description": "Calculator for iPad is an easy to use, beautifully packaged calculator for your iPad or iPhone that includes both a standard and scientific calculator. Our versatile calculator app allows you to: • Customize the look of the application by changing the leather color and background texture (iPad Only) • Choose between a basic calculator or scientific calculator with more than 30 scientific operations • Use both calculators in portrait or landscape mode (iPad Only) • Take notes or draw with your finger on the Notes Tab • View and edit a history of your calculations on the History Tab • View an equation of your current calculations • Calculate with accuracy to more than 75 significant digits • Use parenthesis and nested parenthesis in your calculations We wrote Calculator for iPad Free to be the perfect calculator for budding math students and professionals alike.",
+      "averageUserRating": 4.69452,
+      "userRatingCount": 60956,
+      "currentVersionReleaseDate": "2020-12-09T15:23:16Z",
+      "releaseDate": "2011-07-30T03:48:11Z",
+      "genres": [
+        "Utilities",
+        "Finance"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6015"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator-for-ipad/id443932954?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 6738332828,
+      "trackName": "KNITCAL:Gauge Calculator",
+      "bundleId": "macaronKing.KnittingCalculator",
+      "sellerName": "Yunjeong Roh",
+      "description": "Key Features: Quick and easy input for your personal gauge. Instantly calculate the required stitches and rows based on your pattern. Hassle-free and customizable to your needs. With KnitCal, you’ll always have the right calculations to create beautiful, perfectly-sized projects. How to Use: 1. Enter Your Gauge: Input your own stitch and row count per inch (or cm). 2. Add Pattern Gauge: Enter the pattern’s stitch and row count per inch (or cm). 3. Input Required Stitches/Rows: Add the number of stitches and rows you need to knit from the pattern. 4. Get Your Result: Instantly see the number of stitches and rows you need to knit based on your gauge and the pattern’s details. Available Languages: KnitCal is available in English, Korean, Swedish, Danish, Norwegian, Finnish, French, German, Russian and Japanese.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2025-01-23T09:03:10Z",
+      "releaseDate": "2024-11-19T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knitcal-gauge-calculator/id6738332828?uo=4",
+      "price": 2.99,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 554836784,
+      "trackName": "Calculator·",
+      "bundleId": "com.iutilityapps.calculator",
+      "sellerName": "Tim O's Studios, LLC",
+      "description": "A truly no-frills calculator with the perfect blend of features and simplicity. Tired of getting lost in features you don’t use, but wish you had just a few more? Try Calculator· today! Features: • The essentials—add, subtract, multiply, divide, percent • Multiple color schemes • Copy your result (double tap result to copy) • Square, square root, and inverse functions on iPad landscape • Split View for iPad so you can run two apps at once • Apple Watch Support This app contains auto-renewable subscriptions: • Premium Access • 1 month and 1 year durations available​ Limit one free trial per user. Charged through your iTunes account at confirmation of purchase. Your account will be charged within 24-hours prior to the end of the current period. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. You can manage your subscriptions and turn off auto-renewal from your Account Settings in iTunes after purchase. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that product, where applicable. • Privacy policy: https://www.iubenda.com/privacy-policy/905866 • Terms of use: http://www.timosstudios.com/terms-of-use You can follow the instructions on our website to change or cancel your subscription: http://www.timosstudios.com/how-to-cancel-subscription-on-ios",
+      "averageUserRating": 4.85039,
+      "userRatingCount": 34297,
+      "currentVersionReleaseDate": "2025-05-02T19:26:26Z",
+      "releaseDate": "2012-08-31T01:21:09Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator/id554836784?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1668683165,
+      "trackName": "Knitting Stitch Calculator",
+      "bundleId": "com.h3apps.KnittingGauge",
+      "sellerName": "H3Apps LLC",
+      "description": "Lays out how to evenly increase or decrease the number of stitches in a row to shape the item. Also will show how to adapt a pattern written in one gauge to another gauge.",
+      "averageUserRating": 1.0,
+      "userRatingCount": 1,
+      "currentVersionReleaseDate": "2023-02-01T16:46:24Z",
+      "releaseDate": "2023-02-01T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knitting-stitch-calculator/id1668683165?uo=4",
+      "price": 1.99,
+      "currency": "USD",
+      "minimumOsVersion": "15.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 6449076455,
+      "trackName": "Stitch & Row - GaugeGuide",
+      "bundleId": "taichi.Needlework-Calculator",
+      "sellerName": "Taichi Kasugai",
+      "description": "Stitch & Row serves as both a calculator and a database designed specifically for knitters. Recommended for: ● Those who want to knit their own original designs. ● Those who want to adjust the size of a knitting pattern. ● Those who want to use a different yarn for a knitting pattern. ● Those who want to update a knitting pattern to match their own gauge. New Feature: Hands-Free Voice Counter! Say \"Next\" for Rows / \"Stitch\" for Stitches. Count your progress without ever dropping a needle. Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "averageUserRating": 5.0,
+      "userRatingCount": 2,
+      "currentVersionReleaseDate": "2026-03-21T19:02:38Z",
+      "releaseDate": "2023-07-20T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/stitch-row-gaugeguide/id6449076455?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1058142783,
+      "trackName": "knitCompanion knitting & more",
+      "bundleId": "com.create2thrive.knitcompanion",
+      "sellerName": "Create2Thrive Inc.",
+      "description": "knitCompanion is a pattern tracking app for knitters and fibers artists. Our patented* tools make tracking easy so you can enjoy the fabric you are creating, make fewer mistakes, and tackle new techniques. Join the knitCompanion group on Ravelry for ongoing fun KALs and community. **** Works with ANY PATTERN **** Doesn't require internet so you can knit what you want, anywhere, anytime. Free Basics: * TRACK your row and progress along the row * COUNTERS for every project * LINK to Ravelry & Dropbox * SYNC with iCloud * Supports iOS multi-tasking & Dark Mode Setup+Essentials (enable with in-app purchase): * CUSTOMIZE settings and use our popular inverted marker. * SCRIBBLE all over your patterns. * MAGIC MARKERS to count, highlight, and color stitches. * KEY always visible. * REMINDERS for \"at the same time\" instructions and repeats so you never miss a step. * HIGHLIGHT your pattern. * Add NOTES to your pattern. * VIDEO links to easily learn new techniques. * Add PDF (great for mystery knit-a-longs). * HANDS FREE with voice commands so you can keep your hands on your knitting. * INTELLIGENT CHART RECOGNITION makes chart setup a breeze. * JOIN CHARTS or WRITTEN so you have one row marker for the whole row. With free kCBasics you can create as many projects as you'd like from your pattern library and use any of the thousands of kCDesigns. In-app purchases enable knitCompanion's patented* tools for keeping track. Visit us at knitCompanion.com. We also have a very active Ravelry group (knitCompanion). *Patents 8,506,303 & 8,529,263 * Privacy: https://www.knitcompanion.com/about/privacy-2/ * Terms of Use: https://www.knitcompanion.com/about/termsofuse/",
+      "averageUserRating": 4.82927,
+      "userRatingCount": 6806,
+      "currentVersionReleaseDate": "2025-12-15T22:27:00Z",
+      "releaseDate": "2018-03-11T00:32:12Z",
+      "genres": [
+        "Lifestyle",
+        "Productivity"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knitcompanion-knitting-more/id1058142783?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.4",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 458535809,
+      "trackName": "Calculator ∞",
+      "bundleId": "com.incpt.mobis.CalculatorInfinite",
+      "sellerName": "An Truong",
+      "description": "◉ Top Paid Educational Apps in US, UK, AUS, GER,... ◉ QAppReview.com Rated 9/10 ◉ Users Reviewed: \"Top Class Calculator !\" The BEST Alternative to Graphing TI-83, TI-84, TI-89, Casio FX, Sharp EL,... Calculator Infinity (∞) – The sleek, multi-function calculator for iPhone/iPad is proud to offer a variety of features to satisfy all ranges of customers: The App possesses a powerful math core and algebra engine with mathematical display support, making it a viable tool for everyone from those looking for basic calculation to more advanced users, such as scientific computation, programmers, engineers, and math students. Calculator ∞ makes available everything you need – including a user manual and tutorial video clips – so you can master the app in a matter of minutes! ◉ Official Website: http://iPhoneCalculator.com ◉ ADVANCED FEATURES: ▸ Step-by-step solution (Hints) ▸ Math Photos Solver * ▸ Handwriting Recognition * ▸ Math Problem Solver (AI) * ▸ Well Organized of Functions ◉ GENERAL FEATURES: ▸ Universal Calculator App ¹ ▸ Support Multitasking (iPad) ▸ Support Wireless KB² ▸ Mathematical Display ▸ Edit & Export Expression/Result ▸ History Tape View ▸ Basic Calculations (+, -, x, ÷, %, Abs,...) ▸ Advanced Functions (Sin, Cos, Ln, X!, ^, √,…) ▸ Memory Variables (Including X,Y,Z,M) ▸ F(x) Customize Functions (F1, F2, F3) ▸ Unit Converter (40 Categories, 1000+ Units) ▸ Over 40 Common Constants ▸ Fraction and Degree/Angle Calculation ▸ Numeric Integral & Derivative Calculation ▸ Dual Skins (Silver Light & Carbon+) ▸ No Ads ◉ ALGEBRA FEATURES: ▸ Big Integer & Rational Number (Up to 500!) ▸ Expand and Factor Polynomials ▸ Indefinite integral & Derivative ▸ Two-side Limit ▸ Taylor Series Expansion ▸ Hints and Solutions ◉ 2D GRAPH: ▸ Simultaneous Graph ▸ Smooth Zoom & Transformation ▸ Support F(X,Y) = 0. E.g. Sin(X) + Cos(Y) = 0. ▸ Conic Equations (Parabola, Hyperbola, Ellipse) ▸ Get Intersections, Min, Max & Special Points ◉ CLOUD COMPUTING: ▸ Advanced Two-side Limit ▸ Advanced Indefinite Integral ▸ General Equations (Accurate Roots) ◉ EQUATIONS SOLVERS: ▸ General Equations (Numerical Roots) ▸ Quadratic & Cubic Equations ▸ System of Linear Equations (2 & 3 Unknowns) ◉ REGRESSION & STATISTICS: ▸ Modify & Sort Data ▸ Single Variable Statistics ▸ Linear, Quadratic, Power Regression ▸ Logarithmic & Exponential Regression ◉ COMPLEX CALCULATION: ▸ Polar & Rectangular Notation ▸ Argument, Conjugate Function ▸ Trigonometry Functions ▸ Logarithmic & Exponential Functions ◉ MATRIX/VECTOR MODE: ▸ Support Up to 7x7 Matrix ▸ Support Complex Numbers ▸ Cross, Dot Product ▸ Det, Inverse, Transpose ▸ Cramer’s Rule Solver ▸ Numerical Real Eigenvalues ◉ NUMBER BASE-N MODE: ▸ 15 Different Bases ▸ Support Up to 32 Bits Integer ▸ Binary Operation (NOT, OR, XOR, 2’S, …) ◉ MULTIPLE LANGUAGES: ▸ English, Spanish, German, ▸ French, Japanese, Chinese (*) In-App-Purchase is required ¹: Include iPhone SE, PRO, PRO-MAX, iPad... ²: Standard English KB Calculator ∞ is not only the Calculator IT IS THE MUST HAVE CALCULATOR !!! We love your feedback, Thanks a lot ! Please contact us for questions, bugs/crash reports, conversion requirements, etc.... Terms of Service: https://iphonecalculator.com/terms-of-service/",
+      "averageUserRating": 4.69867,
+      "userRatingCount": 6302,
+      "currentVersionReleaseDate": "2026-03-12T09:02:19Z",
+      "releaseDate": "2011-09-16T02:42:24Z",
+      "genres": [
+        "Education",
+        "Utilities"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator/id458535809?uo=4",
+      "price": 5.99,
+      "currency": "USD",
+      "minimumOsVersion": "12.1",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1251317736,
+      "trackName": "Knitting Chart",
+      "bundleId": "nl.phneutraal.knitting-chart",
+      "sellerName": "Piet Hein van Cleef",
+      "description": "With Knitting Chart you can draw your own knitting and crochet patterns. Import PDF files from your device or Ravelry and keep track of your progress with the Working Mode, row counters or PDF highlights. Pay only once to unlock the Pro version, no subscriptions! You can draw square patterns, fair isle color or symbol designs and freeform crochet charts, which lets you place symbols anywhere you want. Convert your square charts to written instructions and place images to convert your canvas to a color chart. You can adjust your chart layout for knitting flat, in the round, corner to corner, machine knitting and even left handed. Save your files in iCloud, Dropbox or Google Drive for automatic syncing between devices. Enable the Working Mode if you’re ready to start knitting, this will lock your design and makes it easy to keep track of the current row and stitch. What does the Pro Version unlock? • Create as many files as you like • Unlock all tools • Convert images to color charts • Written instructions for designed charts • Create your own colors • Unlock all knit symbols • Create patterns up to 500x500 • Generate a PDF for your charts • Reuse designs by using the Designs Library • Export high resolution images • Draw text notes on top of PDF files • Adjust the gauge • Automatically generate a chart for non-mirrored double knitting • Use Siri with the Working Mode and row counters This version is free to give you the ability to try Knitting Chart before buying. Please upgrade to the Pro Version (pay once, no subscriptions) if you want to unlock all features and create as many charts as you like! Check out the YouTube Channel for video tutorials. Visit knitting-chart.com for known issues, faq and more. Please send an email to help@knitting-chart.com if you encounter any problems, have a question or request!",
+      "averageUserRating": 4.34543,
+      "userRatingCount": 1268,
+      "currentVersionReleaseDate": "2023-01-18T17:34:59Z",
+      "releaseDate": "2017-07-25T01:00:12Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knitting-chart/id1251317736?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.5",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 6499025834,
+      "trackName": "Flík - Knitting calculator",
+      "bundleId": "com.knitflik.FlikAppiOS",
+      "sellerName": "Flik ehf.",
+      "description": "Always wanted to adjust your knitting patterns using the yarn of your choice or simply knit from scratch? Look no further. The Flík knitting calculators and project management tools help you swap out yarn, knit your ideas from scratch, plan your increases and decreases, and keep all your calculations organized in one place. View and edit your data anytime, anywhere—right from your iPhone. Try up to 5 calculations and one project for free — no commitment or signup needed. Main features: • Plan and save your knitting projects Keep all your calculations and pattern adjustments in one place. • Switch yarn Simply enter your gauge and desired size. Flík calculates what size to knit. • Knit without a pattern Start knitting from scratch. Calculate how many stitches you need to obtain desired size. • Increase or decrease evenly Calculate how to increase or decrease evenly across one row. For Terms of Use please see Apple Terms of Use (EULA). [https://www.apple.com/legal/internet-services/itunes/dev/stdeula/]",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2026-07-08T18:54:53Z",
+      "releaseDate": "2025-01-16T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/fl%C3%ADk-knitting-calculator/id6499025834?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.4",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 351815470,
+      "trackName": "Calculator +",
+      "bundleId": "com.yourcompany.Solve",
+      "sellerName": "Sarah Ragab",
+      "description": "Award winning calculator app for iPad and iPhone. Designed with simplicity, usability and beauty in mind! FEATURES: - Free basic calculator - Free scientific calculator - Elegant & Intuitive interface - Advanced editing by easily going back and forth - Displays both the equation & the result at the same time - Supports Fraction & Percent - Supports many scientific functions If you are looking for more advanced features you can upgrade to one or more of the following: - Fraction Calculator with feet, inches & cm support! - Solving for x with a polynomial Calculator for solving quadratic & cubic equations 2x³ - 4x² - 22x + 24 = 0 - Linear Equations Solver for solving system of linear equations 2x – y = 9 3x + 4y = –14 - Graphing Calculator to find the local min, max & intersection points y = 2x³ – 4x (x² + y²)³ = -27y²x² - Triangle Calculator - Cone Calculator - Arc Calculator - Circle Calculator - Base Converter ( HEX OCT BIN DEC ) - Multiple themes Enjoy the FREE Scientific calculator on your iPhone & iPad. If you like it, support us by upgrading or giving us a positive review. Thanks :) Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "averageUserRating": 4.62965,
+      "userRatingCount": 9923,
+      "currentVersionReleaseDate": "2026-05-04T13:18:12Z",
+      "releaseDate": "2010-02-05T18:11:30Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator/id351815470?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.4",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1492634383,
+      "trackName": "Color Calculator-smart&cute",
+      "bundleId": "com.lancekinji.colorcalculator",
+      "sellerName": "Wuhan Ananta Technology Co., Ltd.",
+      "description": "Looking for a cute calculator that's fun, fast, and functional? Say goodbye to boring, default calculators. Meet Color Calculator — the cute calculator app that brings color, customization, and speed to your daily math! Whether you're a student working on math homework or just need a beautiful and reliable calculator, Color Calculator has everything you need. Key Features: Scientific & Standard Calculator Modes – perfect for school, homework, and everyday math. Real-time Calculation Results – see results instantly as you type. Calculation History – review, copy, and reuse previous equations with ease. 60+ Free Cute & Colorful Themes – explore skins like Unicorn, Galaxy, Bear, Aurora, Sakura, and more! Exclusive Dynamic Skins – animated themes like Meteor, Moon, Rocket, Trick or Treat, and Snowman make your calculator unique. Special Themes for Everyone – cute calculator themes updated weekly for every style, from pastel to futuristic. Fast & Lightweight – starts up faster than the built-in calculator app. iPad Ready & Split-Screen Support – enjoy high-definition calculator display and multitasking. Smart Math Tools – supports %, powers, roots, square functions, and error-checking. Dark Mode Included – soft, eye-friendly calculator skins for night use. Custom Sound & Vibration – turn key feedback on or off anytime. Whether you're calculating tips, solving homework, or just want a cute calculator app with style and power, Color Calculator is your perfect everyday math companion. SUBSCRIPTION PRICING AND TERMS: With Premium membership, you can remove all Ads, enjoy dynamic themes for VIP only, unlock all themes cross all your devices. Premium Membership offers subscription service with 3-day free trial: $3.49 per month and $24.99 per year. This Price is for United States customers. Pricing in other countries may vary and actual charges may be converted to your local currency depending on the country of residence. Payment will be charged to iTunes Account at confirmation of purchase. Subscriptions automatically renew unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. You can manage the auto-renew subscription whenever you want to through iTunes. Check https://support.apple.com/HT202039. You will be unsubscribed when your current trail/subscription period expires. TERMS OF USE: https://color-calculator.wixsite.com/colorcalculator/terms-of-use PRIVACY POLICY: https://color-calculator.wixsite.com/colorcalculator/app-privacy-policy If you have any questions or comments, feel free to contact us at colorcalculator@outlook.com",
+      "averageUserRating": 4.66669,
+      "userRatingCount": 15559,
+      "currentVersionReleaseDate": "2026-05-28T20:40:06Z",
+      "releaseDate": "2019-12-24T08:00:00Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/color-calculator-smart-cute/id1492634383?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "13.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 382376539,
+      "trackName": "Calculator 3.0",
+      "bundleId": "com.spencerbrown.calc",
+      "sellerName": "Spencer Brown",
+      "description": "Welcome to Calculator 3.0 for Apple Watch, iPhone, iPad, and iMessage! Frustrated with the ugly and complicated Calculators for iPad, Apple Watch, and Apple TV — Calculator 3.0 was created to provide a better simpler choice....all for Free. The \"Original Calculator with Themes for iPad and Apple Watch\" is back — Rewritten and redesigned for Apple Watch, iPhone, iPad, and iMessage with Bolder Fonts, iPad Multitasking, Native Watch Support with Complications, and Snappier Performance. Apple Watch The Apple Watch Calculator with Colored Watch Band Themes! Designed for the mobile mathematician with a Scientific Calculator, Tip Calculator, Unit Converter, a Tally Counter, Twenty-Six personalized colored themes for your watch band or style, and... • Force Press (firmly press) on the Calculator to changes themes • Big and bold fonts for readability • Haptic feedback upon button presses • Watch Face Complication support for quick access • Tip Calculator with Digital Crown support • Conversion Calculator with Length, Weight, Volume, Area, and Time units • Counter, Tap to increase or use the Digital Crown for faster input, force press for options • Settings, with option to enable Counter number modular face complication support • Autorotation to Share, when enabled the app rotates when rotating your wrist to show a calculation, tip percentage, unit conversion, or tally number to another person iPhone and iPad • Simple bubble dark interface with Scientific Calculator • iPad Multitasking Support (Landscape and Portrait) • Haptic feedback upon button presses (iPhone 7 and greater) • Gesture Controls, Swipe Up for \"Light Mode\", Swipe Down for \"Dark Mode\", Swipe Left to clear the displayed number • 3D Touch Icon — Copy Last Number (iPhone 6s and greater) • Bolder fonts • Tap number to copy • \"Drag and Drop\" support for iPad, perfect for iPad Multitasking - Tap and hold on the displayed number to select for dragging as text into another app - Drag and Drop text numbers from other apps (Mail, Safari, Notes, etc) over the displayed number area to include the number in the current input iMessage app • Simple Calculator • Tap number to paste into message thread",
+      "averageUserRating": 4.68484,
+      "userRatingCount": 3687,
+      "currentVersionReleaseDate": "2018-11-08T23:07:06Z",
+      "releaseDate": "2010-08-03T23:52:09Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator-3-0/id382376539?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1558427713,
+      "trackName": "KNIT – Knitting journal",
+      "bundleId": "io.knitapp.Knit",
+      "sellerName": "Knit AS",
+      "description": "Your knitting, all in one place. KNIT keeps your projects, patterns, yarn and tools together — so you can focus on the knitting, not on hunting for where you left your notes. Loved by knitters around the world. Join for free • Project journal. Keep planned, active and finished projects in one tidy overview. • Add notes, yarn, needle size, color and lot — everything you'll want to remember next time. • Pattern library. Your patterns, organized and easy to find. With Premium, KNIT becomes your full knitting companion • Knitting calculator. Recalculate stitches, decreases and increases without doing the math. • Counters. Track rows, decreases and increases as you knit. No more rubber bands on your needle. • Mark up patterns. Highlight and annotate PDFs, with your place saved. • Scan paper patterns. Bring your old favorites into the app. • Yarn & needle stash. Know what you have before you buy more. • Offline mode. Knit on the train, in the cabin, on the plane. • Add your own photographed patterns, to keep everything in one place. Try Premium free for 30 days. You won't be charged until your trial ends, and you can cancel anytime. KNIT is built in Norway by a small team who knits. We're here for everyone who picks up needles — whether that's once a year or every evening.",
+      "averageUserRating": 4.90909,
+      "userRatingCount": 22,
+      "currentVersionReleaseDate": "2026-07-08T05:22:17Z",
+      "releaseDate": "2022-03-03T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knit-knitting-journal/id1558427713?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "18",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 6740062991,
+      "trackName": "Raglan Knit Calculator",
+      "bundleId": "com.ilyadylko.knitapp",
+      "sellerName": "Ilya Dylko",
+      "description": "Raglan Knit Calculator helps you plan a top-down raglan sweater using your own measurements and gauge—not a pattern catalog. Enter your swatch, body measurements, and neckline choice. The app calculates stitch counts, increase rows, and raglan shaping, then walks you through each stage with clear steps and knitting charts. WHAT THIS APP IS FOR • Top-down raglan sweaters sized to you • Accurate stitch and row counts from your gauge • Structured steps: collar, increases, back shaping, sleeve separation, body • Visual charts for raglan sections • Round neck and V-neck options WHAT IT IS NOT • Not a library of finished patterns from designers • Not a substitute for learning basic knit and purl—you should already be comfortable knitting in the round or flat WHO IT’S FOR • Knitters who love (or want to try) top-down raglan and want the math done for them • Anyone tired of decoding multi-size pattern columns on paper or PDFs Save your measurements once, follow the steps at the needles, and focus on knitting—not arithmetic. Questions or feedback? Contact us through the support link on this page.",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "currentVersionReleaseDate": "2026-06-08T08:57:08Z",
+      "releaseDate": "2026-06-08T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/raglan-knit-calculator/id6740062991?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.4",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1449106995,
+      "trackName": "Scientific Calculator Plus 991",
+      "bundleId": "com.duy.CasioFx",
+      "sellerName": "Tran Duy",
+      "description": "NCalc — Powerful Scientific Calculator, Graphing, and Converter NCalc combines a natural-display scientific calculator, advanced math tools, a full graphing module (as 83/84 calculator), a large formula library, and a comprehensive unit and currency converter—designed for students, engineers, and anyone who loves math. ◉ Main Calculator Features - Natural display: Enter expressions exactly as in textbooks—fractions, roots, exponents, and more—see results as written on paper. - Keyboard layout: Matches popular models for familiarity and speed: 115 ES Plus, 991 ES Plus, 300 ES Plus, and 991 EX. - Symbolic and numeric modes: Perform exact fraction calculation or evaluate numerically when needed. - Arbitrary precision integers: Work with very large integers without losing accuracy. - Output types: Choose from fraction, mixed fraction, decimal, repeating decimal, degrees/minutes/seconds, and polar coordinates. - Angle units: Degree, radian, and gradian (grade). - Decimal formatter: Display numbers in normal, engineering, engineering SI, scientific, or fixed formats. - Calculation history: Review and reuse past calculations with ease. - Copy and paste support for fast data entry and sharing. ◉ Algebra, Calculus, and Core Math - Algebra calculation: Expansion, factorization, simplification, and more. - Calculus calculator: Derivatives, integrals, and limits of expressions. - Complex number calculation: Arithmetic, polar/rectangular conversion, exponential, logarithm, powers, roots, and full trigonometric functions. ◉ Equations and Inequalities - Equation solver: Solve general equations, plus dedicated solvers for quadratic, cubic, and quartic equations. - System of equations solver: Solve systems with 2, 3, or 4 variables. - Inequality solvers: Quadratic, cubic, and quartic inequalities with interval-based solutions. ◉ Matrices and Vectors - Operations: Addition, subtraction, multiplication for matrices and vectors. - Advanced tools: Determinant, inverse, transpose, rank, eigenvalues, and eigenvectors. ◉ Statistics and Distributions - Statistical calculation: Descriptive stats and regression calculation (including a regression plotter). - Distribution calculation: Normal distribution, binomial distribution, Poisson distribution, t-distribution, chi-square distribution, and F-distribution. ◉ Number Bases and Formats - Base N calculation: Effortlessly switch between binary, octal, decimal, and hexadecimal, with arithmetic in each base. ◉ Tables, Variables, and Custom Functions - Table Generator: Generate value tables based on any expression and range. - Calculator variables: Store values and reuse them across calculations. - User-defined functions: Create your own functions to streamline repetitive work. - Built-in constants: A rich set of mathematical and physical constants. ◉ Formulas - Extensive formula collection: Math and Physics formulas, clearly categorized—ideal for secondary school, high school, and university students. ◉ Unit Converter - Currency Converter - 1000+ unit conversions ◉ Graphing as 83, 84 calculator - Cartesian functions, implicit plots, polar, and parametric. - Tracing, roots, intersections, extrema, derivative, and integral evaluations on graphs. ◉ Auto-renewing subscription You may purchase an auto-renewing subscription through an In-App Purchase. • Auto-renewable subscription • Your subscription will be charged to your AppStore account at confirmation of purchase and will automatically renew (at the duration selected) unless auto-renew is turned off at least 24 hours before the end of the current period. • Current subscription may not be cancelled during the active subscription period; however, you can manage your subscription and/or turn off auto-renewal by visiting your AppStore Account Settings after purchase • Privacy policy and terms of use: https://ncalc-app.web.app/terms-of-services.html",
+      "averageUserRating": 4.67253,
+      "userRatingCount": 12270,
+      "currentVersionReleaseDate": "2026-06-25T15:30:11Z",
+      "releaseDate": "2019-04-03T17:18:53Z",
+      "genres": [
+        "Education",
+        "Productivity"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/scientific-calculator-plus-991/id1449106995?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 653517540,
+      "trackName": "Desmos Graphing Calculator",
+      "bundleId": "com.desmos.Desmos",
+      "sellerName": "Desmos, Inc.",
+      "description": "Explore math with the fast and powerful Desmos Graphing Calculator. Plot any equation, from lines and parabolas to derivatives and Fourier series. Add sliders to demonstrate function transformations, create tables to input and plot data, animate your graphs, and more—all for free. Features: Graphing: Plot polar, cartesian, or parametric graphs. There’s no limit to how many expressions you can graph at one time—and you don’t even need to enter expressions in y= form! Sliders: Adjust values interactively to build intuition, or animate any parameter to visualize its effect on the graph. Tables: Input and plot data, or create an input-output table for any function. Statistics: Find best-fit lines, parabolas, and more. Zooming: Scale the axes independently or at the same time with the pinch of two fingers, or edit the window size manually to get the perfect window. Points of Interest: Touch a curve to show maximums, minimums, and points of intersection. Tap the gray points of interest to see their coordinates. Hold and drag along a curve to see the coordinates change under your finger. Scientific Calculator: Just type in any equation you want to solve and Desmos will show you the answer. It can handle square roots, logs, absolute value, and more. Inequalities: Plot Cartesian and polar inequalities. Accessibility: Read and edit math using a screen reader or a refreshable Braille display, and use audio trace to explore graphs and data through sound. Offline: No internet access required. Visit www.desmos.com to learn more and to see the free browser version of our calculator.",
+      "averageUserRating": 4.2919,
+      "userRatingCount": 1271,
+      "currentVersionReleaseDate": "2026-05-29T22:38:01Z",
+      "releaseDate": "2013-06-18T07:00:00Z",
+      "genres": [
+        "Education",
+        "Utilities"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/desmos-graphing-calculator/id653517540?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 432627778,
+      "trackName": "Calculator!",
+      "bundleId": "com.7thg.Calculator",
+      "sellerName": "7th Gear",
+      "description": "Calculator! is an easy to use, beautifully packaged calculator for your iPad or iPhone that includes both a standard and scientific calculator. Our versatile calculator app allows you to: • Customize the look of the application by changing the leather color and background texture (iPad Only) • Choose between a basic calculator or scientific calculator with more than 30 scientific operations • Use both calculators in portrait or landscape mode • Take notes or draw with your finger on the Notes Tab • View and edit a history of your calculations on the History Tab • Use Airprint to print your notes or your calculation history • Email your calculation history or notes from within the app • View an equation of your current calculations • Calculate with accuracy to more than 75 significant digits • Use parenthesis and nested parenthesis in your calculations We wrote Calculator! to be the perfect calculator for budding math students and professionals alike.",
+      "averageUserRating": 4.78899,
+      "userRatingCount": 4270,
+      "currentVersionReleaseDate": "2020-12-09T15:14:35Z",
+      "releaseDate": "2011-05-02T21:57:49Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/calculator/id432627778?uo=4",
+      "price": 0.99,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 6745416564,
+      "trackName": "Loopsy - Crochet & Knitting",
+      "bundleId": "com.NipunSingh.StichCraftApp",
+      "sellerName": "Springtown Labs Inc.",
+      "description": "Loopsy is the all-in-one pattern and stash manager with built-in stitch and row counters for knitting, crochet, and every craft in between. With Loopsy you’ll never lose track of your progress, whether you’re on round 45 of a granny square or navigating a complex cable chart. It combines the precision of a knitting row counter and crochet stitch counter with smart tools that turn any PDF or website into an interactive guide. Why crafters love Loopsy • Built-in Counters & Progress Tracking – keep perfect count of rows, rounds, stitches, and repeats, no pocket notebook required • Smart Patterns – convert crochet or knitting instructions into step-by-step guides you can tick off as you go • Stash Management – catalog every skein of yarn, weight, and color in one place so you always know what’s on hand • Discover & Save – browse thousands of free and premium patterns and tap once to save them to your collection • Session Logging – track time and milestones, set goals, and build a consistent crafting habit Whether you’re a beginner following your first pattern or an expert who needs a knit companion for intricate charts, Loopsy makes every project a breeze. Start crafting smarter today. Ready to turn chaos into cozy? Get Loopsy now and start stitching smarter. Terms & Conditions (EULA) and Privacy Policy: loopsy.com/terms Support: support@loopsy.com",
+      "averageUserRating": 4.76027,
+      "userRatingCount": 13532,
+      "currentVersionReleaseDate": "2026-07-24T15:58:26Z",
+      "releaseDate": "2025-05-23T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/loopsy-crochet-knitting/id6745416564?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.6",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 928131718,
+      "trackName": "StashBot: Knitting & Crochet",
+      "bundleId": "com.knitbot.StashBot",
+      "sellerName": "Applorium Ltd",
+      "description": "What people are saying: \"StashBot is that perfect combination of grace, functionality, and ease-of-use. Behind the pretty face, though, an intelligent engine delivers numbers you can trust. Unless you're a math genius with all the charts in your mind, this is the best $5 you'll ever spend on a knitting app.\" - Clara Parkes, Knitter's Review \"StashBot is as pretty as it is clever.\" - Meghan Fernandes, Pom Pom Quarterly \"Yardage requirements never looked so good.\" - Amy Herzog, CustomFit Buy yarn....smarter. StashBot is your yarn shopping companion! When you find a yarn you can't live without, use StashBot to figure out how much to buy. StashBot will pay for itself again and again as it saves you from buying more yarn than you need you need. At the same time, it ensures you will purchase enough yarn to knit the sort of projects you like. StashBot includes yarn requirements averages for gauges 3 - 8 sts per inch / 2.5 cm. Categories include: - Vests, shrugs and sweaters (cropped, average and tunic length) in size 3 months - 62\" / 157cm bust circumference. - Hats, socks, and mittens in sizes Baby, Toddler, Child, Adult & XL Adult. - Scarves, shawls, and infinity cowls in 3 typical dimensions. All yarn requirements are presented in both YARDS and METERS, and you can easily switch back and forth between imperial and metric measurements. YARN SHOPS: This is a great tool for you shop as it encourages knitters to purchase sweater quantities of yarn!",
+      "averageUserRating": 4.80528,
+      "userRatingCount": 303,
+      "currentVersionReleaseDate": "2024-07-30T22:41:20Z",
+      "releaseDate": "2014-10-21T20:25:15Z",
+      "genres": [
+        "Utilities",
+        "Reference"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6006"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/stashbot-knitting-crochet/id928131718?uo=4",
+      "price": 4.99,
+      "currency": "USD",
+      "minimumOsVersion": "13.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 292412367,
+      "trackName": "Quick Graph",
+      "bundleId": "com.colombiamug.QuickGraph",
+      "sellerName": "KZ Labs SAS",
+      "description": "It is a powerful, high-quality graphing calculator that takes full advantage of the multitouch display and the powerful graphing capabilities of the iPad and iPhone, both in 2D and 3D. \"The app you need to survive the next semester.\" -- Gizmodo A simple yet intuitive interface makes it easy to enter and/or edit equations and visualize them in mathematical notation. It's capable of displaying explicit and implicit (opt) equations as well as inequalities (opt) in both 2D and 3D, in all standard coordinate systems: cartesian, polar, spherical, and cylindrical, all with fantastic speed and beautiful results, which can be copied, emailed or saved to the photo library. It also includes an evaluation feature to evaluate equations at specific points and a library where you can store commonly used equations. Up to 6 equations can be visualized simultaneously in both 2D and 3D modes; this limitation can be removed by purchasing the advanced feature set. Features: - Enhanced 2D - 3D plotting mode for great hi-res graphics. - Adaptive 2D algorithms. - Hyperbolic and Inverse functions. - Functions such as Min, Max, if. - Configurable axis decimal / π - Independent 2D zoom - Support for cartesian, polar, cylindrical, and spherical coordinate systems. - Interactive expression evaluation. - Library for commonly used equations. - Swipe to delete equations from the equation list. - Save to photo library. - Copy to clipboard. - Turn graphs on/off - Drag to rotate - move. The advanced feature set gives you access to: - External screen support - 2D tracing. - 2D and 3D implicit graphs. - 2D and 3D inequalities. - Roots and Intersections (2D) - Value Table - More features to come! Please visit the website for more details.",
+      "averageUserRating": 4.58571,
+      "userRatingCount": 420,
+      "currentVersionReleaseDate": "2023-06-27T07:51:41Z",
+      "releaseDate": "2008-10-06T17:27:21Z",
+      "genres": [
+        "Education",
+        "Utilities"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/quick-graph/id292412367?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "9.0",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1247828717,
+      "trackName": "Graphing Calculator X84",
+      "bundleId": "com.incpt.mobis.GraphingCalculator84",
+      "sellerName": "An Truong",
+      "description": "Graphing Calculator X has a formidable reputation of being the FREE alternative to heavy complex hardware calculators. It is suitable for all types of users, whether they are looking to carry out basic or complex mathematics; It is equipped with a powerful MATH CORE advocated by MATH DISPLAY support, which increases its functionality by leaps and bounds, making it an ideal choice for engineers, math students etc. It comes with an in depth User Manual and Tutorial to answer any questions you have, regarding the app and to help you further understand the world of advanced mathematics. ◉ BUILT-IN DOCUMENTS: ▸ Basic General Calculation ▸ X & Y Calculation & Intersection of Functions ▸ Calculate Local Maxima, Minima... ▸ Statistics & Regression ▸ Solve Equations & Polynomial ▸ Calculate Integral Functions ◉ CALCULATOR INCLUDED: ▸ Universal Calculator App ▸ Mathematical Display ▸ Complex Number Calculation ▸ Edit & Export Expression/Result ▸ History Tape View ▸ Basic Calculations (+, -, x, ÷, ^, √,…) ▸ Advanced Functions (Sin,Cos,Ln,E,…) ▸ Y-Var & Customize Functions (Y1, Y2) ▸ Fraction and Degree/Angle Calculation ▸ Numeric Integral & Derivative Calculation ▸ Hardware Keyboard Support ▸ Dual Themes(Skin) ◉ 2D GRAPH: ▸ Simultaneous Graph (2 Y-Var) ▸ Support F(X,Y) = 0. E.g. Sin(X) + Cos(Y) = 0 ▸ Smooth Zoom & Transformation ▸ Points TRACING ▸ Box Plot (STAT) ◉ STATISTIC,REGRESSION & TEST: ▸ Create/Edit Lists ▸ 1-Var, 2-Var Statistic ▸ Linear, Ln, Exp Regressions ▸ Dialog Wizard Setups ◉ MATRIX: ▸ Create/Edit Matrices ▸ Basic Matrix Functions (+,-,×,÷…) ▸ Transpose, Det,... ◉ ADITIONAL FEATURES: ▸ Quadratic Equation Solver ▸ 2-Var Linear Equation Solver ▸ And more will be available in further update! IT IS THE MUST HAVE CALCULATOR !!!!!!! We love your feedback, Thanks a lot ! Please contact us for questions, bugs/crash reports, conversion requirements, etc…",
+      "averageUserRating": 4.53908,
+      "userRatingCount": 49896,
+      "currentVersionReleaseDate": "2026-02-26T02:00:31Z",
+      "releaseDate": "2018-10-17T12:40:30Z",
+      "genres": [
+        "Education",
+        "Utilities"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/graphing-calculator-x84/id1247828717?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.1",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 473675243,
+      "trackName": "Knit - knitting counter",
+      "bundleId": "com.blogspot.kazeellegard.Knit",
+      "sellerName": "TORU YAMAGUCHI",
+      "description": "****The current version supports iOS8.4 or later.**** This application is free knitting support application. A count number can be saved according to the count of the number of row, and a number of stitch, and a work. Since a count number can be saved according to a work, the advance situation of two or more works is known at a glance. Let's start Knit quickly, count rapidly and enjoy knitting!! the simple knitting counter which exists and meets and which did not come out -- an application. Since it is no charge, please use downloading. The main functions of an application ・The count of the row, and a number of stitch *1 ・A count number is saved and managed according to a work *2 ・It is a progress ratio display according to a work ・Screen sleep invalid ON/OFF button *1: A count number can be chosen from \"1, 2, 10\". *2: At the time of a count or change of a selection item, a value and a setup are saved automatically. A count can begin by the setup same at the time of starting next time. ** Thank you for much review!! ** A better application is used!! We appreciate your support and kind advice. In order to provide by a free application all the time, in the area which can display AdMob, I am displaying AdMob. Please understand.",
+      "averageUserRating": 3.07143,
+      "userRatingCount": 28,
+      "currentVersionReleaseDate": "2016-11-03T20:35:47Z",
+      "releaseDate": "2011-10-25T01:28:36Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/knit-knitting-counter/id473675243?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "8.4",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 744882019,
+      "trackName": "GraphNCalc83",
+      "bundleId": "com.ErnestBrock.GrafNCalc83",
+      "sellerName": "Ernest Brock",
+      "description": "GraphNCalc83 uses touch, color and blazing speed to handle your math problems. The familiar calculator keyboard, arrow keys and functions are enhanced with full touch input for all graphs, editors and menus. Enter calculations in natural textbook format. Enter fractions and view result as fractions. Trace graphs with your finger. Zoom in and out with a pinch. Explore regressions with a tap on the screen. Scroll through the list, matrix and calculation history with a swipe. Tap the ? key for help. Written using the latest 64 bit math libraries, GraphNCalc83 harnesses the amazing computing resources of the iPhone and iPad to provide a colorful, fast and fluid experience. Graphs scroll, glide and zoom smoothly. Matrix, statistics and BASIC programs run 500x times faster than traditional calculators. GraphNCalc83 includes: Algebraic entry: Enter problems using full algebraic textbook notation. The command line editor includes interactive parenthesis matching and high lighting, undo and redo, bubble function help and a 200 level calculation history and recall stack. Generate a PDF report of calculations for mailing or printing using the SEND function. Math functions: Trigonometry, logarithms, function minimum, maximum, numeric integration and derivatives, general solver, real and imaginary numbers, combination, permutation, random number generation, normal, T, chi squared, Fisher, poisson and geometric distributions, binary shift and rotate, test and logic operations, list operations including sort, std. deviation, sum, sequence, matrix determinant, transpose, sum, ref, rref, addition, multiplication. Graph functions, parametric, f(x,y) and polar equations and statistics plots: Full color graphs with touch to trace, pinch zoom, function minimum, maximum, intersections, asymptotes and numeric integration. Output graphs in high resolution PDF format for mailing or printing. Interactively explore function behavior using variables tied to slider bars. Statistics, Inferential Statistics and Distributions: A set of inferential statistics worksheets and graphs of distributions are included. The regression analysis screen allows you to quickly compute, view and analyze a data set using a variety of curve fitting methods. Table: Analyze functions using the table viewer. Use the split screen mode to simultaneously view a graph and table. Matrix and Lists: Matrix and list editors and a full set of matrix and list operations are built in. Unit Converter and Constants: Convert between a wide variety of scientific, engineering and common units. A large set of physical constants are also included. BASIC programming: Create, edit, debug and run BASIC programs. Programs run more than 500 times faster than traditional calculators. Import and execute .83p and .8xp files. Chemistry: The calculator includes a full featured periodic table, a mass calculator and a data base of element properties. The touch interface allows you to view and interact with the periodic table to view by series, state, melting point, boiling point, electronegativity, electron affinity, valence, ionization, radius, hardness, modulus, density, conductivity, heat and year discovered. Geometry: The geometry application computes perimeter and area for a variety of 2d geometric figures including squares, rectangles, parallelograms, triangles, polygons, circles, arcs and ellipses. A full triangle solver and interactive unit circle grapher are built in. Solve line intersections, project a point to a line and find a circle given 3 points. Finance: Compute time value of money problems including annuities, lump sums and uneven cash flow analysis with IRR and NPV Built-in user guide: A user guide is included and is a touch away using the ? key or ⓘ on any menu. All functions have a full manual page with description of arguments and examples of use. Pop up bubble help displays function arguments during problem entry and program editing.",
+      "averageUserRating": 4.87984,
+      "userRatingCount": 4028,
+      "currentVersionReleaseDate": "2025-11-22T23:04:12Z",
+      "releaseDate": "2014-05-18T14:10:38Z",
+      "genres": [
+        "Education",
+        "Utilities"
+      ],
+      "primaryGenreName": "Education",
+      "genreIds": [
+        "6017",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/graphncalc83/id744882019?uo=4",
+      "price": 12.99,
+      "currency": "USD",
+      "minimumOsVersion": "15.6",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1529605339,
+      "trackName": "Ribblr - Crochet & Knitting",
+      "bundleId": "com.ribblr.ribblr",
+      "sellerName": "Ribblr ltd",
+      "description": "Dive into Ribblr and discover trending Crochet, Knitting, and Sewing patterns, all in a game-changing, interactive format. Get custom pattern picks based on your style, sell your creations, and join our global crafting community. Key Features: - Unique Patterns: Discover thousands of free and premium designs for every skill level. - Interactive ePatterns: Craft seamlessly on any device, track your progress, view sizes just for you and watch supportive video tutorials. - Global Community: Connect, share, and get inspired by fellow crafters worldwide. - Advanced Tools: Personalize patterns, use Ribbuild to edit, and turn PDFs into interactive masterpieces. - Shop & Sell: Snag exclusive patterns and support indie designers, or open your own shop in seconds. - Stay Updated: Get the latest on new patterns, special offers, and community events. Get Ribblr now and kickstart your next crafting adventure!",
+      "averageUserRating": 4.21907,
+      "userRatingCount": 493,
+      "currentVersionReleaseDate": "2026-06-29T08:46:46Z",
+      "releaseDate": "2020-09-30T07:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Entertainment"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6016"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/ribblr-crochet-knitting/id1529605339?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "14.5",
+      "matched_seed": "knitting gauge calculator"
+    },
+    {
+      "trackId": 1342608792,
+      "trackName": "My Row Counter, Knit & Crochet",
+      "bundleId": "com.rowcounter",
+      "sellerName": "AnnapurnApp Technologies UG haftungsbeschrankt",
+      "description": "A Row Counter App optimized for knitting and crocheting: ___ IMPORT YOUR PATTERN ___ # Download your patterns directly into the app, be it a webpage or a pdf, from the web or from your phone, Dropbox or Google Drive # Create knitting and crochet charts that you can then use as pattern in your project # Direct access to Ravelry, so you can search their website or access your library. __ CUSTOMIZE YOUR ROW COUNTER ___ # Set up several counters to keep track of your increases, design, or change of color # Add reminders to appear on a specific row: you will knit mistake-free! # You just need a basic counter? No worries, you can also use it without any configuration ___ VOICE CONTROL ___ # No need to touch the app while knitting, just speak to it to increment the counter, and keep your hands free to do beautiful things! __ FOLLOW UP ON YOUR PROGRESS ___ # See any times how many rows and stitches your have knit! __CONNECT YOUR APPLE WATCH__ # Users with watches supporting watchOS 5 or above can control the app from their Apple Watch (Premium feature)! __ANNOTATE YOUR PDF___ # Users with iOS 11 or above can add annotations, highlight text, draw on their patterns PDF patterns, and more (Premium feature)! PRICE AND TERMS: The app does not require you to pay, but to be able to synchronise your projects on other devices, the app offers a premium subscription option $9.99 (USD) for a year. This price apply to United States residents. Prices may vary in other countries respecting your local currency exchange rate. Your subscription will be charged to your iTunes account. At the end of the term, unless auto-renewables subscriptions are disabled, your subscription will automatically renew in your iTunes account. You will be charged for the regular price of your subscription within 24 hours prior to the end of the current term. You can turn off automatic renewal in your iTunes account settings at any time, but you must do so at least 24 hours before the end of the current term. Refunds will not be provided for the unused portion of any term. Privacy policy: http://tricoton2.pingou.fr/privacy.html terms, and conditions: http://tricoton2.pingou.fr/tos.html",
+      "averageUserRating": 4.82619,
+      "userRatingCount": 3642,
+      "currentVersionReleaseDate": "2026-07-02T22:17:51Z",
+      "releaseDate": "2018-02-01T08:50:40Z",
+      "genres": [
+        "Entertainment",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Entertainment",
+      "genreIds": [
+        "6016",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/my-row-counter-knit-crochet/id1342608792?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "15.6",
+      "matched_seed": "crochet stitch counter"
+    },
+    {
+      "trackId": 6738016114,
+      "trackName": "StitchTally: Row Counter",
+      "bundleId": "com.deelightfullabs.RowCounter",
+      "sellerName": "Le Huang",
+      "description": "StitchTally is a simple and intuitive app designed to help you keep track of the number of rows you've crocheted or knitted. Whether you're a beginner or an experienced crocheter, StitchTally makes it easy to monitor your progress and stay organized. Features - EASY TO USE: StitchTally features a user-friendly interface that allows you to focus solely on crocheting without distractions. - GOAL SETTING: Easily set and track goals for each project, with StitchTally counting down to help you stay motivated. - UNLIMITED COUNTERS: Manage as many projects as you like, making it especially beneficial for amigurumi crochet enthusiasts. - FOCUS MODE: Enjoy a full-screen focus mode that helps you concentrate on counting your rows, while preventing your phone from sleeping (without draining your battery). - IPAD SUPPORT: StitchTally supports iPad, with a better user experience. - ICLOUD SYNC: Now your counters are automatically synced across all your devices, iPhone, iPad, and Apple Watch. Never lose your counters again! - APPLE WATCH: Use the Counters app on your watch with synced counters for on-the-go counting. - TUTORIAL VIDEOS: Forget how to do a certain stitch? No problem! We've got you covered with a series of tutorial videos to help you learn how to crochet. - SYMBOL & ABBREVIATION LOOKUP: Look up symbols and abbreviations for crochet patterns. - FUN DESIGN: This app uses a lot of emojis to make it fun, cute and memorable. Why I built StitchTally? I fell in love with Amigurumi crochet! They are very cute and fun to make. However, I found it difficult to keep track of my progress for each part of the amigurumi. I wanted an app that is very simple and easy to use, so I can focus on crocheting. That's when I decided to build StitchTally. I'm still using it for my own amigurumi projects every day, and added some features that I found useful. Terms of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "averageUserRating": 4.8766,
+      "userRatingCount": 235,
+      "currentVersionReleaseDate": "2026-07-02T18:43:03Z",
+      "releaseDate": "2024-11-12T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Utilities"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6002"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/stitchtally-row-counter/id6738016114?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.6",
+      "matched_seed": "crochet stitch counter"
+    },
+    {
+      "trackId": 1545599414,
+      "trackName": "Crochet row & stitch counter",
+      "bundleId": "lv.chi.crochet",
+      "sellerName": "Crochet App SIA",
+      "description": "SIMPLE CROCHET APP WITH A ROW COUNTER PDF upload and stuffed amigurumi animals.Preview and store PDF patterns, count rows, track progress, upload patterns from other apps or marketplaces like Etsy, ravelry app, etc. Use row counters with + and -, check timer and track your knitting or crochet DIY patterns PATTERNS CRAFTED SPECIALLY FOR MOBILE The new way patterns are crafted and optimised specially for mobile devices. Lowers the bar on users who can craft projects, increasing an audience that can be reached. Crochet app team finds best amigurumi patterns and makes crafts with the best crocheters, adds them to yarn free app. YARN APP, STASH MANAGER AND SHOPPING LIST Gathered best yarn collections from best manufacturers: YarnArt, Drops, Alize, Schachenmayr, DMC, etc. Allows to control stock of items for crocheting, yarn stash, crochet hooks and other tools. Helps creators to make sure stash and yarns are always full and ready. NEW STANDARDS FOR EASY CROCHET PATTERNS PDF’s that are currently published by creators are not optimised for mobile devices. Not user friendly on mobile devices, no search, no progress, no interaction. New format solves it all, as well as expands the possibilities for crocheters on what they can create. Easy crafts and amigurumi, clothes and accessories, instructions, even bought from other stores, like etsy, stashes, row counter and stitches counts are synchronised with cloud and will be present on the account with premium features. FEATURES & TOOLS: - Project preview & instructions - Row counter & counting app - Yarn list & existing yarns - Rows, project & part timer - Modern amigurumi recipes - Video / Photo in patterns app - Project completion time planner - Basic Crochet & knitting tutorials - Hook size chart - Knitting needles size charts - Completed projects - PDF import & notes - Free multiple row counter - Yarn marketplace EASY TO GET PATTERN No need to trust each seller individually. Guarantee of a purchase, refund and quality assurance from the Crochetapp platform. Users don’t need to adjust to payment methods provided by creators, just purchase with their Apple pay. Also, there are more than 15 free crochet & knitting projects in the app already available, for the apps craft. PDF INSTRUCTIONS IN CLOUD Many instructions are stored in different places, devices and ways. As payments happen from various sources and creators, it will allow users to keep their instructions forever. SINGLE FORMAT FOR CRAFTED PROJECTS Every creator has their own style and format of crafted toys or items, product is built to give the best possible experience and format for the end user. It is a completely new approach to visual information, abbreviations and style of description. Explanations, tips and instructions available, as well as needed materials and yarn warehouse Privacy policy: https://crochetappdev-e8fb0.web.app/#/privacy-policy Terms and conditions: https://crochetappdev-e8fb0.web.app/#/terms",
+      "averageUserRating": 4.65821,
+      "userRatingCount": 1182,
+      "currentVersionReleaseDate": "2026-07-20T20:40:45Z",
+      "releaseDate": "2020-12-23T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Productivity"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/crochet-row-stitch-counter/id1545599414?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "crochet stitch counter"
+    },
+    {
+      "trackId": 579381855,
+      "trackName": "Stitch Count",
+      "bundleId": "com.stitchcountapp.stitchcount",
+      "sellerName": "Michael Sealand",
+      "description": "Stitch Count is a simple app to help knitters and crocheters manage their stitches and rows. Its design is straightforward enough for those who just want an easy way to keep track of numbers, but it’s also great for designers who need to take notes and pictures while creating a pattern. You can manage multiple projects at once and share your progress. Stitch Count was created with knitting and crocheting in mind, but it can easily be used for any project that involves multiple steps.",
+      "averageUserRating": 4.25,
+      "userRatingCount": 12,
+      "currentVersionReleaseDate": "2024-11-30T08:20:11Z",
+      "releaseDate": "2013-05-03T21:02:55Z",
+      "genres": [
+        "Productivity",
+        "Lifestyle"
+      ],
+      "primaryGenreName": "Productivity",
+      "genreIds": [
+        "6007",
+        "6012"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/stitch-count/id579381855?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "12.0",
+      "matched_seed": "crochet stitch counter"
+    },
+    {
+      "trackId": 6738537088,
+      "trackName": "YarnPal - Crochet & Patterns",
+      "bundleId": "com.knitpal.knitcrochet",
+      "sellerName": "PIXELCELL PTE. LIMITED",
+      "description": "YarnPal helps you learn crochet and knitting with ease, even if you’ve never held a hook before. Learn new stitches, explore hundreds of patterns, track your progress, and design your own projects all in one place. With tons of beginner-friendly patterns and step-by-step video guides, YarnPal supports your crafting journey from the very first stitch. It’s an all-in-one crochet tutor and pattern maker designed to help you create with confidence. Main Features: Learn Step-by-Step Go from \"how-to\" to \"I-made-this.\" Our five signature beginner courses guide you through basic stitches and into real-world projects. With a clear, natural progression, you’ll build the skills and confidence to create anything you imagine. Full Video Tutorials Master basics with video guides. Unlike fragmented social media clips, YarnPal offers complete project videos. • End-to-End Guidance: We show you every single stitch from start to finish. • Multi-Angle Views: See the placement clearly so you never have to guess where the hook goes. A Library That Grows With You Discover 10-min quick patterns for beginners alongside advanced challenges. Our library is organized by category and skill level. • 500+ Patterns: From cozy everyday essentials to seasonal showstoppers, find your next project here. Choose from 500+ expert-curated ideas, including amigurumi, home decor, wearables, and gifts. • Fresh Weekly Updates: We add new patterns every week, ensuring you always have a new project to look forward to. Easy Project Progress Tracking Keep every project perfectly on track. YarnPal’s built-in row counter automatically tracks rows, rounds, stitches, and repeats as you work. Pause anytime and return right where you left off, with your progress saved clearly and accurately. so you can focus on the joy of making, not the math of counting rows. Identify Stitches From a Photo See a pattern you love in real life or online. Snap a photo to identify it instantly and turn real-world inspiration into your next project. Design Your Own Patterns Use Pattern Canvas to create and customize your own designs. Experiment freely and turn your ideas into truly unique patterns. PDF & Web Pattern Converter Convert PDF files or web patterns into clean, easy to follow formats. Keep all your patterns organized, track progress, and follow instructions without switching between apps or screens. Why You’ll Love YarnPal: • 10-Min Starter Projects: Short and simple mini-patterns, perfect for learning on busy days. • Learn Something New: 500+ video tutorials covering crochet and knitting basics. • Seasonal Collections: Find the perfect patterns for every holiday and occasion. • All-in-One Tool: From identification to creation, everything you need is in one place. Download YarnPal and enjoy a smoother, more creative way to crochet and knit. From learning your first stitch to designing your own patterns, everything you need is right here. [About YarnPal Premium] • Payment will be charged to iTunes Account at confirmation of purchase • Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period • The account will be charged for renewal within 24 hours before the end of the current period • Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription • Subscriptions may be managed by the user, and auto-renewal may be turned off, by going to iTunes Subscriptions after purchase Terms of Use: https://app-service.knit-ai.com/static/user_agreement.html Privacy Policy: https://app-service.knit-ai.com/static/privacy_policy.html",
+      "averageUserRating": 4.72779,
+      "userRatingCount": 29992,
+      "currentVersionReleaseDate": "2026-07-23T05:10:31Z",
+      "releaseDate": "2024-12-19T08:00:00Z",
+      "genres": [
+        "Lifestyle",
+        "Reference"
+      ],
+      "primaryGenreName": "Lifestyle",
+      "genreIds": [
+        "6012",
+        "6006"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/yarnpal-crochet-patterns/id6738537088?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "16.0",
+      "matched_seed": "crochet stitch counter"
+    },
+    {
+      "trackId": 1557552992,
+      "trackName": "Easy Knitty Row Counter knit",
+      "bundleId": "fr.whatsup-design.TestKnit",
+      "sellerName": "Sylvain Huon",
+      "description": "Easy Knitty row counter, row tracker is your new yarn app or knitting tool for all your knit and crochet projects. Tracking and counting your rows has never been easier with that knit companion. We have asked knitting enthusiasts what they want and we have developed the manual counter app focused on user experience. That's why we've included features such as a huge \"add row\" button or why we didn't include any bothering sounds stopping your favorite podcast... we have simply made a user-friendly knitting tool to help all the knit and yarn lovers that we are! ____MAIN FEATURES OF THE EASY KNITTY ROW COUNTER APP____ - Huge \"Add Row\" button that you can easily smash - Create, Edit or Delete Projects with 1 or several parts - Create, Edit or Delete Parts of projects (in other words: sub-projects) - Counting rows 1 by 1 or X by X (can be use as a stitch counter as well) - Add/Remove rows or reset the row counter - Using the stopwatch to track how long you spend on each part of your knitting or crochet project - Alternatively you can use the stopwatch to track the time for each of your knitting sessions - Adding notes about a specific project (Project status, Needle Size, Project starting date, Yarn details and Dye Lot) - Adding extra notes for each part directly on the row counter page - Design and development focused on user experience - NO sound (that means: listen to your podcast or favorite playlist freely with another app in the background) - Manual counter - Dark mode ____STAY IN TOUCH GUYS____ This new app has been designed by a young couple of 1 professional developer and 1 passionate knitter. We would love to get your review on that knit row counter app, but also feedback and ideas for feature improvements! Thank you and enjoy! ____REFERENCES____ knit counter, knit row counter, crochet, crochet and knit counter, knit companion, counter app, row counter, stitch counter, number counter, manual counter, knitting, yarn app, knitting app, knitting tool, crochet counter, crochet app, crochet tool",
+      "averageUserRating": 4.10552,
+      "userRatingCount": 417,
+      "currentVersionReleaseDate": "2026-07-03T20:28:09Z",
+      "releaseDate": "2021-03-28T07:00:00Z",
+      "genres": [
+        "Utilities",
+        "Productivity"
+      ],
+      "primaryGenreName": "Utilities",
+      "genreIds": [
+        "6002",
+        "6007"
+      ],
+      "trackViewUrl": "https://apps.apple.com/us/app/easy-knitty-row-counter-knit/id1557552992?uo=4",
+      "price": 0.0,
+      "currency": "USD",
+      "minimumOsVersion": "17.6",
+      "matched_seed": "crochet stitch counter"
+    }
+  ],
+  "errors": [],
+  "fetched_at": "2026-07-27T14:29:32+08:00",
+  "cache_hit": false,
+  "cache_path": "/Users/zhoujinyu/.claude/app-factory/itunes_cache/173b60a5e854ded3a5076ef6.json"
+}

@@ -1,0 +1,48 @@
+{
+  "identifier" : "7A2C4E6B8D0F",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1B3D5F7A9C2E",
+      "localizations" : [
+        {
+          "description" : "110 Export Credits. Each Verdict card export uses 1 credit. Credits never expire.",
+          "displayName" : "110 Export Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "473900",
+      "referenceName" : "110 Export Credits",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "2C4E6A8B0D1F",
+      "localizations" : [
+        {
+          "description" : "210 Export Credits. Best value — twice the exports. Credits never expire.",
+          "displayName" : "210 Export Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "473901",
+      "referenceName" : "210 Export Credits",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

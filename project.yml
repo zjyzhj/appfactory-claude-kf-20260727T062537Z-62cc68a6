@@ -1,0 +1,54 @@
+name: TourWise
+options:
+  bundleIdPrefix: com.appfactory.tourwise
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  TourWise:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: TourWise
+        excludes:
+          - "Info.plist"
+          - "PrivacyInfo.xcprivacy"
+    resources:
+      - TourWise.storekit
+      - TourWise/PrivacyInfo.xcprivacy
+    scheme:
+      storeKitConfiguration: TourWise.storekit
+      testTargets:
+        - TourWiseTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.appfactory.tourwise.app
+        PRODUCT_NAME: TourWise
+        INFOPLIST_FILE: TourWise/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_PREVIEWS: YES
+  TourWiseTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/TourWiseTests
+    dependencies:
+      - target: TourWise
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.appfactory.tourwise.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/TourWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TourWise"
+        BUNDLE_LOADER: "$(TEST_HOST)"

@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059AAEA7F3E384CDDBE779EA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F8165DC73701D66EB9F1D /* Theme.swift */; };
+		11FB8FEBF8C8B448CCCF1794 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF7E58C4C94BBDA40C5655 /* RootTabView.swift */; };
+		15071F71EB4418409E44E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B370168A78EE10FDA2D7B72 /* Assets.xcassets */; };
+		20B7AF74541B23F6F9B9E941 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7731063ADC2465DDE5B194 /* AppState.swift */; };
+		2115571BFB31F944F233805A /* MotionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449BC124E7655E9663789119 /* MotionLanguage.swift */; };
+		29A519DD32059387B3CAFB49 /* CriteriaViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC791BA6FADB3269612AAC /* CriteriaViews.swift */; };
+		30FD2C63513FE9577576DB65 /* TourWiseCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF528D759C2B3C0299BBF07 /* TourWiseCoreTests.swift */; };
+		3A0BDC35EE838A8C9392BDDD /* WalkthroughViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE82312BD180540537B486 /* WalkthroughViews.swift */; };
+		6376EBE5E25A58819BD1F9B4 /* ViewingDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D1E9F8CFAAF78F96572FD /* ViewingDetailViews.swift */; };
+		89827085868FB8F2584F7154 /* TourWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEA7701568A8C7CC3E0B4 /* TourWiseApp.swift */; };
+		91B139989EC5C54F4C991865 /* LocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996ED2D9C7916B4A1271D57 /* LocalStore.swift */; };
+		96A0C761356579026BC453D4 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D233F0A2A224C3AE4F4D7B /* PaywallView.swift */; };
+		B23D020C71A13F63966F4933 /* CreditStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269239952A0F423CCAB96F1 /* CreditStore.swift */; };
+		CBA44253797BFAFF2604EF81 /* VerdictViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05FAAACD8BEEBDAC32C9E7A /* VerdictViews.swift */; };
+		D38FA52D9D8F0109AC5AE062 /* ViewingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4DB2B3F08F8551C40446B /* ViewingsViews.swift */; };
+		DA6C279E2B3D78628FB63491 /* ScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E48C23FB2C085F519E1531 /* ScoringEngine.swift */; };
+		E3B2A1E47BF8A61650EFFCC3 /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0552BB698C13C336DC40C0 /* SettingsViews.swift */; };
+		E661650101481FFBF0F10909 /* CompareViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13BA24196D0F1DB90F0AD1 /* CompareViews.swift */; };
+		E8ACBBA9F35AE10C9B8FBEC1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F3022D0E03B402085DD7B /* Models.swift */; };
+		F0C1023F3043574E512F75DD /* PermissionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB66971C5B582D05F5AF70 /* PermissionCenter.swift */; };
+		F76BC3BFE8C9CC9C28FA9703 /* VerdictRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A224E8827D6C4FF09E68681 /* VerdictRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3284059B8B76A3F9D6E86C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6902BCF04783F565CC5D6DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595A172923FE0EC8C63EB77D;
+			remoteInfo = TourWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D117EA9E29FD95193B497BB /* TourWise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TourWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1269239952A0F423CCAB96F1 /* CreditStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditStore.swift; sourceTree = "<group>"; };
+		1CCC791BA6FADB3269612AAC /* CriteriaViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaViews.swift; sourceTree = "<group>"; };
+		1EAB66971C5B582D05F5AF70 /* PermissionCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionCenter.swift; sourceTree = "<group>"; };
+		1F9F8165DC73701D66EB9F1D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2DD4DB2B3F08F8551C40446B /* ViewingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewingsViews.swift; sourceTree = "<group>"; };
+		3996ED2D9C7916B4A1271D57 /* LocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStore.swift; sourceTree = "<group>"; };
+		3A0552BB698C13C336DC40C0 /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
+		3F6D1E9F8CFAAF78F96572FD /* ViewingDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewingDetailViews.swift; sourceTree = "<group>"; };
+		449BC124E7655E9663789119 /* MotionLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionLanguage.swift; sourceTree = "<group>"; };
+		49AE82312BD180540537B486 /* WalkthroughViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViews.swift; sourceTree = "<group>"; };
+		4A224E8827D6C4FF09E68681 /* VerdictRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdictRenderer.swift; sourceTree = "<group>"; };
+		4E4F3022D0E03B402085DD7B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5AF528D759C2B3C0299BBF07 /* TourWiseCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourWiseCoreTests.swift; sourceTree = "<group>"; };
+		5E13BA24196D0F1DB90F0AD1 /* CompareViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViews.swift; sourceTree = "<group>"; };
+		6B370168A78EE10FDA2D7B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7338C5BF4988C74E3B7E52C4 /* TourWiseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TourWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98CEA7701568A8C7CC3E0B4 /* TourWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourWiseApp.swift; sourceTree = "<group>"; };
+		BB7731063ADC2465DDE5B194 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C05FAAACD8BEEBDAC32C9E7A /* VerdictViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdictViews.swift; sourceTree = "<group>"; };
+		EFEF7E58C4C94BBDA40C5655 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F8D233F0A2A224C3AE4F4D7B /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		F9E48C23FB2C085F519E1531 /* ScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		27CAF2CEF51F0F5F6FD9BC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D117EA9E29FD95193B497BB /* TourWise.app */,
+				7338C5BF4988C74E3B7E52C4 /* TourWiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB171EDB7D0863030AB76DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB7731063ADC2465DDE5B194 /* AppState.swift */,
+				1269239952A0F423CCAB96F1 /* CreditStore.swift */,
+				3996ED2D9C7916B4A1271D57 /* LocalStore.swift */,
+				4E4F3022D0E03B402085DD7B /* Models.swift */,
+				449BC124E7655E9663789119 /* MotionLanguage.swift */,
+				1EAB66971C5B582D05F5AF70 /* PermissionCenter.swift */,
+				F9E48C23FB2C085F519E1531 /* ScoringEngine.swift */,
+				1F9F8165DC73701D66EB9F1D /* Theme.swift */,
+				A98CEA7701568A8C7CC3E0B4 /* TourWiseApp.swift */,
+				4A224E8827D6C4FF09E68681 /* VerdictRenderer.swift */,
+				F857C79E0603BC43BDA92B6F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AED75CFC19262FEA00816E43 /* TourWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF528D759C2B3C0299BBF07 /* TourWiseCoreTests.swift */,
+			);
+			path = TourWiseTests;
+			sourceTree = "<group>";
+		};
+		BD282522D412316E13288727 /* TourWise */ = {
+			isa = PBXGroup;
+			children = (
+				6B370168A78EE10FDA2D7B72 /* Assets.xcassets */,
+			);
+			path = TourWise;
+			sourceTree = "<group>";
+		};
+		D9146395AE430A622005E4D7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AED75CFC19262FEA00816E43 /* TourWiseTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DED40FE3449465D59531E186 = {
+			isa = PBXGroup;
+			children = (
+				9BB171EDB7D0863030AB76DB /* Sources */,
+				D9146395AE430A622005E4D7 /* Tests */,
+				BD282522D412316E13288727 /* TourWise */,
+				27CAF2CEF51F0F5F6FD9BC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F857C79E0603BC43BDA92B6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E13BA24196D0F1DB90F0AD1 /* CompareViews.swift */,
+				1CCC791BA6FADB3269612AAC /* CriteriaViews.swift */,
+				F8D233F0A2A224C3AE4F4D7B /* PaywallView.swift */,
+				EFEF7E58C4C94BBDA40C5655 /* RootTabView.swift */,
+				3A0552BB698C13C336DC40C0 /* SettingsViews.swift */,
+				C05FAAACD8BEEBDAC32C9E7A /* VerdictViews.swift */,
+				3F6D1E9F8CFAAF78F96572FD /* ViewingDetailViews.swift */,
+				2DD4DB2B3F08F8551C40446B /* ViewingsViews.swift */,
+				49AE82312BD180540537B486 /* WalkthroughViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC58C268131659F8428A070 /* TourWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A238ECB6DB045BCD019253 /* Build configuration list for PBXNativeTarget "TourWiseTests" */;
+			buildPhases = (
+				97A0329C9DE870201FAF787B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBA82572C35A174ED49A2F5 /* PBXTargetDependency */,
+			);
+			name = TourWiseTests;
+			packageProductDependencies = (
+			);
+			productName = TourWiseTests;
+			productReference = 7338C5BF4988C74E3B7E52C4 /* TourWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		595A172923FE0EC8C63EB77D /* TourWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD11EF92A8FE150357DCC4C /* Build configuration list for PBXNativeTarget "TourWise" */;
+			buildPhases = (
+				A7F5BA570DF5CEFD011ADB48 /* Sources */,
+				75BDDF0084004099C33CABE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourWise;
+			packageProductDependencies = (
+			);
+			productName = TourWise;
+			productReference = 0D117EA9E29FD95193B497BB /* TourWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6902BCF04783F565CC5D6DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = FED54C0B04C99D49238906DB /* Build configuration list for PBXProject "TourWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DED40FE3449465D59531E186;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595A172923FE0EC8C63EB77D /* TourWise */,
+				4DC58C268131659F8428A070 /* TourWiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75BDDF0084004099C33CABE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15071F71EB4418409E44E149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97A0329C9DE870201FAF787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FD2C63513FE9577576DB65 /* TourWiseCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F5BA570DF5CEFD011ADB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B7AF74541B23F6F9B9E941 /* AppState.swift in Sources */,
+				E661650101481FFBF0F10909 /* CompareViews.swift in Sources */,
+				B23D020C71A13F63966F4933 /* CreditStore.swift in Sources */,
+				29A519DD32059387B3CAFB49 /* CriteriaViews.swift in Sources */,
+				91B139989EC5C54F4C991865 /* LocalStore.swift in Sources */,
+				E8ACBBA9F35AE10C9B8FBEC1 /* Models.swift in Sources */,
+				2115571BFB31F944F233805A /* MotionLanguage.swift in Sources */,
+				96A0C761356579026BC453D4 /* PaywallView.swift in Sources */,
+				F0C1023F3043574E512F75DD /* PermissionCenter.swift in Sources */,
+				11FB8FEBF8C8B448CCCF1794 /* RootTabView.swift in Sources */,
+				DA6C279E2B3D78628FB63491 /* ScoringEngine.swift in Sources */,
+				E3B2A1E47BF8A61650EFFCC3 /* SettingsViews.swift in Sources */,
+				059AAEA7F3E384CDDBE779EA /* Theme.swift in Sources */,
+				89827085868FB8F2584F7154 /* TourWiseApp.swift in Sources */,
+				F76BC3BFE8C9CC9C28FA9703 /* VerdictRenderer.swift in Sources */,
+				CBA44253797BFAFF2604EF81 /* VerdictViews.swift in Sources */,
+				6376EBE5E25A58819BD1F9B4 /* ViewingDetailViews.swift in Sources */,
+				D38FA52D9D8F0109AC5AE062 /* ViewingsViews.swift in Sources */,
+				3A0BDC35EE838A8C9392BDDD /* WalkthroughViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEBA82572C35A174ED49A2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 595A172923FE0EC8C63EB77D /* TourWise */;
+			targetProxy = 3284059B8B76A3F9D6E86C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01FCDF7F8C278EC094E40448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TourWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.tourwise.app;
+				PRODUCT_NAME = TourWise;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0434FC5234FB7AA9B5E3DF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		648A6130A0623A83F3EA2953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.tourwise.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TourWise";
+			};
+			name = Debug;
+		};
+		7BF6F2F53B413FBF73E9B0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TourWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.tourwise.app;
+				PRODUCT_NAME = TourWise;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB7C8A990BD01EDB55C39099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.tourwise.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TourWise";
+			};
+			name = Release;
+		};
+		EFFE46FCC084184C9B852658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD11EF92A8FE150357DCC4C /* Build configuration list for PBXNativeTarget "TourWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FCDF7F8C278EC094E40448 /* Debug */,
+				7BF6F2F53B413FBF73E9B0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61A238ECB6DB045BCD019253 /* Build configuration list for PBXNativeTarget "TourWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648A6130A0623A83F3EA2953 /* Debug */,
+				BB7C8A990BD01EDB55C39099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FED54C0B04C99D49238906DB /* Build configuration list for PBXProject "TourWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0434FC5234FB7AA9B5E3DF8D /* Debug */,
+				EFFE46FCC084184C9B852658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6902BCF04783F565CC5D6DA8 /* Project object */;
+}

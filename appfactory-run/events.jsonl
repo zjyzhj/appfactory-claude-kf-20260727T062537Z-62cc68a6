@@ -23,3 +23,5 @@
 {"event": "milestone_retry", "milestone": "verification", "ts": "2026-07-27T10:30:16Z"}
 {"attempt": 2, "event": "milestone_attempt", "milestone": "verification", "ts": "2026-07-27T10:30:17Z"}
 {"event": "milestone_validated", "milestone": "verification", "ts": "2026-07-27T10:34:49Z"}
+{"attempt": 1, "event": "milestone_attempt", "milestone": "delivery", "ts": "2026-07-27T10:34:52Z"}
+{"event": "milestone_validated", "milestone": "delivery", "ts": "2026-07-27T10:37:21Z"}
